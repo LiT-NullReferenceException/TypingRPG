@@ -1,4 +1,4 @@
-using System;
+ï»¿using System;
 using System.Collections;
 using System.Collections.Generic;
 using TMPro;
@@ -18,12 +18,12 @@ public class InputManager : MonoBehaviour
     {
         string inputKey = "";
 
-        if (Input.anyKeyDown) // ‰½‚©ƒL[‚ª‰Ÿ‚³‚ê‚½‚Æ‚«
+        if (Input.anyKeyDown) // ä½•ã‹ã‚­ãƒ¼ãŒæŠ¼ã•ã‚ŒãŸã¨ã
         {
-            // “ü—Í‚³‚ê‚½ƒL[‚ğæ“¾
+            // å…¥åŠ›ã•ã‚ŒãŸã‚­ãƒ¼ã‚’å–å¾—
             inputKey = Input.inputString;
 
-            // •¡”•¶š‚ª“ü—Í‚³‚ê‚éê‡‚ª‚ ‚é‚½‚ßAÅ‰‚É“ü—Í‚³‚ê‚½•¶š‚ğ•Ô‚·
+            // è¤‡æ•°æ–‡å­—ãŒå…¥åŠ›ã•ã‚Œã‚‹å ´åˆãŒã‚ã‚‹ãŸã‚ã€æœ€åˆã«å…¥åŠ›ã•ã‚ŒãŸæ–‡å­—ã‚’è¿”ã™
             return inputKey[0];
         }
 
@@ -136,7 +136,7 @@ public class InputManager : MonoBehaviour
                 return '\r';
             case KeyCode.Space:
                 return ' ';
-            default: //ã‹LˆÈŠO‚ÌƒL[‚ª‰Ÿ‚³‚ê‚½ê‡‚Íunull•¶šv‚ğ•Ô‚·B
+            default: //ä¸Šè¨˜ä»¥å¤–ã®ã‚­ãƒ¼ãŒæŠ¼ã•ã‚ŒãŸå ´åˆã¯ã€Œnullæ–‡å­—ã€ã‚’è¿”ã™ã€‚
                 return '\0';
         }
     }

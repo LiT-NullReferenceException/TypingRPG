@@ -1,13 +1,13 @@
-using System.Collections;
+ï»¿using System.Collections;
 using System.Collections.Generic;
 using TMPro;
 using UnityEngine;
 
 public class QuizDisplayManager : MonoBehaviour
 {
-    [SerializeField] private TextMeshProUGUI _textOriginal; // ƒIƒŠƒWƒiƒ‹•¶Í—p
-    [SerializeField] private TextMeshProUGUI _textJapanese; // •½‰¼–¼—p
-    [SerializeField] private TextMeshProUGUI _textRoman;    // ƒ[ƒ}š—p
+    [SerializeField] private TextMeshProUGUI _textOriginal; // ã‚ªãƒªã‚¸ãƒŠãƒ«æ–‡ç« ç”¨
+    [SerializeField] private TextMeshProUGUI _textJapanese; // å¹³ä»®åç”¨
+    [SerializeField] private TextMeshProUGUI _textRoman;    // ãƒ­ãƒ¼ãƒå­—ç”¨
 
     [SerializeField] private Color yetInputedCharColor = Color.white;
     [SerializeField] private Color doneInputedCharColor = Color.white;
@@ -30,9 +30,9 @@ public class QuizDisplayManager : MonoBehaviour
 
     public void ChangeDisplayRoman(Quiz nowQuiz, int doneInputIndex)
     {
-        Debug.Log(doneInputIndex);
+        // Debug.Log(doneInputIndex);
 
-        // “ü—Í‚ªŠ®—¹‚µ‚Ä‚¢‚é•¶š
+        // å…¥åŠ›ãŒå®Œäº†ã—ã¦ã„ã‚‹æ–‡å­—
 
         string roman = nowQuiz.roman;
 

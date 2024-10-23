@@ -22,9 +22,12 @@ MonoBehaviour:
   - original: "Unity\u3061\u3083\u3093"
     japanese: "\u3086\u306B\u3066\u3043\u3061\u3083\u3093"
     roman: yunitelityan
-  - original: "\u9280\u6CB3\u9244\u9053\u306E\u591C"
-    japanese: "\u304E\u3093\u304C\u3066\u3064\u3069\u3046\u306E\u3088\u308B"
-    roman: gingatetudounoyoru
+  - original: "\u30AA\u30EC\u30F3\u30B8"
+    japanese: "\u304A\u308C\u3093\u3058"
+    roman: orenji
   - original: "\u30E9\u30A4\u30D5\u30A4\u30BA\u30C6\u30C3\u30AF"
     japanese: "\u3089\u3044\u3075\u3044\u305A\u3066\u3063\u304F"
     roman: raihuizutekku
+  - original: "\u30C9\u30E9\u30B4\u30F3"
+    japanese: "\u3069\u3089\u3054\u3093"
+    roman: doragon

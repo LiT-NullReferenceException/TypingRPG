@@ -1,4 +1,4 @@
-using System.Collections;
+ï»¿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
@@ -8,11 +8,11 @@ public class QuizManager : MonoBehaviour
     [SerializeField] private Quiz nowQuiz;
     public Quiz GetNowQuiz { get { return nowQuiz; } }
 
-    // ‰½•¶š–Ú‚Ü‚Å³‰ğ‚µ‚½‚©‚ğ•\‚·•Ï”
+    // ä½•æ–‡å­—ç›®ã¾ã§æ­£è§£ã—ãŸã‹ã‚’è¡¨ã™å¤‰æ•°
     public int doneInputIndex = 0;
     //public int GetDoneInputIndex { get { return doneInputIndex; } }
 
-    // V‚µ‚­ƒNƒCƒY‚ğƒf[ƒ^ƒZƒbƒg‚©‚ç‘I‚Ño‚·
+    // æ–°ã—ãã‚¯ã‚¤ã‚ºã‚’ãƒ‡ãƒ¼ã‚¿ã‚»ãƒƒãƒˆã‹ã‚‰é¸ã³å‡ºã™
     public void ChangeQuiz()
     {
         Quiz nextQuiz = quizDataBase.quizzes[Random.Range(0, quizDataBase.quizzes.Count)];
@@ -20,7 +20,7 @@ public class QuizManager : MonoBehaviour
         SetQuiz(nextQuiz);
     }
 
-    // nowQuiz‚ğXV‚·‚éB
+    // nowQuizã‚’æ›´æ–°ã™ã‚‹ã€‚
     private void SetQuiz(Quiz nextQuiz)
     {
         doneInputIndex = 0;
