@@ -19,7 +19,7 @@ public class StageSelectNode : MonoBehaviour, IPointerEnterHandler, IPointerExit
     private StageHelper _stageHelper;
 
     /// <summary>
-    ///  ステージ選択ボタンを生成する
+    ///  初期化する
     /// </summary>
     /// <param name="enemyName">敵の名前</param>
     /// <param name="level">難易度</param>
