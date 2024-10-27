@@ -54,6 +54,9 @@ public class GameManager : MonoBehaviour
         }
     }
 
+    
+    [SerializeField] private int _charCombo = 0;
+
     // Update is called once per frame
     void Update()
     {
@@ -70,6 +73,8 @@ public class GameManager : MonoBehaviour
         bool isCorrectChar = CheckKeyInput(inputedChar); // 正解の入力だったか
         bool isLastChar = (_quizManager.doneInputIndex == _quizManager.GetNowQuiz.roman.Length); // 最後の文字かどうか
 
+        if (isCorrectChar) { _charCombo++; }
+
         // 最後の文字で正解ならば、クイズを更新する
         if (isCorrectChar && isLastChar)
         {
@@ -77,7 +82,8 @@ public class GameManager : MonoBehaviour
             _quizDisplayManager.ChangeDisplayQuizText(_quizManager.GetNowQuiz);
 
             // 単語を更新 = 攻撃する
-            _enemyManager.TakeDamage(_player.attackPower);
+            int attackPower = _player.attackPower + (int)Mathf.Floor(_charCombo * 0.25f); // コンボ数を考慮した攻撃力を計算
+            _enemyManager.TakeDamage(attackPower);
         }
 
         if (!isCorrectChar)
@@ -87,6 +93,9 @@ public class GameManager : MonoBehaviour
 
             // プレイヤーのHPバーを更新する
             _hpBarManager.UpdatePlayerHPBar(_player.maxHealth, _player.health);
+
+            // コンボカウンターのリセット
+            _charCombo = 0;
         }
 
     }
