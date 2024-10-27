@@ -6,7 +6,7 @@ public class QuizManager : MonoBehaviour
 {
     [SerializeField] private QuizDataBase quizDataBase = null;
     [SerializeField] private Quiz nowQuiz;
-    public Quiz GetNowQuiz { get { return nowQuiz; } }
+    public Quiz GetNowQuiz { get { return nowQuiz; }  }
 
     // 何文字目まで正解したかを表す変数
     public int doneInputIndex = 0;

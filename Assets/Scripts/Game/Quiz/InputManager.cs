@@ -7,138 +7,73 @@ using UnityEngine;
 public class InputManager : MonoBehaviour
 {
 
+    private bool _isWindows; //追加する
+    private bool _isMac; //追加する
+
     public QuizManager _quizManager = null;
 
     private void Start()
     {
         //InitializeQuestion();
+
+        // 以下を追加する
+        if (SystemInfo.operatingSystem.Contains("Windows"))
+        {
+            _isWindows = true;
+        }
+
+        if (SystemInfo.operatingSystem.Contains("Mac"))
+        {
+            _isMac = true;
+        }
     }
 
     public char GetChar()
     {
-        string inputKey = "";
+        //string inputKey = "";
 
-        if (Input.anyKeyDown) // 何かキーが押されたとき
-        {
-            // 入力されたキーを取得
-            inputKey = Input.inputString;
+        //if (Input.anyKeyDown) // 何かキーが押されたとき
+        //{
+        //    // 入力されたキーを取得
+        //    inputKey = Input.GetKeyDown();
 
-            // 複数文字が入力される場合があるため、最初に入力された文字を返す
-            return inputKey[0];
-        }
+        //    if (!char.IsLetterOrDigit(inputKey)) { return; }
 
-        return '\0';
+        //    // 複数文字が入力される場合があるため、最初に入力された文字を返す
+        //    return inputKey[0];
+        //}
+
+        // アルファベットのキーに対応する文字を格納する変数
+        char input = '\0';
+
+        // A-Zキーを直接チェック
+        if (Input.GetKeyDown(KeyCode.A)) input = 'a';
+        else if (Input.GetKeyDown(KeyCode.B)) input = 'b';
+        else if (Input.GetKeyDown(KeyCode.C)) input = 'c';
+        else if (Input.GetKeyDown(KeyCode.D)) input = 'd';
+        else if (Input.GetKeyDown(KeyCode.E)) input = 'e';
+        else if (Input.GetKeyDown(KeyCode.F)) input = 'f';
+        else if (Input.GetKeyDown(KeyCode.G)) input = 'g';
+        else if (Input.GetKeyDown(KeyCode.H)) input = 'h';
+        else if (Input.GetKeyDown(KeyCode.I)) input = 'i';
+        else if (Input.GetKeyDown(KeyCode.J)) input = 'j';
+        else if (Input.GetKeyDown(KeyCode.K)) input = 'k';
+        else if (Input.GetKeyDown(KeyCode.L)) input = 'l';
+        else if (Input.GetKeyDown(KeyCode.M)) input = 'm';
+        else if (Input.GetKeyDown(KeyCode.N)) input = 'n';
+        else if (Input.GetKeyDown(KeyCode.O)) input = 'o';
+        else if (Input.GetKeyDown(KeyCode.P)) input = 'p';
+        else if (Input.GetKeyDown(KeyCode.Q)) input = 'q';
+        else if (Input.GetKeyDown(KeyCode.R)) input = 'r';
+        else if (Input.GetKeyDown(KeyCode.S)) input = 's';
+        else if (Input.GetKeyDown(KeyCode.T)) input = 't';
+        else if (Input.GetKeyDown(KeyCode.U)) input = 'u';
+        else if (Input.GetKeyDown(KeyCode.V)) input = 'v';
+        else if (Input.GetKeyDown(KeyCode.W)) input = 'w';
+        else if (Input.GetKeyDown(KeyCode.X)) input = 'x';
+        else if (Input.GetKeyDown(KeyCode.Y)) input = 'y';
+        else if (Input.GetKeyDown(KeyCode.Z)) input = 'z';
+
+        return input; // プレイヤーの入力を返す
     }
-
-    char GetCharFromKeyCode(KeyCode keyCode)
-    {
-        switch (keyCode)
-        {
-            case KeyCode.A:
-                return 'a';
-            case KeyCode.B:
-                return 'b';
-            case KeyCode.C:
-                return 'c';
-            case KeyCode.D:
-                return 'd';
-            case KeyCode.E:
-                return 'e';
-            case KeyCode.F:
-                return 'f';
-            case KeyCode.G:
-                return 'g';
-            case KeyCode.H:
-                return 'h';
-            case KeyCode.I:
-                return 'i';
-            case KeyCode.J:
-                return 'j';
-            case KeyCode.K:
-                return 'k';
-            case KeyCode.L:
-                return 'l';
-            case KeyCode.M:
-                return 'm';
-            case KeyCode.N:
-                return 'n';
-            case KeyCode.O:
-                return 'o';
-            case KeyCode.P:
-                return 'p';
-            case KeyCode.Q:
-                return 'q';
-            case KeyCode.R:
-                return 'r';
-            case KeyCode.S:
-                return 's';
-            case KeyCode.T:
-                return 't';
-            case KeyCode.U:
-                return 'u';
-            case KeyCode.V:
-                return 'v';
-            case KeyCode.W:
-                return 'w';
-            case KeyCode.X:
-                return 'x';
-            case KeyCode.Y:
-                return 'y';
-            case KeyCode.Z:
-                return 'z';
-            case KeyCode.Alpha0:
-                return '0';
-            case KeyCode.Alpha1:
-                return '1';
-            case KeyCode.Alpha2:
-                return '2';
-            case KeyCode.Alpha3:
-                return '3';
-            case KeyCode.Alpha4:
-                return '4';
-            case KeyCode.Alpha5:
-                return '5';
-            case KeyCode.Alpha6:
-                return '6';
-            case KeyCode.Alpha7:
-                return '7';
-            case KeyCode.Alpha8:
-                return '8';
-            case KeyCode.Alpha9:
-                return '9';
-            case KeyCode.Minus:
-                return '-';
-            case KeyCode.Caret:
-                return '^';
-            case KeyCode.Backslash:
-                return '\\';
-            case KeyCode.At:
-                return '@';
-            case KeyCode.LeftBracket:
-                return '[';
-            case KeyCode.Semicolon:
-                return ';';
-            case KeyCode.Colon:
-                return ':';
-            case KeyCode.RightBracket:
-                return ']';
-            case KeyCode.Comma:
-                return ',';
-            case KeyCode.Period:
-                return '.';
-            case KeyCode.Slash:
-                return '/';
-            case KeyCode.Underscore:
-                return '_';
-            case KeyCode.Backspace:
-                return '\b';
-            case KeyCode.Return:
-                return '\r';
-            case KeyCode.Space:
-                return ' ';
-            default: //上記以外のキーが押された場合は「null文字」を返す。
-                return '\0';
-        }
-    }
-
 }
