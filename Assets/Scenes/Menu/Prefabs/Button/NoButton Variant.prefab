@@ -1,6 +1,6 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!1001 &5321869370484459401
+--- !u!1001 &5812983381545006103
 PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
@@ -10,11 +10,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 88825305194995099, guid: 255bca7d04ef945c097aa68f727eefa9, type: 3}
       propertyPath: m_text
-      value: "\u30AD\u30E3\u30F3\u30BB\u30EB"
+      value: "\u3044\u3044\u3048"
       objectReference: {fileID: 0}
     - target: {fileID: 664058749101549756, guid: 255bca7d04ef945c097aa68f727eefa9, type: 3}
       propertyPath: m_Name
-      value: CanselButton Variant
+      value: NoButton Variant
       objectReference: {fileID: 0}
     - target: {fileID: 746398133525308445, guid: 255bca7d04ef945c097aa68f727eefa9, type: 3}
       propertyPath: m_Pivot.x
@@ -82,7 +82,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 746398133525308445, guid: 255bca7d04ef945c097aa68f727eefa9, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 0
+      value: -160
       objectReference: {fileID: 0}
     - target: {fileID: 746398133525308445, guid: 255bca7d04ef945c097aa68f727eefa9, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
