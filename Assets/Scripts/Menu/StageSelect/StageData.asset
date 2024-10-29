@@ -31,3 +31,21 @@ MonoBehaviour:
   - name: "\u30B7\u30D0\u30BF\u30CB\u30F3"
     sprite: {fileID: 0}
     level: 3
+  - name: "\u30C6\u30B9\u30C81"
+    sprite: {fileID: 0}
+    level: 6
+  - name: "\u30C6\u30B9\u30C82"
+    sprite: {fileID: 0}
+    level: 4
+  - name: "\u30C6\u30B9\u30C83"
+    sprite: {fileID: 0}
+    level: 2
+  - name: "\u30C6\u30B9\u30C84"
+    sprite: {fileID: 0}
+    level: 6
+  - name: "\u30C6\u30B9\u30C85"
+    sprite: {fileID: 0}
+    level: 3
+  - name: "\u30C6\u30B9\u30C86"
+    sprite: {fileID: 0}
+    level: 4
