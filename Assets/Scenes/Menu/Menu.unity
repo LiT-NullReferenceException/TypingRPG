@@ -2596,8 +2596,10 @@ MonoBehaviour:
   StartPanel: {fileID: 1714916981}
   CreateSettingPanel: {fileID: 3569797638586924571}
   JoinSettingPanel: {fileID: 7890703419507284649}
+  CreatingPanel: {fileID: 0}
   SearchingPanel: {fileID: 2394041572766312873}
-  ReadyPanel: {fileID: 0}
+  HostReadyPanel: {fileID: 0}
+  GuestReadyPanel: {fileID: 0}
   SelectPanel: {fileID: 1875519422}
   ToGamePanel: {fileID: 2057250700}
   hostInput: {fileID: 3569797638586924572}

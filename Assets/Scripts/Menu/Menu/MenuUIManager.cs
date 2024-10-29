@@ -9,11 +9,18 @@ public class MenuUIManager : MonoBehaviour
 {
     private int num = 0;
     [SerializeField] private GameObject StartPanel;
+    
     [SerializeField] private GameObject CreateSettingPanel;
     [SerializeField] private GameObject JoinSettingPanel;
+    
+    [SerializeField] private GameObject CreatingPanel;
     [SerializeField] private GameObject SearchingPanel;
-    [SerializeField] private GameObject ReadyPanel;
+    
+    [SerializeField] private GameObject HostReadyPanel;
+    [SerializeField] private GameObject GuestReadyPanel;
+    
     [SerializeField] private GameObject SelectPanel;
+    
     [SerializeField] private GameObject ToGamePanel;
     
     private TMP_InputField nicknameInput;
@@ -57,6 +64,9 @@ public class MenuUIManager : MonoBehaviour
             CreateSettingPanel.SetActive(false);
             JoinSettingPanel.SetActive(false);
             
+            CreatingPanel.SetActive(true);
+            SearchingPanel.SetActive(false);
+            
             // 非同期で RoomPlayer.Local を待つ場合は、適切な方法で null チェックを行います
             while (RoomPlayer.Local == null)
             {
@@ -65,13 +75,17 @@ public class MenuUIManager : MonoBehaviour
             
             if (RoomPlayer.Local.IsLeader)
             {
-                ReadyPanel.SetActive(true);
+                HostReadyPanel.SetActive(true);
+                num++;
             }
-            num++;
+            else
+            {
+                SearchingPanel.SetActive(true);
+            }
         }
         else if (num == 2)
         {
-            ReadyPanel.SetActive(false);
+            HostReadyPanel.SetActive(false);
             SelectPanel.SetActive(true);
             num++;
         }
