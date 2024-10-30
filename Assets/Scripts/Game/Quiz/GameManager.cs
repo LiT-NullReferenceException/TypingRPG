@@ -19,6 +19,8 @@ public class GameManager : MonoBehaviour
 
     [SerializeField] private UIConnecter _uiConnecter = null;
 
+    [SerializeField] private TimeManager timeManager = null;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -33,6 +35,10 @@ public class GameManager : MonoBehaviour
         // HPバーを更新する
         _hpBarManager.UpdatePlayerHPBar(_player.maxHealth, _player.health);
         _hpBarManager.UpdataEnemyHPBar();
+
+        // タイマーを初期化する
+        timeManager.timer = timeManager.time;
+        timeManager.status = TimeManager.Status.Playing;
     }
 
     // キー入力をチェックして正しいかどうか判定するメソッド
@@ -64,6 +70,8 @@ public class GameManager : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        if (timeManager.status != TimeManager.Status.Playing) { return; }
+        
         if (_player.status != Character.Status.alive) { return; }
 
         if (_enemyManager.status == EnemyManager.Status.done) { return; }
