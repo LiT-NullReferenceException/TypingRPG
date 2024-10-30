@@ -29,7 +29,7 @@ public class MenuUIManager : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        nicknameInput.onValueChanged.AddListener(x => ClientInfo.Username = x);
+        nicknameInput?.onValueChanged.AddListener(x => ClientInfo.Username = x);
     }
 
     // Update is called once per frame
@@ -91,13 +91,12 @@ public class MenuUIManager : MonoBehaviour
         }
         else if (num == 3)
         {
-            SelectPanel.SetActive(false);
             ToGamePanel.SetActive(true);
             num++;
         }
         else if (num == 4)
         {
-            ToGamePanel.SetActive(false);
+            SelectPanel.SetActive(false);
         }
         
     }
