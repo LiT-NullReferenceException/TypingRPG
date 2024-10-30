@@ -7,6 +7,7 @@ public class NameNode : MonoBehaviour
 
     public void SetName(string name)
     {
+        Debug.Log("nameSet!");
         _nameText.text = name;
     }
 }

@@ -23,13 +23,16 @@ public class MenuUIManager : MonoBehaviour
     [SerializeField] private GameObject ToGamePanel;
     
     private TMP_InputField nicknameInput;
-    [SerializeField] private TMP_InputField hostInput;
-    [SerializeField] private TMP_InputField guestInput;
+    private TMP_InputField lobbyInput;
+    [SerializeField] private TMP_InputField hostNameInput;
+    [SerializeField] private TMP_InputField guestNameInput;
+    [SerializeField] private TMP_InputField hostLobbyInput;
+    [SerializeField] private TMP_InputField guestLobbyInput;
     
     // Start is called before the first frame update
     void Start()
     {
-        nicknameInput?.onValueChanged.AddListener(x => ClientInfo.Username = x);
+        
     }
 
     // Update is called once per frame
@@ -41,14 +44,20 @@ public class MenuUIManager : MonoBehaviour
     public void PopCreateUI()
     {
         CreateSettingPanel.SetActive(true);
-        nicknameInput = hostInput;
+        nicknameInput = hostNameInput;
+        nicknameInput.onValueChanged.AddListener(x => ClientInfo.Username = x);
+        lobbyInput = hostLobbyInput;
+        lobbyInput.onValueChanged.AddListener(x => ServerInfo.LobbyName = x);
         SwitchUI();
     }
     
     public void PopJoinUI()
     {
         JoinSettingPanel.SetActive(true);
-        nicknameInput = guestInput;
+        nicknameInput = guestNameInput;
+        nicknameInput.onValueChanged.AddListener(x => ClientInfo.Username = x);
+        lobbyInput = guestLobbyInput;
+        lobbyInput.onValueChanged.AddListener(x => ServerInfo.LobbyName = x);
         SwitchUI();
     }
 
@@ -76,6 +85,7 @@ public class MenuUIManager : MonoBehaviour
             if (RoomPlayer.Local.IsLeader)
             {
                 HostReadyPanel.SetActive(true);
+                HostReadyPanel.GetComponent<MatchFoundDialogView>().SetTeamName(ServerInfo.LobbyName);
                 num++;
             }
             else
