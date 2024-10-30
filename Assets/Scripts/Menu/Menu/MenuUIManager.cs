@@ -4,6 +4,7 @@ using System.Threading.Tasks;
 using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.UIElements;
 
 public class MenuUIManager : MonoBehaviour
 {
@@ -28,6 +29,8 @@ public class MenuUIManager : MonoBehaviour
     [SerializeField] private TMP_InputField guestNameInput;
     [SerializeField] private TMP_InputField hostLobbyInput;
     [SerializeField] private TMP_InputField guestLobbyInput;
+    
+    [SerializeField] private GameObject backGround;
     
     // Start is called before the first frame update
     void Start()
@@ -107,6 +110,7 @@ public class MenuUIManager : MonoBehaviour
         else if (num == 4)
         {
             SelectPanel.SetActive(false);
+            backGround.SetActive(false);
         }
         
     }
