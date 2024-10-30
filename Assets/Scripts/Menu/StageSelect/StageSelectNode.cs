@@ -4,7 +4,7 @@ using UnityEngine;
 using UnityEngine.EventSystems;
 using UnityEngine.UI;
 
-public class StageSelectNode : MonoBehaviour, IPointerEnterHandler, IPointerExitHandler
+public class StageSelectNode : MonoBehaviour, IPointerEnterHandler, IPointerExitHandler, IPointerClickHandler
 {
     [SerializeField] private float _hoverMoveDistance = 30;
     [SerializeField] private float _hoverMoveDuration = 0.3f;
@@ -44,5 +44,16 @@ public class StageSelectNode : MonoBehaviour, IPointerEnterHandler, IPointerExit
     {
         _nodeButtonRectTransform.DOAnchorPosX(-_hoverMoveDistance, _hoverMoveDuration);
         _nodeButton.sprite = _normalButtonSprite;
+    }
+
+    public void OnPointerClick(PointerEventData pointerEventData)
+    {
+        Debug.Log("クリックされました。");
+        
+        // いっちーへ
+        // クリックされた時の処理をここに書く
+        
+        
+        
     }
 }
