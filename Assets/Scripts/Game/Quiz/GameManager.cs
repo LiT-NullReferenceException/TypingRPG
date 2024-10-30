@@ -59,6 +59,7 @@ public class GameManager : MonoBehaviour
 
     
     [SerializeField] private int _charCombo = 0;
+    [SerializeField] private int _wordCombo = 0;
 
     // Update is called once per frame
     void Update()
@@ -93,6 +94,15 @@ public class GameManager : MonoBehaviour
             int attackPower = _player.attackPower + (int)Mathf.Floor(_charCombo * 0.25f); // コンボ数を考慮した攻撃力を計算
             _enemyManager.TakeDamage(attackPower);
             _uiConnecter.WhenPlayerAttackToEnemy();
+
+            // 単語を入力出来たら...
+            _wordCombo++;
+
+            if (_wordCombo % 10 == 0)
+            {
+                // ブーストを発火
+                _enemyManager.SetIsBoosting = true;
+            }
         }
 
         if (!isCorrectChar)
@@ -106,6 +116,7 @@ public class GameManager : MonoBehaviour
 
             // コンボカウンターのリセット
             _charCombo = 0;
+            _wordCombo = 0;
             _uiConnecter.WhenCharComboDecreased();
 
         }
