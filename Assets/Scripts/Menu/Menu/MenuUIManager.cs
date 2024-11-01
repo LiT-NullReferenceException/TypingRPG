@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using System.Threading.Tasks;
+using Cysharp.Threading.Tasks;
 using Fusion;
 using TMPro;
 using UnityEngine;
@@ -51,8 +52,12 @@ public class MenuUIManager : MonoBehaviour
     }
 
     // 部屋を作るボタンが押されると呼ばれる
-    public void PopCreateUI()
+    public async void PopCreateUI()
     {
+        audioManager.PlaySE(3);
+        // 1秒待機
+        await WaitOneSecondAsync();
+        
         CreateSettingPanel.SetActive(true);
         nicknameInput = hostNameInput;
         nicknameInput.onValueChanged.AddListener(x => ClientInfo.Username = x);
@@ -62,8 +67,12 @@ public class MenuUIManager : MonoBehaviour
     }
     
     // 部屋を探すボタンが押されると呼ばれる
-    public void PopJoinUI()
+    public async void PopJoinUI()
     {
+        audioManager.PlaySE(3);
+        // 1秒待機
+        await WaitOneSecondAsync();
+        
         JoinSettingPanel.SetActive(true);
         nicknameInput = guestNameInput;
         nicknameInput.onValueChanged.AddListener(x => ClientInfo.Username = x);
@@ -127,5 +136,11 @@ public class MenuUIManager : MonoBehaviour
             // backGround.SetActive(false);
         }
         
+    }
+    
+    // 1秒待機するメソッド
+    private async UniTask WaitOneSecondAsync()
+    {
+        await UniTask.Delay(1000); // 1秒待機（ミリ秒で指定）
     }
 }
