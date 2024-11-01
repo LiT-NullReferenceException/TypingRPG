@@ -13,39 +13,21 @@ MonoBehaviour:
   m_Name: StageData
   m_EditorClassIdentifier: 
   Enemies:
-  - name: "\u30AC\u30DF\u30C9\u30ED\u30B9"
-    sprite: {fileID: 0}
-    level: 7
-  - name: "\u30D1\u30BF\u30EC\u30A2\u30B9"
-    sprite: {fileID: 0}
-    level: 6
   - name: "\u30B5\u30A4\u30D0\u30FC\u30C9\u30E9\u30B4\u30F3"
-    sprite: {fileID: 0}
-    level: 5
-  - name: "\u3080\u3063\u304F\u3093"
-    sprite: {fileID: 0}
-    level: 5
-  - name: "\u30A4\u30C1\u30D0\u30AE\u30A4"
-    sprite: {fileID: 0}
-    level: 4
-  - name: "\u30B7\u30D0\u30BF\u30CB\u30F3"
-    sprite: {fileID: 0}
-    level: 3
-  - name: "\u30C6\u30B9\u30C81"
-    sprite: {fileID: 0}
+    sprite: {fileID: 21300000, guid: 8bb27c50ac6d7474895ada4e44014848, type: 3}
+    level: 7
+  - name: "\u30D5\u30A1\u30A4\u30E4\u30FC\u30C9\u30E9\u30B4\u30F3"
+    sprite: {fileID: 21300000, guid: f0cc1fc6673bc468ab4b7ecd77acc412, type: 3}
     level: 6
-  - name: "\u30C6\u30B9\u30C82"
-    sprite: {fileID: 0}
+  - name: "\u30A6\u30A9\u30FC\u30BF\u30FC\u30C9\u30E9\u30B4\u30F3"
+    sprite: {fileID: 21300000, guid: 385dd5923e4804db6a7eb594869fdcfc, type: 3}
+    level: 5
+  - name: "\u30CD\u30AA\u30B5\u30A4\u30D0\u30FC"
+    sprite: {fileID: 21300000, guid: 85d529c9c91544a239ccafa5e05b5881, type: 3}
+    level: 5
+  - name: "\u30E1\u30C6\u30AA\u30C9\u30E9\u30B4\u30F3"
+    sprite: {fileID: 21300000, guid: 0fa7453cf721c48ed821a0ebb3e9ce32, type: 3}
     level: 4
-  - name: "\u30C6\u30B9\u30C83"
-    sprite: {fileID: 0}
-    level: 2
-  - name: "\u30C6\u30B9\u30C84"
-    sprite: {fileID: 0}
-    level: 6
-  - name: "\u30C6\u30B9\u30C85"
-    sprite: {fileID: 0}
+  - name: "\u30B5\u30A4\u30D0\u30FC"
+    sprite: {fileID: 21300000, guid: 9a207f8f90d5a42fa9b1ad3fd81f068d, type: 3}
     level: 3
-  - name: "\u30C6\u30B9\u30C86"
-    sprite: {fileID: 0}
-    level: 4
