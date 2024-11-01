@@ -1,63 +1,63 @@
-using Cysharp.Threading.Tasks;
+ï»¿using Cysharp.Threading.Tasks;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-// UI ‚ÆGameManager ‚ğŒq‚®‚â‚Â
+// UI ã¨GameManager ã‚’ç¹‹ãã‚„ã¤
 public class UIConnecter : MonoBehaviour
 {
-    // ƒNƒCƒYi‚¨‘èA“ü—Í‚·‚é•¶šj‚ªXV‚³‚ê‚½‚çŒÄ‚Î‚ê‚éƒfƒŠƒQ[ƒg
-    // ƒqƒ~ƒcƒ}ƒX‚ğ— •Ô‚µ‚½‚Æ‚«‚ÉÀs‚³‚ê‚é
+    // ã‚¯ã‚¤ã‚ºï¼ˆãŠé¡Œã€å…¥åŠ›ã™ã‚‹æ–‡å­—ï¼‰ãŒæ›´æ–°ã•ã‚ŒãŸã‚‰å‘¼ã°ã‚Œã‚‹ãƒ‡ãƒªã‚²ãƒ¼ãƒˆ
+    // ãƒ’ãƒŸãƒ„ãƒã‚¹ã‚’è£è¿”ã—ãŸã¨ãã«å®Ÿè¡Œã•ã‚Œã‚‹
     //public delegate UniTask SecretCellPerformanceExecutedDelegate();
     //public event SecretCellPerformanceExecutedDelegate OnSecretCellPerformanceExecuted;
     //async public UniTask SecretCellPerformance()
     //{
-    //    Debug.Log("<b><color=#ef476f>yBoard - FlipSecretCellzƒqƒ~ƒcƒ}ƒX‚ğ— •Ô‚µ‚½‚Æ‚«‚Ì‰‰o</color></b>");
+    //    Debug.Log("<b><color=#ef476f>ã€Board - FlipSecretCellã€‘ãƒ’ãƒŸãƒ„ãƒã‚¹ã‚’è£è¿”ã—ãŸã¨ãã®æ¼”å‡º</color></b>");
     //    if (OnSecretCellPerformanceExecuted != null) { await OnSecretCellPerformanceExecuted(); }
     //}
 
-    // ƒRƒ“ƒ{‚ª‘‚¦‚½‚ÉŒÄ‚Î‚ê‚é
+    // ã‚³ãƒ³ãƒœãŒæ¸›ã£ãŸæ™‚ã«å‘¼ã°ã‚Œã‚‹
     public delegate void WhenCharComboDecreasedExecutedDelegate();
     public event WhenCharComboDecreasedExecutedDelegate WhenCharComboDecreasedExecuted;
     public void WhenCharComboDecreased()
     {
-        Debug.Log("<b><color=#ff0000>yUIConnecter - WhenCharComboDecreasedzƒRƒ“ƒ{‚ªŒ¸‚Á‚½</color></b>");
+        Debug.Log("<b><color=#ff0000>ã€UIConnecter - WhenCharComboDecreasedã€‘ã‚³ãƒ³ãƒœãŒæ¸›ã£ãŸ</color></b>");
         if (WhenCharComboDecreasedExecuted != null) { WhenCharComboDecreasedExecuted(); }
     }
 
-    // ƒRƒ“ƒ{‚ªŒ¸‚Á‚½‚ÉŒÄ‚Î‚ê‚é
+    // ã‚³ãƒ³ãƒœãŒå¢—ãˆãŸæ™‚ã«å‘¼ã°ã‚Œã‚‹
     public delegate void WhenCharComboIncreasedExecutedDelegate();
     public event WhenCharComboDecreasedExecutedDelegate WhenCharComboIncreasedExecuted;
     public void WhenCharComboIncreased()
     {
-        Debug.Log("<b><color=#ff8700>yUIConnecter - WhenCharComboIncreasedzƒRƒ“ƒ{‚ª‘‚¦‚½</color></b>");
+        Debug.Log("<b><color=#ff8700>ã€UIConnecter - WhenCharComboIncreasedã€‘ã‚³ãƒ³ãƒœãŒå¢—ãˆãŸ</color></b>");
         if (WhenCharComboIncreasedExecuted != null) { WhenCharComboIncreasedExecuted(); }
     }
 
-    // ƒvƒŒƒCƒ„[‚ª“G‚ÉUŒ‚‚ğ‚·‚é‚Æ‚«‚ÉŒÄ‚Î‚ê‚é
+    // ãƒ—ãƒ¬ã‚¤ãƒ¤ãƒ¼ãŒæ•µã«æ”»æ’ƒã‚’ã™ã‚‹ã¨ãã«å‘¼ã°ã‚Œã‚‹
     public delegate void WhenPlayerAttackToEnemyExecutedDelegate();
     public event WhenPlayerAttackToEnemyExecutedDelegate WhenPlayerAttackToEnemyExecuted;
     public void WhenPlayerAttackToEnemy()
     {
-        Debug.Log("<b><color=#ffd300>yUIConnecter - WhenPlayerAttackToEnemyzUŒ‚ : ƒvƒŒƒCƒ„[ => “G</color></b>");
+        Debug.Log("<b><color=#ffd300>ã€UIConnecter - WhenPlayerAttackToEnemyã€‘æ”»æ’ƒ : ãƒ—ãƒ¬ã‚¤ãƒ¤ãƒ¼ => æ•µ</color></b>");
         if (WhenPlayerAttackToEnemyExecuted != null) { WhenPlayerAttackToEnemyExecuted(); }
     }
 
-    // “G‚ªƒvƒŒƒCƒ„[‚ÉUŒ‚‚ğ‚·‚é‚Æ‚«‚ÉŒÄ‚Î‚ê‚é
+    // æ•µãŒãƒ—ãƒ¬ã‚¤ãƒ¤ãƒ¼ã«æ”»æ’ƒã‚’ã™ã‚‹ã¨ãã«å‘¼ã°ã‚Œã‚‹
     public delegate void WhenEnemyAttackToPlayerExecutedDelegate();
     public event WhenEnemyAttackToPlayerExecutedDelegate WhenEnemyAttackToPlayerExecuted;
     public void WhenEnemyAttackToPlayer()
     {
-        Debug.Log("<b><color=#deff0a>yUIConnecter - WhenEnemyAttackToPlayerzUŒ‚ : “G => ƒvƒŒƒCƒ„[</color></b>");
+        Debug.Log("<b><color=#deff0a>ã€UIConnecter - WhenEnemyAttackToPlayerã€‘æ”»æ’ƒ : æ•µ => ãƒ—ãƒ¬ã‚¤ãƒ¤ãƒ¼</color></b>");
         if (WhenEnemyAttackToPlayerExecuted != null) { WhenEnemyAttackToPlayerExecuted(); }
     }
 
-    // ƒNƒCƒYi‚¨‘èj‚ª•ÏX‚³‚ê‚½‚Æ‚«‚ÉŒÄ‚Î‚ê‚é
+    // ã‚¯ã‚¤ã‚ºï¼ˆãŠé¡Œï¼‰ãŒå¤‰æ›´ã•ã‚ŒãŸã¨ãã«å‘¼ã°ã‚Œã‚‹
     public delegate void WhenRefreshQuizExecutedDelegate();
     public event WhenRefreshQuizExecutedDelegate WhenRefreshQuizExecuted;
     public void WhenRefreshQuiz()
     {
-        Debug.Log("<b><color=#a1ff0a>yUIConnecter - WhenRefreshQuizzƒNƒCƒY‚ªXV‚³‚ê‚Ü‚µ‚½</color></b>");
+        Debug.Log("<b><color=#a1ff0a>ã€UIConnecter - WhenRefreshQuizã€‘ã‚¯ã‚¤ã‚ºãŒæ›´æ–°ã•ã‚Œã¾ã—ãŸ</color></b>");
         if (WhenRefreshQuizExecuted != null) { WhenRefreshQuizExecuted(); }
     }
 
