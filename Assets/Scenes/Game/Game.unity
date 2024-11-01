@@ -443,6 +443,7 @@ GameObject:
   m_Component:
   - component: {fileID: 647118144}
   - component: {fileID: 647118145}
+  - component: {fileID: 647118146}
   m_Layer: 0
   m_Name: Player
   m_TagString: Untagged
@@ -482,6 +483,26 @@ MonoBehaviour:
   health: 100
   attackPower: 20
   status: 1
+  _RoomUser: {fileID: 0}
+  name: 
+--- !u!114 &647118146
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 647118143}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1552182283, guid: e725a070cec140c4caffb81624c8c787, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  SortKey: 1912402693
+  ObjectInterest: 1
+  Flags: 262145
+  NestedObjects: []
+  NetworkedBehaviours:
+  - {fileID: 647118145}
 --- !u!1 &675578882
 GameObject:
   m_ObjectHideFlags: 0
@@ -529,6 +550,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: -4901888574932267831, guid: ab66f8b5cc797cb45bc09848f45aa391, type: 3}
+      propertyPath: SortKey
+      value: 3041406623
+      objectReference: {fileID: 0}
     - target: {fileID: 1013959259302316823, guid: ab66f8b5cc797cb45bc09848f45aa391, type: 3}
       propertyPath: m_Name
       value: Enemy (1)
@@ -1777,6 +1802,8 @@ MonoBehaviour:
   _enemyManager: {fileID: 1109691167}
   _player: {fileID: 647118145}
   _hpBarManager: {fileID: 1846270899}
+  _uiConnecter: {fileID: 0}
+  _charCombo: 0
 --- !u!4 &1665260589
 Transform:
   m_ObjectHideFlags: 0
@@ -1926,6 +1953,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: -4901888574932267831, guid: ab66f8b5cc797cb45bc09848f45aa391, type: 3}
+      propertyPath: SortKey
+      value: 1552856031
+      objectReference: {fileID: 0}
     - target: {fileID: 1013959259302316823, guid: ab66f8b5cc797cb45bc09848f45aa391, type: 3}
       propertyPath: m_Name
       value: Enemy (2)
@@ -2413,6 +2444,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: -4901888574932267831, guid: ab66f8b5cc797cb45bc09848f45aa391, type: 3}
+      propertyPath: SortKey
+      value: 3028676258
+      objectReference: {fileID: 0}
     - target: {fileID: 1013959259302316823, guid: ab66f8b5cc797cb45bc09848f45aa391, type: 3}
       propertyPath: m_Name
       value: Enemy
