@@ -29,6 +29,18 @@ MonoBehaviour:
     clip: {fileID: 8300000, guid: 8bc0cc622469b0441b75cac61ab58f51, type: 3}
     volume: 0.5
     memo: "\u30B7\u30FC\u30F3\u9077\u79FB\u30DC\u30BF\u30F3"
+  - id: 4
+    clip: {fileID: 8300000, guid: 3fda169fb8a0913448af0dbaaff367bc, type: 3}
+    volume: 0.5
+    memo: "\u30CE\u30FC\u30DE\u30EB\u30DC\u30BF\u30F3"
+  - id: 5
+    clip: {fileID: 8300000, guid: f5d7c36fe4adca049a04ac066e435bbd, type: 3}
+    volume: 0.5
+    memo: "\u30AB\u30FC\u30BD\u30EB\u79FB\u52D5"
+  - id: 6
+    clip: {fileID: 8300000, guid: 8bc0cc622469b0441b75cac61ab58f51, type: 3}
+    volume: 0.5
+    memo: "\u30B7\u30FC\u30F3\u9077\u79FB"
   BGM_Data:
   - id: 0
     clip: {fileID: 8300000, guid: 3ea41ea0c3be1ad478eb765528384208, type: 3}

@@ -14,10 +14,17 @@ public class StageSelectNode : MonoBehaviour, IPointerEnterHandler, IPointerExit
     [SerializeField] private TextMeshProUGUI _levelText;
     [SerializeField] private Sprite _normalButtonSprite;
     [SerializeField] private Sprite _hoveredButtonSprite;
+    [SerializeField] private AudioManager audioManager = null;
 
     private RectTransform _nodeButtonRectTransform;
     private StageData.TypingEnemy _enemy;
     private StageHelper _stageHelper;
+
+    void Start()
+    {
+        // AudioManager を参照する
+        audioManager = GameObject.FindWithTag("AudioManager").GetComponent<AudioManager>();
+    }
 
     /// <summary>
     ///  初期化する
@@ -36,6 +43,7 @@ public class StageSelectNode : MonoBehaviour, IPointerEnterHandler, IPointerExit
 
     public void OnPointerEnter(PointerEventData pointerEventData)
     {
+        audioManager.PlaySE(5);
         _nodeButtonRectTransform.DOAnchorPosX(_hoverMoveDistance, _hoverMoveDuration);
         _nodeButton.sprite = _hoveredButtonSprite;
         _stageHelper.UpdateView(_enemy);
@@ -49,6 +57,7 @@ public class StageSelectNode : MonoBehaviour, IPointerEnterHandler, IPointerExit
 
     public void OnPointerClick(PointerEventData pointerEventData)
     {
+        audioManager.PlaySE(3);
         Debug.Log("クリックされました。");
         
         // いっちーへ

@@ -94,6 +94,9 @@ public class MenuUIManager : MonoBehaviour
         
         else if (num == 1)
         {
+            // ボタンのSEを再生
+            //audioManager.PlaySE(4);
+            
             CreateSettingPanel.SetActive(false);
             JoinSettingPanel.SetActive(false);
             
@@ -120,6 +123,9 @@ public class MenuUIManager : MonoBehaviour
         }
         else if (num == 2)
         {
+            // ボタンのSEを再生
+            audioManager.PlaySE(4);
+            
             HostReadyPanel.SetActive(false);
             SelectPanel.SetActive(true);
             RoomPlayer.Local.IsReady = true;
@@ -127,11 +133,17 @@ public class MenuUIManager : MonoBehaviour
         }
         else if (num == 3)
         {
+            // ボタンのSEを再生
+            audioManager.PlaySE(4);
+            
             ToGamePanel.SetActive(true);
             num++;
         }
         else if (num == 4)
         {
+            // ボタンのSEを再生
+            audioManager.PlaySE(4);
+            
             // SelectPanel.SetActive(false);
             // backGround.SetActive(false);
         }
