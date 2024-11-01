@@ -41,6 +41,10 @@ MonoBehaviour:
     clip: {fileID: 8300000, guid: 8bc0cc622469b0441b75cac61ab58f51, type: 3}
     volume: 0.5
     memo: "\u30B7\u30FC\u30F3\u9077\u79FB"
+  - id: 7
+    clip: {fileID: 8300000, guid: 3af9d5ff91b524e428adbcb6c85c8b35, type: 3}
+    volume: 0.5
+    memo: "\u30A8\u30D5\u30A7\u30AF\u30C8"
   BGM_Data:
   - id: 0
     clip: {fileID: 8300000, guid: 3ea41ea0c3be1ad478eb765528384208, type: 3}
@@ -58,3 +62,7 @@ MonoBehaviour:
     clip: {fileID: 8300000, guid: 96b34502fe73bbd4980d7532ac693093, type: 3}
     volume: 0.5
     memo: "\u30B2\u30FC\u30E0\u30AF\u30EA\u30A2\u6642\u306B\u6D41\u308C\u308B"
+  - id: 4
+    clip: {fileID: 8300000, guid: 7ae625d721bc1964dbb5da5ed17aeff7, type: 3}
+    volume: 0.5
+    memo: "\u30B2\u30FC\u30E0\u30AA\u30FC\u30D0\u30FC\u6642\u306B\u6D41\u308C\u308B"
