@@ -16,6 +16,7 @@ public class StageSelectGenerator : MonoBehaviour
     [SerializeField] private StageSelectNode _stageSelectNode;
     [SerializeField] private StageGroup _stageGroup;
     [SerializeField] private StageHelper _stageHelper;
+    [SerializeField] private AudioManager audioManager = null;
 
     private List<GameObject> _stageGroups = new List<GameObject>();
     private int _pageInProgress = 0;
@@ -27,6 +28,9 @@ public class StageSelectGenerator : MonoBehaviour
         _backPagebutton.onClick.AddListener(() => NextPage(-1));
         _backPagebutton.interactable = false;
         _pageText.text = $"{_pageInProgress + 1} / {_stageGroups.Count}";
+        
+        // AudioManager を参照する
+        audioManager = GameObject.FindWithTag("AudioManager").GetComponent<AudioManager>();
     }
 
     /// <summary>
@@ -60,6 +64,7 @@ public class StageSelectGenerator : MonoBehaviour
     /// <returns>めくれるか否か</returns>
     public bool NextPage(int pageTurnCount)
     {
+        audioManager.PlaySE(4);
         if (_pageInProgress + pageTurnCount >= _stageGroups.Count) return false;
         if (_pageInProgress + pageTurnCount < 0) return false;
             
