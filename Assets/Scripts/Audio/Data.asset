@@ -15,15 +15,15 @@ MonoBehaviour:
   SE_Data:
   - id: 0
     clip: {fileID: 8300000, guid: b344b9bf7918325498249770f761d126, type: 3}
-    volume: 0.5
+    volume: 1
     memo: "\u30AD\u30FC\u6253\u9375\u97F3\u305D\u306E\uFF11"
   - id: 1
     clip: {fileID: 8300000, guid: b2a0eecd6306a50409cc5e601a24c077, type: 3}
-    volume: 0.5
+    volume: 1
     memo: "\u30AD\u30FC\u6253\u9375\u97F3\u305D\u306E\uFF12"
   - id: 2
     clip: {fileID: 8300000, guid: 802ba7a26e5851449961b91900a25b5e, type: 3}
-    volume: 0.5
+    volume: 1
     memo: "\u30AD\u30FC\u6253\u9375\u97F3\u5931\u6557\u305D\u306E\uFF11"
   - id: 3
     clip: {fileID: 8300000, guid: 8bc0cc622469b0441b75cac61ab58f51, type: 3}
@@ -31,7 +31,7 @@ MonoBehaviour:
     memo: "\u30B7\u30FC\u30F3\u9077\u79FB\u30DC\u30BF\u30F3"
   - id: 4
     clip: {fileID: 8300000, guid: 3fda169fb8a0913448af0dbaaff367bc, type: 3}
-    volume: 0.5
+    volume: 0.7
     memo: "\u30CE\u30FC\u30DE\u30EB\u30DC\u30BF\u30F3"
   - id: 5
     clip: {fileID: 8300000, guid: f5d7c36fe4adca049a04ac066e435bbd, type: 3}
@@ -52,7 +52,7 @@ MonoBehaviour:
     memo: "\u30ED\u30D3\u30FC\u753B\u9762\u3067\u6D41\u308C\u308B"
   - id: 2
     clip: {fileID: 8300000, guid: 351a03a265f73f64089b3885d99f9a8d, type: 3}
-    volume: 0.5
+    volume: 0.2
     memo: "\u30D0\u30C8\u30EB\u4E2D\u306B\u6D41\u308C\u308B"
   - id: 3
     clip: {fileID: 8300000, guid: 96b34502fe73bbd4980d7532ac693093, type: 3}

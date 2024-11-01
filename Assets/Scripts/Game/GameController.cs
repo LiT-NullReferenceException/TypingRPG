@@ -56,6 +56,10 @@ public class GameController : MonoBehaviour
         // AudioManager を参照する
         audioManager = GameObject.FindWithTag("AudioManager").GetComponent<AudioManager>();
         
+        //　ロビーのBGMを止めてゲームのBGMに切り替える
+        audioManager.StopBGM();
+        audioManager.PlayBGM(2);
+        
         // プレイヤリストの取得
         int max = RoomPlayer.Players.Count;
         Debug.Log("max = " + max);
