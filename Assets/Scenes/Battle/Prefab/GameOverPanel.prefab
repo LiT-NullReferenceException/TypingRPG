@@ -678,6 +678,7 @@ GameObject:
   - component: {fileID: 8273448243453530809}
   - component: {fileID: 451312324913818142}
   - component: {fileID: 7773091556187527384}
+  - component: {fileID: 2969481777308692582}
   m_Layer: 5
   m_Name: GameOverPanel
   m_TagString: Untagged
@@ -771,6 +772,24 @@ MonoBehaviour:
   _resultGroup: {fileID: 451312324913818142}
   _gameObject: {fileID: 514350939151837117}
   _selectDialog: {fileID: 2948228748961306612}
+--- !u!114 &2969481777308692582
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7595560530889459017}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1552182283, guid: e725a070cec140c4caffb81624c8c787, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  SortKey: 2725608214
+  ObjectInterest: 1
+  Flags: 262145
+  NestedObjects: []
+  NetworkedBehaviours:
+  - {fileID: 7773091556187527384}
 --- !u!1 &8837427489013825493
 GameObject:
   m_ObjectHideFlags: 0

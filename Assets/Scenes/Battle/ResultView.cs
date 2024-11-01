@@ -1,16 +1,18 @@
 using System;
 using Cysharp.Threading.Tasks;
 using DG.Tweening;
+using Fusion;
 using UnityEngine;
 
-public class ResultView : MonoBehaviour
+public class ResultView : NetworkBehaviour
 {
     [SerializeField] private CanvasGroup _resultGroup;
     [SerializeField] private CanvasGroup _gameObject;
     [SerializeField] private CanvasGroup _selectDialog;
 
     [ContextMenu("Play")]
-    public async void DisplayResultView()
+    [Rpc(RpcSources.All, RpcTargets.All)]
+    public async void Rpc_DisplayResultView()
     {
         RectTransform rect = _gameObject.gameObject.GetComponent<RectTransform>();
         rect.localScale = Vector3.one * 10;

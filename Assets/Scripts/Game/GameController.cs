@@ -1,5 +1,6 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
+using Managers;
 using Unity.VisualScripting;
 using UnityEngine;
 
@@ -194,6 +195,11 @@ public class GameController : MonoBehaviour
             audioManager.PlaySE(2);
 
         }
-
+    }
+    
+    // シーン遷移への架け橋
+    public void TryChangeScene()
+    {
+        LevelManager.LoadMenu();
     }
 }

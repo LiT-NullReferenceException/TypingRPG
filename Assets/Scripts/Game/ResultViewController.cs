@@ -12,17 +12,17 @@ public class ResultViewController : MonoBehaviour
     private bool isFirst = true;
     
     private void Update()
-    { ;
+    {
         if (_timeManager.timer <= 0 && isFirst)
         {
             isFirst = false;
-            _gameOverPanel.DisplayResultView();
+            _gameOverPanel.Rpc_DisplayResultView();
         }
 
         if (_enemyManager.GetNowEnemyHealth() == 0 && isFirst)
         {
             isFirst = false;
-            _gameClearPanel.DisplayResultView();
+            _gameClearPanel.Rpc_DisplayResultView();
         }
     }
 }
