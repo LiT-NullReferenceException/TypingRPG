@@ -13,16 +13,23 @@ public class AttackEffectManager : MonoBehaviour
     {
         foreach (RoomPlayer roomPlayer in RoomPlayer.Players)
         {
-            int num = 1;
             if (roomPlayer == RoomPlayer.Local)
             {
-                dolls[0] = roomPlayer;
+                dolls.Add(roomPlayer);
             }
-            else
+        }
+
+        foreach (RoomPlayer roomPlayer in RoomPlayer.Players)
+        {
+            if (roomPlayer != RoomPlayer.Local)
             {
-                dolls[num] = roomPlayer;
-                num++;
+                dolls.Add(roomPlayer);
             }
+        }
+
+        foreach (RoomPlayer roomPlayer in dolls)
+        {
+            Debug.Log(roomPlayer.Username.Value);
         }
     }
 
@@ -31,6 +38,5 @@ public class AttackEffectManager : MonoBehaviour
     {
         int index = dolls.FindIndex(roomPlayer => roomPlayer == player);
         //points[index].position = hogehoge;    // ここで座標のリストを元にエフェクトの出現位置を決める。
-
     }
 }
