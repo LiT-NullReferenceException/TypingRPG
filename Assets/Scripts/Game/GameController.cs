@@ -20,6 +20,8 @@ public class GameController : MonoBehaviour
     [SerializeField] private UIConnecter _uiConnecter = null;
 
     [SerializeField] private TimeManager timeManager = null;
+    
+    [SerializeField] private AttackEffectManager _attackEffectManager = null;
 
     // Start is called before the first frame update
     void Start()
@@ -105,6 +107,8 @@ public class GameController : MonoBehaviour
             int attackPower = _player.attackPower + (int)Mathf.Floor(_charCombo * 0.25f); // コンボ数を考慮した攻撃力を計算
             _enemyManager.TakeDamage(attackPower);
             _uiConnecter.WhenPlayerAttackToEnemy();
+            
+            _attackEffectManager.AttackEffect(RoomPlayer.Local);
 
             // 単語を入力出来たら...
             _wordCombo++;
