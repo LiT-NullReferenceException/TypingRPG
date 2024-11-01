@@ -73,6 +73,7 @@ public class InputManager : MonoBehaviour
         else if (Input.GetKeyDown(KeyCode.X)) input = 'x';
         else if (Input.GetKeyDown(KeyCode.Y)) input = 'y';
         else if (Input.GetKeyDown(KeyCode.Z)) input = 'z';
+        else if (Input.GetKeyDown(KeyCode.Minus)) input = '-';
 
         return input; // プレイヤーの入力を返す
     }
