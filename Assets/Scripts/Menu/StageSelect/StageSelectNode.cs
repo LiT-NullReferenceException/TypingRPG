@@ -1,3 +1,4 @@
+using System;
 using DG.Tweening;
 using TMPro;
 using UnityEngine;
@@ -52,8 +53,7 @@ public class StageSelectNode : MonoBehaviour, IPointerEnterHandler, IPointerExit
         
         // いっちーへ
         // クリックされた時の処理をここに書く
-        
-        
-        
+        var muim = GameObject.Find("Canvas");
+        muim.GetComponent<MenuUIManager>().SwitchUI();
     }
 }
