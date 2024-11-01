@@ -43,7 +43,7 @@ public class EnemyManager : MonoBehaviour
             damage += damage;
         }
 
-        _enemies[_enemyIndex].TakeDamage(damage);
+        _enemies[_enemyIndex].Rpc_TakeDamage(damage);
     }
 
     public int GetAttackPower()

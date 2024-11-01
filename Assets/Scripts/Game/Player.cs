@@ -11,6 +11,7 @@ public class Player : Character
     
     public override void Spawned()
     {
+        base.Spawned();
         //characterName = "Player";
         health = maxHealth;
         //attackPower = 20;

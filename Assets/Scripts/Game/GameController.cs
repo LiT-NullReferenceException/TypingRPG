@@ -33,8 +33,7 @@ public class GameController : MonoBehaviour
         _enemyManager = GameObject.FindGameObjectWithTag("EnemyManager").GetComponent<EnemyManager>();
 
         // HPバーを更新する
-        _hpBarManager.UpdatePlayerHPBar(_player.maxHealth, _player.health);
-        _hpBarManager.UpdataEnemyHPBar();
+        _hpBarManager.InitHPBar(_player.maxHealth);
 
         // タイマーを初期化する
         timeManager.timer = timeManager.time;
@@ -120,7 +119,7 @@ public class GameController : MonoBehaviour
         if (!isCorrectChar)
         {
             // モンスターから攻撃される
-            _player.TakeDamage(_enemyManager.GetAttackPower());
+            _player.Rpc_TakeDamage(_enemyManager.GetAttackPower());
             _uiConnecter.WhenEnemyAttackToPlayer();
 
             // プレイヤーのHPバーを更新する

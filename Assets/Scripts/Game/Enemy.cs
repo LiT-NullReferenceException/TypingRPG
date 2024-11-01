@@ -6,6 +6,7 @@ public class Enemy : Character
 {
     public override void Spawned()
     {
+        base.Spawned();
         //characterName = "Enemy";
         health = maxHealth;
         //attackPower = 10;
