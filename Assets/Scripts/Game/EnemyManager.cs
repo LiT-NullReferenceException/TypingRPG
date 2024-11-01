@@ -83,6 +83,7 @@ public class EnemyManager : NetworkBehaviour
 
     public int GetNowEnemyHealth()
     {
+        if (_enemyIndex == _enemies.Length) return 0;
         return _enemies[_enemyIndex].health;
     }
 
