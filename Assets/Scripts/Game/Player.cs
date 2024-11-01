@@ -9,15 +9,12 @@ public class Player : Character
     [Networked] public RoomPlayer RoomUser { get; set; }
     public String name;
     
-    void Spawned()
+    public override void Spawned()
     {
+        base.Spawned();
         //characterName = "Player";
         health = maxHealth;
         //attackPower = 20;
-        
-        Debug.Log("Player " + name + " spawned");
-        
-        name = RoomUser.Username.Value; // こんな感じで取得できる
     }
 
     // プレイヤーの特殊な攻撃などをここに追加可能

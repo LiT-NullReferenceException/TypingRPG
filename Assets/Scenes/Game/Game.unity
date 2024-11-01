@@ -589,6 +589,7 @@ GameObject:
   m_Component:
   - component: {fileID: 647118144}
   - component: {fileID: 647118145}
+  - component: {fileID: 647118146}
   m_Layer: 0
   m_Name: Player
   m_TagString: Untagged
@@ -625,11 +626,29 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   characterName: Player_001
   maxHealth: 100
-  health: 100
+  _health: 0
   attackPower: 20
   status: 1
   _RoomUser: {fileID: 0}
   name: 
+--- !u!114 &647118146
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 647118143}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1552182283, guid: e725a070cec140c4caffb81624c8c787, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  SortKey: 1912402693
+  ObjectInterest: 1
+  Flags: 262145
+  NestedObjects: []
+  NetworkedBehaviours:
+  - {fileID: 647118145}
 --- !u!1 &675578882
 GameObject:
   m_ObjectHideFlags: 0
@@ -926,6 +945,52 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 701932983}
   m_CullTransparentMesh: 1
+--- !u!1 &826265583
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 826265585}
+  - component: {fileID: 826265584}
+  m_Layer: 0
+  m_Name: AttackEffectManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &826265584
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 826265583}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4393cc8df52404fe3b2a4def7e2b89d0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dolls: []
+  gameController: {fileID: 1665260588}
+--- !u!4 &826265585
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 826265583}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &831905048
 GameObject:
   m_ObjectHideFlags: 0
@@ -1446,6 +1511,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1109691166}
   - component: {fileID: 1109691167}
+  - component: {fileID: 1109691168}
   m_Layer: 0
   m_Name: EnemyManager
   m_TagString: EnemyManager
@@ -1485,9 +1551,26 @@ MonoBehaviour:
   - {fileID: 1055539850}
   - {fileID: 2051732414}
   - {fileID: 1931357119}
-  isBoosting: 0
   boostingTime: 10
   status: 0
+--- !u!114 &1109691168
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1109691165}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1552182283, guid: e725a070cec140c4caffb81624c8c787, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  SortKey: 3867143935
+  ObjectInterest: 1
+  Flags: 262145
+  NestedObjects: []
+  NetworkedBehaviours:
+  - {fileID: 1109691167}
 --- !u!1 &1154696728
 GameObject:
   m_ObjectHideFlags: 0
@@ -2156,7 +2239,10 @@ MonoBehaviour:
   _hpBarManager: {fileID: 1846270899}
   _uiConnecter: {fileID: 334981670}
   timeManager: {fileID: 1857183812}
+  _attackEffectManager: {fileID: 826265584}
+  camera: {fileID: 856032950}
   audioManager: {fileID: 832347849}
+  playersPosition: []
   _charCombo: 0
   _wordCombo: 0
 --- !u!4 &1665260589
@@ -2538,12 +2624,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 1857183811}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fbb5708b903d25049b7e8927123e8c87, type: 3}
+  m_Script: {fileID: 11500000, guid: 0a55c88f4a4cd44df982329d3e2de2a6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   status: 0
   time: 180
-  timer: 0
+  timer: 5
 --- !u!4 &1857183813
 Transform:
   m_ObjectHideFlags: 0
@@ -3130,4 +3216,4 @@ SceneRoots:
   - {fileID: 1835571366}
   - {fileID: 1109691166}
   - {fileID: 1846270897}
-  - {fileID: 2097963236}
+  - {fileID: 826265585}

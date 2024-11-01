@@ -4,8 +4,9 @@ using UnityEngine;
 
 public class Enemy : Character
 {
-    void Spowned()
+    public override void Spawned()
     {
+        base.Spawned();
         //characterName = "Enemy";
         health = maxHealth;
         //attackPower = 10;
