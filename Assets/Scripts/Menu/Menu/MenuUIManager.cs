@@ -32,11 +32,16 @@ public class MenuUIManager : MonoBehaviour
     [SerializeField] private TMP_InputField guestLobbyInput;
     
     [SerializeField] private GameObject backGround;
+    [SerializeField] private AudioManager audioManager = null;
     
     // Start is called before the first frame update
     void Start()
     {
+        // AudioManager を参照する
+        audioManager = GameObject.FindWithTag("AudioManager").GetComponent<AudioManager>();
         
+        // タイトル画面のBGMを再生
+        audioManager.PlayBGM(0);
     }
 
     // Update is called once per frame
@@ -45,6 +50,7 @@ public class MenuUIManager : MonoBehaviour
         
     }
 
+    // 部屋を作るボタンが押されると呼ばれる
     public void PopCreateUI()
     {
         CreateSettingPanel.SetActive(true);
@@ -55,6 +61,7 @@ public class MenuUIManager : MonoBehaviour
         SwitchUI();
     }
     
+    // 部屋を探すボタンが押されると呼ばれる
     public void PopJoinUI()
     {
         JoinSettingPanel.SetActive(true);
@@ -67,11 +74,15 @@ public class MenuUIManager : MonoBehaviour
 
     public async void SwitchUI()
     {
+        // 部屋作成画面開始
         if (num == 0)
         {
             StartPanel.SetActive(false);
+            // ロビー画面のBGMを再生
+            audioManager.PlayBGM(1);
             num++;
         }
+        
         else if (num == 1)
         {
             CreateSettingPanel.SetActive(false);

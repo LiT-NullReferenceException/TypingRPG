@@ -23,6 +23,7 @@ namespace Managers
 			Instance.Runner.LoadScene(SceneRef.FromIndex(LOBBY_SCENE));
 		}
 
+		// ステージ選択すると呼ばれる
 		public static void LoadTrack(int sceneIndex)
 		{
 			Instance.Runner.LoadScene(SceneRef.FromIndex(sceneIndex));
