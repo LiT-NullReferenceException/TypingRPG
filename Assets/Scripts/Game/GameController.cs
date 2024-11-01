@@ -20,8 +20,14 @@ public class GameController : MonoBehaviour
     [SerializeField] private UIConnecter _uiConnecter = null;
 
     [SerializeField] private TimeManager timeManager = null;
+    
+    [SerializeField] private AttackEffectManager _attackEffectManager = null;
+    
+    [SerializeField] private GameObject camera = null;
 
     [SerializeField] private AudioManager audioManager = null;
+
+    public List<Vector3> playersPosition = new List<Vector3>();
 
     // Start is called before the first frame update
     void Start()
@@ -35,8 +41,7 @@ public class GameController : MonoBehaviour
         _enemyManager = GameObject.FindGameObjectWithTag("EnemyManager").GetComponent<EnemyManager>();
 
         // HPバーを更新する
-        _hpBarManager.UpdatePlayerHPBar(_player.maxHealth, _player.health);
-        _hpBarManager.UpdataEnemyHPBar();
+        _hpBarManager.InitHPBar(_player.maxHealth);
 
         // タイマーを初期化する
         timeManager.timer = timeManager.time;
@@ -44,6 +49,32 @@ public class GameController : MonoBehaviour
 
         // AudioManager を参照する
         audioManager = GameObject.FindWithTag("AudioManager").GetComponent<AudioManager>();
+        
+        // プレイヤリストの取得
+        int max = RoomPlayer.Players.Count;
+        Debug.Log("max = " + max);
+
+        // プレイヤーが円形に並んだ時の座標を取得する
+
+        // 半径を取得する
+        float r = Vector2.Distance(Vector2.zero, new Vector2(camera.transform.position.x, camera.transform.position.z));
+        Debug.Log(string.Format("r = {0}", r));
+
+        for (int i = 0; i < max; i++)
+        {
+            Debug.Log(string.Format("i = {0}", i));
+            // 偏角（０～２π）を取得する
+            float theta = ((float)i / max) * 2.0f * Mathf.PI - (Mathf.PI / 2.0f);
+
+            // 座標を算出する
+            float cos = Mathf.Cos(theta);
+            float sin = Mathf.Sin(theta);
+            Debug.Log(string.Format("cos = {0} | sin = {1}", cos, sin));
+            Vector3 pos = new Vector3(cos * r, 0, sin * r);
+
+            // プレイヤーの座標を登録する
+            playersPosition.Add(pos);
+        }
     }
 
     // キー入力をチェックして正しいかどうか判定するメソッド
@@ -112,6 +143,8 @@ public class GameController : MonoBehaviour
             int attackPower = _player.attackPower + (int)Mathf.Floor(_charCombo * 0.25f); // コンボ数を考慮した攻撃力を計算
             _enemyManager.TakeDamage(attackPower);
             _uiConnecter.WhenPlayerAttackToEnemy();
+            
+            _attackEffectManager.Rpc_AttackEffect(RoomPlayer.Local);
 
             // 単語を入力出来たら...
             _wordCombo++;
@@ -119,7 +152,7 @@ public class GameController : MonoBehaviour
             if (_wordCombo % 10 == 0)
             {
                 // ブーストを発火
-                _enemyManager.SetIsBoosting = true;
+                _enemyManager.Rpc_SetIsBoosting();
             }
         }
 
@@ -127,7 +160,7 @@ public class GameController : MonoBehaviour
         if (!isCorrectChar)
         {
             // モンスターから攻撃される
-            _player.TakeDamage(_enemyManager.GetAttackPower());
+            _player.Rpc_TakeDamage(_enemyManager.GetAttackPower());
             _uiConnecter.WhenEnemyAttackToPlayer();
 
             // プレイヤーのHPバーを更新する

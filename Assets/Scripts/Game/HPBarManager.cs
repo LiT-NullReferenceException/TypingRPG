@@ -15,6 +15,13 @@ public class HPBarManager : MonoBehaviour
     {
         _enemyManager = GameObject.FindGameObjectWithTag("EnemyManager").GetComponent<EnemyManager>();
     }
+
+    public void InitHPBar(int maxHealth)
+    {
+        _playerHPBar.maxValue = maxHealth;
+        _playerHPBar.value = maxHealth;
+        _enemyHPBar.maxValue = _enemyManager.GetNowEnemyMaxHealth();
+    }
     
     public void UpdatePlayerHPBar(int maxHealth, int health)
     {
@@ -24,7 +31,6 @@ public class HPBarManager : MonoBehaviour
 
     public void UpdataEnemyHPBar()
     {
-        _enemyHPBar.maxValue = _enemyManager.GetNowEnemyMaxHealth();
         _enemyHPBar.value = _enemyManager.GetNowEnemyHealth();
     }
 
