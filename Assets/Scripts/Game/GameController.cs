@@ -21,6 +21,8 @@ public class GameController : MonoBehaviour
 
     [SerializeField] private TimeManager timeManager = null;
 
+    [SerializeField] private AudioManager audioManager = null;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -39,6 +41,9 @@ public class GameController : MonoBehaviour
         // タイマーを初期化する
         timeManager.timer = timeManager.time;
         timeManager.status = TimeManager.Status.Playing;
+
+        // AudioManager を参照する
+        audioManager = GameObject.FindWithTag("AudioManager").GetComponent<AudioManager>();
     }
 
     // キー入力をチェックして正しいかどうか判定するメソッド
@@ -85,10 +90,15 @@ public class GameController : MonoBehaviour
         bool isCorrectChar = CheckKeyInput(inputedChar); // 正解の入力だったか
         bool isLastChar = (_quizManager.doneInputIndex == _quizManager.GetNowQuiz.roman.Length); // 最後の文字かどうか
 
+        // キー入力に成功したら...
         if (isCorrectChar) 
         {
             _charCombo++;
             _uiConnecter.WhenCharComboIncreased();
+
+            // キー入力成功の音を鳴らす
+            audioManager.PlaySE(0);
+            // audioManager.PlaySE(1);
         }
 
         // 最後の文字で正解ならば、クイズを更新する
@@ -113,6 +123,7 @@ public class GameController : MonoBehaviour
             }
         }
 
+        // キー入力に失敗したら...
         if (!isCorrectChar)
         {
             // モンスターから攻撃される
@@ -126,6 +137,9 @@ public class GameController : MonoBehaviour
             _charCombo = 0;
             _wordCombo = 0;
             _uiConnecter.WhenCharComboDecreased();
+
+            // キー入力失敗の音を鳴らす
+            audioManager.PlaySE(2);
 
         }
 
