@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class Enemy : Character
 {
-    void Spowned()
+    public override void Spawned()
     {
         //characterName = "Enemy";
         health = maxHealth;

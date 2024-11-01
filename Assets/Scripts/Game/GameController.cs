@@ -39,6 +39,10 @@ public class GameController : MonoBehaviour
         // タイマーを初期化する
         timeManager.timer = timeManager.time;
         timeManager.status = TimeManager.Status.Playing;
+        
+        // プレイヤリストの取得
+        int max = RoomPlayer.Players.Count;
+        Debug.Log("max = " + max);
     }
 
     // キー入力をチェックして正しいかどうか判定するメソッド
