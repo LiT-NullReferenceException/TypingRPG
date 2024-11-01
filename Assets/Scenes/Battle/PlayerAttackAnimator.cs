@@ -12,8 +12,7 @@ public class PlayerAttackAnimator : MonoBehaviour
     /// <summary>
     /// 標的のオブジェクト
     /// </summary>
-    [SerializeField, Tooltip("標的のオブジェクトをここに割り当てる")]
-    private GameObject TargetObject;
+    public GameObject TargetObject;
 
     /// <summary>
     /// 射出角度
@@ -41,7 +40,7 @@ public class PlayerAttackAnimator : MonoBehaviour
     /// <param name="startPos">開始位置</param>
     /// <param name="endPos">終了位置</param>
     /// <param name="duration">再生時間</param>
-    public async void PlayEffect(Vector3 endPos, float duration)
+    public async void PlayEffect()
     {
         ThrowingObject.transform.position = _playerTrans.position;
         await UniTask.WaitForSeconds(0.5f);
@@ -51,11 +50,11 @@ public class PlayerAttackAnimator : MonoBehaviour
     }
 
     // これはテスト用
-    [ContextMenu("PlayEffect")]
-    public void Play()
-    {
-        PlayEffect(transform.position, 1);
-    }
+    // [ContextMenu("PlayEffect")]
+    // public void Play()
+    // {
+    //     PlayEffect(transform.position, 1);
+    // }
 
     /// <summary>
     /// ボールを射出する
