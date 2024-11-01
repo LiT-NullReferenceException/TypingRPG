@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using System.Threading.Tasks;
+using Fusion;
 using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
@@ -94,12 +95,14 @@ public class MenuUIManager : MonoBehaviour
             else
             {
                 GuestReadyPanel.SetActive(true);
+                GuestReadyPanel.GetComponent<MatchFoundDialogView>().SetTeamName(ServerInfo.LobbyName);
             }
         }
         else if (num == 2)
         {
             HostReadyPanel.SetActive(false);
             SelectPanel.SetActive(true);
+            RoomPlayer.Local.IsReady = true;
             num++;
         }
         else if (num == 3)
@@ -109,8 +112,8 @@ public class MenuUIManager : MonoBehaviour
         }
         else if (num == 4)
         {
-            SelectPanel.SetActive(false);
-            backGround.SetActive(false);
+            // SelectPanel.SetActive(false);
+            // backGround.SetActive(false);
         }
         
     }

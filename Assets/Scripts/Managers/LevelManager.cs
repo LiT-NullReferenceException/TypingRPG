@@ -62,6 +62,7 @@ namespace Managers
 				// Show an empty dummy UI screen - this will stay on during the game so that the game has a place in the navigation stack. Without this, Back() will break
 				Debug.Log("Showing Dummy");
 				//UIScreen.Focus(_dummyScreen);
+				this.gameObject.GetComponent<Canvas>().enabled = false;		// SetActive(false)でもいいけど、一応残しとく。
 			}
 			else if(scene==LOBBY_SCENE)
 			{

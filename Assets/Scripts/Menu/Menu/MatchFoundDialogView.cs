@@ -36,6 +36,6 @@ public class MatchFoundDialogView : MonoBehaviour, IDisabledUI
         Debug.Log("Adding name to room");
         GameObject nameNodeObj = Instantiate(_nameNodePefab, _nameNodeParent);
         NameNode nameNode = nameNodeObj.GetComponent<NameNode>();
-        nameNode.SetName(_player.Username.Value);
+        nameNode.SetName(_player);
     }
 }

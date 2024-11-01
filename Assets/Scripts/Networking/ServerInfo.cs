@@ -1,3 +1,4 @@
+using Fusion;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
