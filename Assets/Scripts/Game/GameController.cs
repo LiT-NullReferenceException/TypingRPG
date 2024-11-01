@@ -173,7 +173,7 @@ public class GameController : MonoBehaviour
             // 単語を入力出来たら...
             _wordCombo++;
 
-            if (_wordCombo % 10 == 0)
+            if (_wordCombo % 5 == 0)
             {
                 // ブーストを発火
                 _enemyManager.Rpc_SetIsBoosting();

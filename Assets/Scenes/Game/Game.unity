@@ -832,7 +832,7 @@ MonoBehaviour:
   characterName: Player_001
   maxHealth: 100
   _health: 0
-  attackPower: 20
+  attackPower: 1
   status: 1
   _RoomUser: {fileID: 0}
   name: 
@@ -1182,6 +1182,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   dolls: []
   gameController: {fileID: 1665260588}
+  audioManager: {fileID: 0}
 --- !u!4 &826265585
 Transform:
   m_ObjectHideFlags: 0
