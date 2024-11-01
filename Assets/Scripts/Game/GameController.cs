@@ -116,7 +116,7 @@ public class GameController : MonoBehaviour
             if (_wordCombo % 10 == 0)
             {
                 // ブーストを発火
-                _enemyManager.SetIsBoosting = true;
+                _enemyManager.Rpc_SetIsBoosting();
             }
         }
 

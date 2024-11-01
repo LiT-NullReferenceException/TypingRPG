@@ -1,27 +1,38 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using System.Runtime.CompilerServices;
+using Fusion;
 using Unity.VisualScripting;
 using UnityEngine;
 
 // EnemyManager は全てのプレイヤーで共通 → シングルトンにする
 
-public class EnemyManager : MonoBehaviour
+public class EnemyManager : NetworkBehaviour
 {
     [SerializeField] private int _enemyIndex = 0;
     [SerializeField] private Enemy[] _enemies = null;
 
     // ブースト中かを判定する変数
-    [SerializeField] private bool isBoosting = false;
-    public bool SetIsBoosting 
+    [Networked] private bool isBoosting { get; set; } = false;
+    // public bool SetIsBoosting 
+    // {
+    //     set 
+    //     { 
+    //         isBoosting = value;
+    //         boostingTimer = boostingTime; // ブースト時間をリセット
+    //         Debug.Log(string.Format("[EnemyManager - Update()] ブースト開始"));
+    //     }
+    // }
+    
+
+    [Rpc(RpcSources.All, RpcTargets.StateAuthority)]
+    public void Rpc_SetIsBoosting()
     {
-        set 
-        { 
-            isBoosting = value;
-            boostingTimer = boostingTime; // ブースト時間をリセット
-            Debug.Log(string.Format("[EnemyManager - Update()] ブースト開始"));
-        }
+        isBoosting = true;
+        boostingTimer = boostingTime; // ブースト時間をリセット
+        Debug.Log(string.Format("[EnemyManager - Update()] ブースト開始"));
     }
+    
     float boostingTimer = 5.0f; // 残りのブースト時間を格納する変数
     [SerializeField] private float boostingTime = 10.0f; // ブーストされる時間を格納する変数
 
@@ -76,8 +87,9 @@ public class EnemyManager : MonoBehaviour
     }
 
     // Start is called before the first frame update
-    void Start()
+    public override void Spawned()
     {
+        base.Spawned();
         for (int i = 0; i < _enemies.Length; i++)
         {
             _enemies[i].SetEnemyManager = this;
@@ -85,17 +97,21 @@ public class EnemyManager : MonoBehaviour
     }
 
     // Update is called once per frame
-    void Update()
+    public override void Render()
     {
+        base.Render();
         if (isBoosting)
         {
-            if (boostingTimer < 0) 
+            if (RoomPlayer.Local.IsLeader)
             {
-                isBoosting = false;
-                Debug.Log(string.Format("[EnemyManager - Update()] ブースト停止"));
-            }
+                if (boostingTimer < 0) 
+                {
+                    isBoosting = false;
+                    Debug.Log(string.Format("[EnemyManager - Update()] ブースト停止"));
+                }
 
-            boostingTimer -= Time.deltaTime;
+                boostingTimer -= Time.deltaTime;
+            }
         }
     }
 }
