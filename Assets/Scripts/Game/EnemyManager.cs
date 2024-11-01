@@ -13,7 +13,7 @@ public class EnemyManager : NetworkBehaviour
     [SerializeField] private Enemy[] _enemies = null;
 
     // ブースト中かを判定する変数
-    [Networked] private bool isBoosting { get; set; } = false;
+    [Networked] public bool isBoosting { get; set; } = false;
     // public bool SetIsBoosting 
     // {
     //     set 
