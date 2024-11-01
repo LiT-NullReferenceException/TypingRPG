@@ -1,3 +1,4 @@
+using System;
 using Cysharp.Threading.Tasks;
 using DG.Tweening;
 using UnityEngine;
@@ -9,7 +10,7 @@ public class ResultView : MonoBehaviour
     [SerializeField] private CanvasGroup _selectDialog;
 
     [ContextMenu("Play")]
-    public async void DiaplayResultView()
+    public async void DisplayResultView()
     {
         RectTransform rect = _gameObject.gameObject.GetComponent<RectTransform>();
         rect.localScale = Vector3.one * 10;

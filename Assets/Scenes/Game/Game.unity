@@ -474,6 +474,17 @@ RectTransform:
   m_CorrespondingSourceObject: {fileID: 5907258407200734280, guid: 0d53f158a9bfc4679958215652672935, type: 3}
   m_PrefabInstance: {fileID: 411084055}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &411084057 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 7773091556187527384, guid: 0d53f158a9bfc4679958215652672935, type: 3}
+  m_PrefabInstance: {fileID: 411084055}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8fea26dec7e7448c496db5836b052be3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &541770117
 GameObject:
   m_ObjectHideFlags: 0
@@ -1275,6 +1286,17 @@ RectTransform:
   m_CorrespondingSourceObject: {fileID: 1515566332087356791, guid: 9dc233a19c3374511998cb84ef5f93d9, type: 3}
   m_PrefabInstance: {fileID: 876254621}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &876254623 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 3590358356991618138, guid: 9dc233a19c3374511998cb84ef5f93d9, type: 3}
+  m_PrefabInstance: {fileID: 876254621}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8fea26dec7e7448c496db5836b052be3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &981161958
 GameObject:
   m_ObjectHideFlags: 0
@@ -2473,6 +2495,7 @@ GameObject:
   - component: {fileID: 1846270894}
   - component: {fileID: 1846270898}
   - component: {fileID: 1846270899}
+  - component: {fileID: 1846270900}
   m_Layer: 5
   m_Name: Canvas
   m_TagString: Untagged
@@ -2598,6 +2621,22 @@ MonoBehaviour:
   _playerHPBar: {fileID: 1439321058}
   _enemyHPBar: {fileID: 1681958313}
   _enemyManager: {fileID: 1109691167}
+--- !u!114 &1846270900
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1846270893}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d2c800fa9af3b495ca841e021673a2a2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _timeManager: {fileID: 1857183812}
+  _enemyManager: {fileID: 1109691167}
+  _gameOverPanel: {fileID: 411084057}
+  _gameClearPanel: {fileID: 876254623}
 --- !u!1 &1857183811
 GameObject:
   m_ObjectHideFlags: 0
@@ -3217,3 +3256,4 @@ SceneRoots:
   - {fileID: 1109691166}
   - {fileID: 1846270897}
   - {fileID: 826265585}
+  - {fileID: 2097963236}
