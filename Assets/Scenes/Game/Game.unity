@@ -1202,6 +1202,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4393cc8df52404fe3b2a4def7e2b89d0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  dolls: []
+  gameController: {fileID: 1665260588}
 --- !u!1 &1076207814
 GameObject:
   m_ObjectHideFlags: 0
@@ -1913,6 +1915,8 @@ MonoBehaviour:
   _uiConnecter: {fileID: 334981670}
   timeManager: {fileID: 1857183812}
   _attackEffectManager: {fileID: 1074542811}
+  camera: {fileID: 856032950}
+  playersPosition: []
   _charCombo: 0
   _wordCombo: 0
 --- !u!4 &1665260589

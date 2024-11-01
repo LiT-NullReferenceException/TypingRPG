@@ -6,8 +6,8 @@ using UnityEngine;
 
 public class AttackEffectManager : MonoBehaviour
 {
-    List<RoomPlayer> dolls = new List<RoomPlayer>();
-    //List<Transform> points = new List<Transform>();   こんな感じの座標のリストをここで取得したいです。
+    [SerializeField]List<RoomPlayer> dolls = new List<RoomPlayer>();
+    [SerializeField] GameController gameController;
 
     private void Awake()
     {
@@ -34,9 +34,11 @@ public class AttackEffectManager : MonoBehaviour
     }
 
     [Rpc(RpcSources.All, RpcTargets.All)]
-    public void AttackEffect(RoomPlayer player)
+    public void Rpc_AttackEffect(RoomPlayer player)
     {
         int index = dolls.FindIndex(roomPlayer => roomPlayer == player);
+        Vector3 pos = gameController.playersPosition[index];
+        Debug.Log(pos);
         //points[index].position = hogehoge;    // ここで座標のリストを元にエフェクトの出現位置を決める。
     }
 }

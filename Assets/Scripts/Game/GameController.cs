@@ -22,6 +22,10 @@ public class GameController : MonoBehaviour
     [SerializeField] private TimeManager timeManager = null;
     
     [SerializeField] private AttackEffectManager _attackEffectManager = null;
+    
+    [SerializeField] private GameObject camera = null;
+
+    public List<Vector3> playersPosition = new List<Vector3>();
 
     // Start is called before the first frame update
     void Start()
@@ -44,6 +48,28 @@ public class GameController : MonoBehaviour
         // プレイヤリストの取得
         int max = RoomPlayer.Players.Count;
         Debug.Log("max = " + max);
+
+        // プレイヤーが円形に並んだ時の座標を取得する
+
+        // 半径を取得する
+        float r = Vector2.Distance(Vector2.zero, new Vector2(camera.transform.position.x, camera.transform.position.z));
+        Debug.Log(string.Format("r = {0}", r));
+
+        for (int i = 0; i < max; i++)
+        {
+            Debug.Log(string.Format("i = {0}", i));
+            // 偏角（０～２π）を取得する
+            float theta = ((float)i / max) * 2.0f * Mathf.PI - (Mathf.PI / 2.0f);
+
+            // 座標を算出する
+            float cos = Mathf.Cos(theta);
+            float sin = Mathf.Sin(theta);
+            Debug.Log(string.Format("cos = {0} | sin = {1}", cos, sin));
+            Vector3 pos = new Vector3(cos * r, 0, sin * r);
+
+            // プレイヤーの座標を登録する
+            playersPosition.Add(pos);
+        }
     }
 
     // キー入力をチェックして正しいかどうか判定するメソッド
@@ -108,7 +134,7 @@ public class GameController : MonoBehaviour
             _enemyManager.TakeDamage(attackPower);
             _uiConnecter.WhenPlayerAttackToEnemy();
             
-            _attackEffectManager.AttackEffect(RoomPlayer.Local);
+            _attackEffectManager.Rpc_AttackEffect(RoomPlayer.Local);
 
             // 単語を入力出来たら...
             _wordCombo++;
