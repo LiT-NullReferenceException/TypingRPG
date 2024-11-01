@@ -96,8 +96,9 @@ public class AudioManager : MonoBehaviour
     {
         int index = this.ConvertIdIntoIndex(this.audioData.BGM_Data, id);
         this.BGMSource.clip = this.audioData.BGM_Data[index].clip;
-        this.BGMSource.volume = this.audioData.BGM_Data[index].volume;
+        this.BGMSource.volume = 0; // フェードイン用に音量を0からスタート
         this.BGMSource.Play();
+        StartCoroutine(FadeInBGM(this.BGMSource, this.audioData.BGM_Data[index].volume));
     }
 
     public void StopBGM()
@@ -113,5 +114,22 @@ public class AudioManager : MonoBehaviour
     public void UnPauseBGM()
     {
         this.BGMSource.UnPause();
+    }
+    
+    // BGMをフェードインさせるメソッド
+    private IEnumerator FadeInBGM(AudioSource audioSource, float targetVolume)
+    {
+        float fadeDuration = 2.0f; // フェードインの時間（秒）
+        float startVolume = audioSource.volume;
+        float elapsedTime = 0;
+
+        while (elapsedTime < fadeDuration)
+        {
+            audioSource.volume = Mathf.Lerp(startVolume, targetVolume, elapsedTime / fadeDuration);
+            elapsedTime += Time.deltaTime;
+            yield return null;
+        }
+
+        audioSource.volume = targetVolume; // 最終的に目標音量に設定
     }
 }

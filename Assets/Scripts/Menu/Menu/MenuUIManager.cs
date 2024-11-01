@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using System.Threading.Tasks;
+using Cysharp.Threading.Tasks;
 using Fusion;
 using TMPro;
 using UnityEngine;
@@ -32,11 +33,16 @@ public class MenuUIManager : MonoBehaviour
     [SerializeField] private TMP_InputField guestLobbyInput;
     
     [SerializeField] private GameObject backGround;
+    [SerializeField] private AudioManager audioManager = null;
     
     // Start is called before the first frame update
     void Start()
     {
+        // AudioManager を参照する
+        audioManager = GameObject.FindWithTag("AudioManager").GetComponent<AudioManager>();
         
+        // タイトル画面のBGMを再生
+        audioManager.PlayBGM(0);
     }
 
     // Update is called once per frame
@@ -45,8 +51,13 @@ public class MenuUIManager : MonoBehaviour
         
     }
 
-    public void PopCreateUI()
+    // 部屋を作るボタンが押されると呼ばれる
+    public async void PopCreateUI()
     {
+        audioManager.PlaySE(3);
+        // 1秒待機
+        await WaitOneSecondAsync();
+        
         CreateSettingPanel.SetActive(true);
         nicknameInput = hostNameInput;
         nicknameInput.onValueChanged.AddListener(x => ClientInfo.Username = x);
@@ -55,8 +66,13 @@ public class MenuUIManager : MonoBehaviour
         SwitchUI();
     }
     
-    public void PopJoinUI()
+    // 部屋を探すボタンが押されると呼ばれる
+    public async void PopJoinUI()
     {
+        audioManager.PlaySE(3);
+        // 1秒待機
+        await WaitOneSecondAsync();
+        
         JoinSettingPanel.SetActive(true);
         nicknameInput = guestNameInput;
         nicknameInput.onValueChanged.AddListener(x => ClientInfo.Username = x);
@@ -67,13 +83,20 @@ public class MenuUIManager : MonoBehaviour
 
     public async void SwitchUI()
     {
+        // 部屋作成画面開始
         if (num == 0)
         {
             StartPanel.SetActive(false);
+            // ロビー画面のBGMを再生
+            audioManager.PlayBGM(1);
             num++;
         }
+        
         else if (num == 1)
         {
+            // ボタンのSEを再生
+            //audioManager.PlaySE(4);
+            
             CreateSettingPanel.SetActive(false);
             JoinSettingPanel.SetActive(false);
             
@@ -100,6 +123,9 @@ public class MenuUIManager : MonoBehaviour
         }
         else if (num == 2)
         {
+            // ボタンのSEを再生
+            audioManager.PlaySE(4);
+            
             HostReadyPanel.SetActive(false);
             SelectPanel.SetActive(true);
             RoomPlayer.Local.IsReady = true;
@@ -107,14 +133,26 @@ public class MenuUIManager : MonoBehaviour
         }
         else if (num == 3)
         {
+            // ボタンのSEを再生
+            audioManager.PlaySE(4);
+            
             ToGamePanel.SetActive(true);
             num++;
         }
         else if (num == 4)
         {
+            // ボタンのSEを再生
+            audioManager.PlaySE(4);
+            
             // SelectPanel.SetActive(false);
             // backGround.SetActive(false);
         }
         
+    }
+    
+    // 1秒待機するメソッド
+    private async UniTask WaitOneSecondAsync()
+    {
+        await UniTask.Delay(1000); // 1秒待機（ミリ秒で指定）
     }
 }
