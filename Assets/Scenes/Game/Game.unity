@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.18028373, g: 0.22571398, b: 0.30692294, a: 1}
+  m_IndirectSpecularColor: {r: 0.18028378, g: 0.22571412, b: 0.30692285, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -328,6 +328,50 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: -20, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!1 &334981668
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 334981669}
+  - component: {fileID: 334981670}
+  m_Layer: 0
+  m_Name: UIConnector
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &334981669
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 334981668}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &334981670
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 334981668}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a47471f79bd8343419defe95b7fb01e8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &541770117
 GameObject:
   m_ObjectHideFlags: 0
@@ -443,7 +487,6 @@ GameObject:
   m_Component:
   - component: {fileID: 647118144}
   - component: {fileID: 647118145}
-  - component: {fileID: 647118146}
   m_Layer: 0
   m_Name: Player
   m_TagString: Untagged
@@ -483,26 +526,6 @@ MonoBehaviour:
   health: 100
   attackPower: 20
   status: 1
-  _RoomUser: {fileID: 0}
-  name: 
---- !u!114 &647118146
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 647118143}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: -1552182283, guid: e725a070cec140c4caffb81624c8c787, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  SortKey: 1912402693
-  ObjectInterest: 1
-  Flags: 262145
-  NestedObjects: []
-  NetworkedBehaviours:
-  - {fileID: 647118145}
 --- !u!1 &675578882
 GameObject:
   m_ObjectHideFlags: 0
@@ -550,10 +573,6 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: -4901888574932267831, guid: ab66f8b5cc797cb45bc09848f45aa391, type: 3}
-      propertyPath: SortKey
-      value: 3041406623
-      objectReference: {fileID: 0}
     - target: {fileID: 1013959259302316823, guid: ab66f8b5cc797cb45bc09848f45aa391, type: 3}
       propertyPath: m_Name
       value: Enemy (1)
@@ -1244,6 +1263,8 @@ MonoBehaviour:
   - {fileID: 1055539850}
   - {fileID: 2051732414}
   - {fileID: 1931357119}
+  isBoosting: 0
+  boostingTime: 10
   status: 0
 --- !u!1 &1154696728
 GameObject:
@@ -1778,7 +1799,7 @@ GameObject:
   - component: {fileID: 1665260589}
   - component: {fileID: 1665260588}
   m_Layer: 0
-  m_Name: GameController
+  m_Name: GameManager
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1802,8 +1823,10 @@ MonoBehaviour:
   _enemyManager: {fileID: 1109691167}
   _player: {fileID: 647118145}
   _hpBarManager: {fileID: 1846270899}
-  _uiConnecter: {fileID: 0}
+  _uiConnecter: {fileID: 334981670}
+  timeManager: {fileID: 1857183812}
   _charCombo: 0
+  _wordCombo: 0
 --- !u!4 &1665260589
 Transform:
   m_ObjectHideFlags: 0
@@ -1953,10 +1976,6 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: -4901888574932267831, guid: ab66f8b5cc797cb45bc09848f45aa391, type: 3}
-      propertyPath: SortKey
-      value: 1552856031
-      objectReference: {fileID: 0}
     - target: {fileID: 1013959259302316823, guid: ab66f8b5cc797cb45bc09848f45aa391, type: 3}
       propertyPath: m_Name
       value: Enemy (2)
@@ -2155,6 +2174,53 @@ MonoBehaviour:
   _playerHPBar: {fileID: 1439321058}
   _enemyHPBar: {fileID: 1681958313}
   _enemyManager: {fileID: 1109691167}
+--- !u!1 &1857183811
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1857183813}
+  - component: {fileID: 1857183812}
+  m_Layer: 0
+  m_Name: TimeManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1857183812
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1857183811}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fbb5708b903d25049b7e8927123e8c87, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  status: 0
+  time: 20
+  timer: 0
+--- !u!4 &1857183813
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1857183811}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1931357119 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 4337939712866742344, guid: ab66f8b5cc797cb45bc09848f45aa391, type: 3}
@@ -2444,10 +2510,6 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: -4901888574932267831, guid: ab66f8b5cc797cb45bc09848f45aa391, type: 3}
-      propertyPath: SortKey
-      value: 3028676258
-      objectReference: {fileID: 0}
     - target: {fileID: 1013959259302316823, guid: ab66f8b5cc797cb45bc09848f45aa391, type: 3}
       propertyPath: m_Name
       value: Enemy
@@ -2516,9 +2578,11 @@ SceneRoots:
   - {fileID: 856032953}
   - {fileID: 247805209}
   - {fileID: 1520290882}
+  - {fileID: 334981669}
   - {fileID: 1665260589}
   - {fileID: 1993195419}
   - {fileID: 1076207816}
+  - {fileID: 1857183813}
   - {fileID: 1621662120}
   - {fileID: 541770121}
   - {fileID: 647118144}
