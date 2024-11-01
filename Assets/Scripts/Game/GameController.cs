@@ -28,6 +28,11 @@ public class GameController : MonoBehaviour
     [SerializeField] private AudioManager audioManager = null;
 
     public List<Vector3> playersPosition = new List<Vector3>();
+    
+    [SerializeField] private GameObject enemy = null;
+    
+    public GameObject playerPrefab = null;
+    public GameObject[] dollPrefabs = null;
 
     // Start is called before the first frame update
     void Start()
@@ -74,6 +79,20 @@ public class GameController : MonoBehaviour
 
             // プレイヤーの座標を登録する
             playersPosition.Add(pos);
+        }
+        
+        // 人形の生成
+        dollPrefabs = new GameObject[playersPosition.Count];
+        
+        for (int i = 0; i < playersPosition.Count; i++)
+        {
+            GameObject go = Instantiate(playerPrefab, playersPosition[i], Quaternion.identity);
+            go.GetComponent<PlayerAttackAnimator>().TargetObject = enemy;
+            dollPrefabs[i] = go;
+            if (i == 0)
+            {
+                go.GetComponent<SpriteRenderer>().enabled = false;
+            }
         }
     }
 

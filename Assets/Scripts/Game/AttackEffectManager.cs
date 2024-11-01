@@ -4,7 +4,7 @@ using System.Collections.Generic;
 using Fusion;
 using UnityEngine;
 
-public class AttackEffectManager : MonoBehaviour
+public class AttackEffectManager : NetworkBehaviour
 {
     [SerializeField]List<RoomPlayer> dolls = new List<RoomPlayer>();
     [SerializeField] GameController gameController;
@@ -37,8 +37,6 @@ public class AttackEffectManager : MonoBehaviour
     public void Rpc_AttackEffect(RoomPlayer player)
     {
         int index = dolls.FindIndex(roomPlayer => roomPlayer == player);
-        Vector3 pos = gameController.playersPosition[index];
-        Debug.Log(pos);
-        //points[index].position = hogehoge;    // ここで座標のリストを元にエフェクトの出現位置を決める。
+        gameController.dollPrefabs[index].GetComponent<PlayerAttackAnimator>()?.PlayEffect();
     }
 }
