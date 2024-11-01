@@ -5,8 +5,19 @@ public class NameNode : MonoBehaviour
 {
     [SerializeField] private TextMeshProUGUI _nameText;
 
-    public void SetName(string name)
+    private RoomPlayer _player;
+    
+    public void SetName(RoomPlayer player)
     {
-        _nameText.text = name;
+        Debug.Log("nameSet!");
+        _player = player;
+        _nameText.text = _player.Username.Value;
+    }
+    
+    private void Update() {
+        if (_player.Object != null && _player.Object.IsValid)
+        {
+            _nameText.text = _player.Username.Value;
+        }
     }
 }
