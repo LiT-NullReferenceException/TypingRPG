@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 2411332252120988582}
   - component: {fileID: 5655286967663000292}
   - component: {fileID: 3295563760643014621}
+  - component: {fileID: 7146184393082695658}
   m_Layer: 5
   m_Name: DialogBase
   m_TagString: Untagged
@@ -77,6 +78,20 @@ MonoBehaviour:
   m_FillOrigin: 0
   m_UseSpriteMesh: 1
   m_PixelsPerUnitMultiplier: 0.55
+--- !u!114 &7146184393082695658
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 127093762187854752}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: be18916dbf2334a398d9222c588ef22b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  isModal: 0
+  previousScreen: {fileID: 0}
 --- !u!1 &379330895939356902
 GameObject:
   m_ObjectHideFlags: 0
@@ -144,8 +159,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: Title
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 31c1f9f98243ec4478b81fafd8cbe240, type: 2}
-  m_sharedMaterial: {fileID: 517836202057278837, guid: 31c1f9f98243ec4478b81fafd8cbe240, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: d62c694a978384e51b76396f3fcf47ca, type: 2}
+  m_sharedMaterial: {fileID: -6265398682026005840, guid: d62c694a978384e51b76396f3fcf47ca, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
