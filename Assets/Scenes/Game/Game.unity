@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.18028378, g: 0.22571412, b: 0.30692285, a: 1}
+  m_IndirectSpecularColor: {r: 0.18028373, g: 0.22571398, b: 0.30692294, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -556,6 +556,8 @@ GameObject:
   - component: {fileID: 417315244}
   - component: {fileID: 417315246}
   - component: {fileID: 417315245}
+  - component: {fileID: 417315248}
+  - component: {fileID: 417315247}
   m_Layer: 5
   m_Name: BoostText
   m_TagString: Untagged
@@ -679,6 +681,34 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 417315243}
   m_CullTransparentMesh: 1
+--- !u!114 &417315247
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 417315243}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a8fa157379dca46d5bc2e7f02cc0383c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _boostView: {fileID: 417315248}
+  _enemyManager: {fileID: 1109691167}
+--- !u!114 &417315248
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 417315243}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cb1b7e61666014634973dd4ac58dd5ef, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _enemyManager: {fileID: 1109691167}
+  _boostText: {fileID: 417315245}
 --- !u!1 &541770117
 GameObject:
   m_ObjectHideFlags: 0
@@ -2698,6 +2728,7 @@ GameObject:
   - component: {fileID: 1716093262}
   - component: {fileID: 1716093261}
   - component: {fileID: 1716093263}
+  - component: {fileID: 1716093264}
   m_Layer: 5
   m_Name: CountDownText
   m_TagString: Untagged
@@ -2837,6 +2868,20 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _timeManager: {fileID: 1857183812}
   _timeText: {fileID: 1716093261}
+--- !u!114 &1716093264
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1716093259}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d8322022a30da423abf9503f5a9784b1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _countDownText: {fileID: 1716093263}
+  _timeManager: {fileID: 1857183812}
 --- !u!1001 &1835571366
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2925,7 +2970,6 @@ GameObject:
   - component: {fileID: 1846270898}
   - component: {fileID: 1846270899}
   - component: {fileID: 1846270900}
-  - component: {fileID: 1846270901}
   m_Layer: 5
   m_Name: Canvas
   m_TagString: Untagged
@@ -3070,20 +3114,6 @@ MonoBehaviour:
   _gameOverPanel: {fileID: 411084057}
   _gameClearPanel: {fileID: 876254623}
   audioManager: {fileID: 0}
---- !u!114 &1846270901
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1846270893}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: cb1b7e61666014634973dd4ac58dd5ef, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _enemyManager: {fileID: 1109691167}
-  _boostText: {fileID: 417315245}
 --- !u!1 &1857183811
 GameObject:
   m_ObjectHideFlags: 0

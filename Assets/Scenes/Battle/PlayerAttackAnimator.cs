@@ -49,13 +49,6 @@ public class PlayerAttackAnimator : MonoBehaviour
         ThrowingObject.GetComponent<AttackEffect>().Attack();
     }
 
-    // これはテスト用
-    // [ContextMenu("PlayEffect")]
-    // public void Play()
-    // {
-    //     PlayEffect(transform.position, 1);
-    // }
-
     /// <summary>
     /// ボールを射出する
     /// </summary>
