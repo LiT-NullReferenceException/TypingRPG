@@ -1,0 +1,68 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0f719b77c00636041a763f7b9da4cad1, type: 3}
+  m_Name: Data
+  m_EditorClassIdentifier: 
+  SE_Data:
+  - id: 0
+    clip: {fileID: 8300000, guid: b344b9bf7918325498249770f761d126, type: 3}
+    volume: 1
+    memo: "\u30AD\u30FC\u6253\u9375\u97F3\u305D\u306E\uFF11"
+  - id: 1
+    clip: {fileID: 8300000, guid: b2a0eecd6306a50409cc5e601a24c077, type: 3}
+    volume: 1
+    memo: "\u30AD\u30FC\u6253\u9375\u97F3\u305D\u306E\uFF12"
+  - id: 2
+    clip: {fileID: 8300000, guid: 802ba7a26e5851449961b91900a25b5e, type: 3}
+    volume: 1
+    memo: "\u30AD\u30FC\u6253\u9375\u97F3\u5931\u6557\u305D\u306E\uFF11"
+  - id: 3
+    clip: {fileID: 8300000, guid: 8bc0cc622469b0441b75cac61ab58f51, type: 3}
+    volume: 0.5
+    memo: "\u30B7\u30FC\u30F3\u9077\u79FB\u30DC\u30BF\u30F3"
+  - id: 4
+    clip: {fileID: 8300000, guid: 3fda169fb8a0913448af0dbaaff367bc, type: 3}
+    volume: 0.7
+    memo: "\u30CE\u30FC\u30DE\u30EB\u30DC\u30BF\u30F3"
+  - id: 5
+    clip: {fileID: 8300000, guid: f5d7c36fe4adca049a04ac066e435bbd, type: 3}
+    volume: 0.5
+    memo: "\u30AB\u30FC\u30BD\u30EB\u79FB\u52D5"
+  - id: 6
+    clip: {fileID: 8300000, guid: 8bc0cc622469b0441b75cac61ab58f51, type: 3}
+    volume: 0.5
+    memo: "\u30B7\u30FC\u30F3\u9077\u79FB"
+  - id: 7
+    clip: {fileID: 8300000, guid: 3af9d5ff91b524e428adbcb6c85c8b35, type: 3}
+    volume: 0.5
+    memo: "\u30A8\u30D5\u30A7\u30AF\u30C8"
+  BGM_Data:
+  - id: 0
+    clip: {fileID: 8300000, guid: 3ea41ea0c3be1ad478eb765528384208, type: 3}
+    volume: 0.5
+    memo: "\u30BF\u30A4\u30C8\u30EB\u30B7\u30FC\u30F3\u3067\u6D41\u308C\u308B"
+  - id: 1
+    clip: {fileID: 8300000, guid: 5cc53cbc34a40314bb09d83ac07965f7, type: 3}
+    volume: 0.5
+    memo: "\u30ED\u30D3\u30FC\u753B\u9762\u3067\u6D41\u308C\u308B"
+  - id: 2
+    clip: {fileID: 8300000, guid: 351a03a265f73f64089b3885d99f9a8d, type: 3}
+    volume: 0.2
+    memo: "\u30D0\u30C8\u30EB\u4E2D\u306B\u6D41\u308C\u308B"
+  - id: 3
+    clip: {fileID: 8300000, guid: 96b34502fe73bbd4980d7532ac693093, type: 3}
+    volume: 0.5
+    memo: "\u30B2\u30FC\u30E0\u30AF\u30EA\u30A2\u6642\u306B\u6D41\u308C\u308B"
+  - id: 4
+    clip: {fileID: 8300000, guid: 7ae625d721bc1964dbb5da5ed17aeff7, type: 3}
+    volume: 0.5
+    memo: "\u30B2\u30FC\u30E0\u30AA\u30FC\u30D0\u30FC\u6642\u306B\u6D41\u308C\u308B"
