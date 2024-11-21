@@ -36,4 +36,24 @@ public class ResultViewController : MonoBehaviour
             _gameClearPanel.Rpc_DisplayResultView();
         }
     }
+
+    /// <summary>
+    /// ゲームオーバ時の処理
+    /// </summary>
+    public void GameOver()
+    {
+        audioManager.StopBGM();
+        audioManager.PlayBGM(4);
+        _gameOverPanel.Rpc_DisplayResultView();
+    }
+
+    /// <summary>
+    /// ゲームクリア時の処理
+    /// </summary>
+    public void GameClear()
+    {
+        audioManager.StopBGM();
+        audioManager.PlayBGM(3);
+        _gameClearPanel.Rpc_DisplayResultView();
+    }
 }

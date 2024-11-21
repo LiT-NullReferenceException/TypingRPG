@@ -20,26 +20,34 @@ public class BoostView : MonoBehaviour
         {
             isFirst = false;
             PlayBoostTimeAnimation();
-            _boostText.gameObject.SetActive(true);
         }
 
         if (!_enemyManager.isBoosting && !isFirst)
         {
             isFirst = true;
             StopBoostTimeAnimation();
-            _boostText.gameObject.SetActive(false);
         }
     }
 
+    /// <summary>
+    /// ブースト時のテキストを表示
+    /// </summary>
     public void PlayBoostTimeAnimation()
     {
         _tweener = _boostText.DOFade(0, 0.3f)
             .SetLoops(-1, LoopType.Yoyo);
+        
+        _boostText.gameObject.SetActive(true);
     }
 
+    /// <summary>
+    ///  ブースト時のテキストを非表示
+    /// </summary>
     public void StopBoostTimeAnimation()
     {
         _tweener.Kill();
         _boostText.DOFade(1, 0.1f);
+        
+        _boostText.gameObject.SetActive(false);
     }
 }
