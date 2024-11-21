@@ -2539,6 +2539,7 @@ MonoBehaviour:
   _attackEffectManager: {fileID: 826265584}
   camera: {fileID: 856032950}
   audioManager: {fileID: 832347849}
+  dictionaryFile: {fileID: 4900000, guid: 8aa075f261ebd2e499e118dee281d420, type: 3}
   playersPosition: []
   enemy: {fileID: 4859571276374576486}
   playerPrefab: {fileID: 7766817806552014150, guid: 930615f3a4aaa478b850d216485f7f22, type: 3}
@@ -3131,6 +3132,51 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1919868323
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1919868325}
+  - component: {fileID: 1919868324}
+  m_Layer: 0
+  m_Name: HiraganaToRomanConverter
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1919868324
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1919868323}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e7ffb4d9ec6510e40a008e9a788efb48, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dictionaryFile: {fileID: 4900000, guid: 8aa075f261ebd2e499e118dee281d420, type: 3}
+--- !u!4 &1919868325
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1919868323}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1931357119 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 4337939712866742344, guid: ab66f8b5cc797cb45bc09848f45aa391, type: 3}
@@ -3411,7 +3457,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1e6c8e93411262b4a8737e081f5f119b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  quizDataBase: {fileID: 11400000, guid: 6c487a2886c6f3d42b173fc2525edc09, type: 2}
+  quizDataBase: {fileID: 11400000, guid: 6755fc099442cce4c8f66e09b77c21a8, type: 2}
   nowQuiz:
     original: 
     japanese: 
@@ -3694,6 +3740,7 @@ SceneRoots:
   - {fileID: 247805209}
   - {fileID: 1520290882}
   - {fileID: 334981669}
+  - {fileID: 1919868325}
   - {fileID: 1665260589}
   - {fileID: 1993195419}
   - {fileID: 1076207816}
