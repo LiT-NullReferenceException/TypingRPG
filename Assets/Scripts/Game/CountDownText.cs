@@ -13,4 +13,13 @@ public class CountDownText : MonoBehaviour
     {
         _timeText.text = _timeManager.timer.ToString("00");
     }
+
+    /// <summary>
+    /// 表示する秒数を更新する
+    /// </summary>
+    /// <param name="time">秒数</param>
+    public void UpdateText(float time)
+    {
+        _timeText.text = time.ToString("00");
+    }
 }
