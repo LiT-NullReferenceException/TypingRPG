@@ -6,14 +6,14 @@ using UnityEngine.Audio;
 
 public class JoinOrCreateRoomUI : MonoBehaviour
 {
-    [SerializeField] private AudioManager audioManager;
+    //[SerializeField] private AudioManager audioManager;
     [SerializeField] private TMP_InputField nicknameInput;
     [SerializeField] private TMP_InputField lobbyInput;
     [SerializeField] private UIScreen teamDialog;
 
     void Start()
     {
-        audioManager.PlaySE(3);
+        //AudioManager.instance_AudioManager.PlaySE(3);
 
         nicknameInput.onValueChanged.AddListener(x => ClientInfo.Username = x);
         lobbyInput.onValueChanged.AddListener(x => ServerInfo.LobbyName = x);

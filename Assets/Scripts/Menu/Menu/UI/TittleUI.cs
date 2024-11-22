@@ -5,7 +5,7 @@ using UnityEngine;
 
 public class TittleUI : MonoBehaviour
 {
-    [SerializeField] private AudioManager audioManager;
+    //[SerializeField] private AudioManager audioManager;
     void Awake()
     {
         UIScreen.Focus(GetComponent<UIScreen>());
@@ -14,6 +14,6 @@ public class TittleUI : MonoBehaviour
     void Start()
     {
         // タイトル画面のBGMを再生
-        audioManager.PlayBGM(0);
+        AudioManager.instance_AudioManager.PlayBGM(0);
     }
 }

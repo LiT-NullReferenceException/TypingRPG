@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class TeamDialogUI : MonoBehaviour
 {
-    [SerializeField] private AudioManager audioManager;
+    //[SerializeField] private AudioManager audioManager;
     
     // Start is called before the first frame update
     void Start()
@@ -14,7 +14,7 @@ public class TeamDialogUI : MonoBehaviour
 
     public void GetReady()
     {
-        audioManager.PlaySE(4);
+        AudioManager.instance_AudioManager.PlaySE(4);
         RoomPlayer.Local.IsReady = true;
     }
 }
