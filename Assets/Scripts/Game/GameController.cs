@@ -40,6 +40,7 @@ public class GameController : MonoBehaviour
     private List<List<string>> romanPatterns; // 現在の入力に対応するローマ字パターン
     private int currentIndex; // 現在判定中の文字インデックス
     private string currentInput; // ユーザーの現在の入力
+    private string inputedString = ""; // ユーザーの現在の入力
     private bool isComplete; // すべて入力が完了したか判定
 
     // ↑新インプットシステム
@@ -188,6 +189,21 @@ public class GameController : MonoBehaviour
             // キー入力成功の音を鳴らす
             audioManager.PlaySE(0);
             // audioManager.PlaySE(1);
+
+            // inputedString += currentInput;
+
+            Debug.Log(string.Format("inputedString = {0}", inputedString));
+
+            string nowInput = inputedString + currentInput;
+            List<string> matches = FindMatches(nowInput);
+
+            Debug.Log("部分一致する文字列:");
+            foreach (var match in matches)
+            {
+                Debug.Log(string.Format("match => {0}", match));
+            }
+
+            _quizDisplayManager.ChangeDisplayRoman(matches[0], nowInput.Length);
         }
 
         // 最後の文字で正解ならば、クイズを更新する
@@ -195,6 +211,7 @@ public class GameController : MonoBehaviour
         {
             _quizManager.ChangeQuiz();
             _quizDisplayManager.ChangeDisplayQuizText(_quizManager.GetNowQuiz);
+            
             _uiConnecter.WhenRefreshQuiz();
 
             // 単語を更新したら新システム側の正解も変える
@@ -328,6 +345,7 @@ public class GameController : MonoBehaviour
     {
         currentIndex = 0;
         currentInput = "";
+        inputedString = "";
         isComplete = false;
     }
 
@@ -351,6 +369,9 @@ public class GameController : MonoBehaviour
             // 現在の入力が完全一致したら次へ進む
             if (IsCurrentInputComplete())
             {
+
+                inputedString += currentInput;
+
                 currentIndex++;
                 currentInput = "";
 
@@ -399,6 +420,35 @@ public class GameController : MonoBehaviour
         {
             Debug.Log(string.Join(", ", patternList));
         }
+    }
+
+    public List<string> FindMatches(string input)
+    {
+        // すべての候補文字列の生成
+        var possibleCombinations = GenerateCombinations(romanPatterns);
+
+        List<string> matches = new List<string>();
+
+        foreach (var p in possibleCombinations)
+        {
+            // Debug.Log(string.Format("p => {0}", p));
+
+            if (p.StartsWith(input))
+            {
+                matches.Add(p);
+            }
+        }
+
+        return matches;
+    }
+
+    // 候補リストからすべての組み合わせを生成
+    private List<string> GenerateCombinations(List<List<string>> lists)
+    {
+        return lists.Aggregate(
+            new List<string> { "" },
+            (acc, list) => acc.SelectMany(prefix => list.Select(item => prefix + item)).ToList()
+        );
     }
 
     // ↑新インプットシステム

@@ -28,13 +28,11 @@ public class QuizDisplayManager : MonoBehaviour
         _textRoman.text = "<color=#" + ColorUtility.ToHtmlStringRGB(yetInputedCharColor) + ">" + roman + "</color>";
     }
 
-    public void ChangeDisplayRoman(Quiz nowQuiz, int doneInputIndex)
+    public void ChangeDisplayRoman(string roman, int doneInputIndex)
     {
         // Debug.Log(doneInputIndex);
 
         // 入力が完了している文字
-
-        string roman = nowQuiz.roman;
 
         string displayRoman = "";
 
@@ -52,6 +50,31 @@ public class QuizDisplayManager : MonoBehaviour
 
         ChangeDisplayRoman(displayRoman);
     }
+
+    //public void ChangeDisplayRoman(Quiz nowQuiz, int doneInputIndex)
+    //{
+    //    // Debug.Log(doneInputIndex);
+
+    //    // 入力が完了している文字
+
+    //    string roman = nowQuiz.roman;
+
+    //    string displayRoman = "";
+
+    //    displayRoman += "<color=#" + ColorUtility.ToHtmlStringRGB(doneInputedCharColor) + ">";
+    //    for (int i = 0; i < roman.Length; i++)
+    //    {
+    //        if (i == doneInputIndex)
+    //        {
+    //            displayRoman += "</color><color=#" + ColorUtility.ToHtmlStringRGB(yetInputedCharColor) + ">";
+    //        }
+
+    //        displayRoman += roman[i];
+    //    }
+    //    displayRoman += "</color>";
+
+    //    ChangeDisplayRoman(displayRoman);
+    //}
 
     public void ChangeDisplayQuizText(Quiz nowQuiz)
     {
