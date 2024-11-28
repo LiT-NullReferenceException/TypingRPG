@@ -43,10 +43,12 @@ public class PlayerAttackAnimator : MonoBehaviour
     public async void PlayEffect()
     {
         ThrowingObject.transform.position = _playerTrans.position;
-        await UniTask.WaitForSeconds(0.5f);
         ThrowingBall();
-        await UniTask.WaitForSeconds(1);
-        ThrowingObject.GetComponent<AttackEffect>().Attack();
+        await UniTask.WaitForSeconds(1f);
+        ThrowingObject.GetComponent<AttackEffect>().PlayExplosionEffect();
+        await UniTask.WaitForSeconds(1f);
+        Destroy(ThrowingObject.gameObject);
+        // ThrowingObject.SetActive(false);
     }
 
     // これはテスト用

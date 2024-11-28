@@ -2,12 +2,12 @@ using UnityEngine;
 
 public class AttackEffect : MonoBehaviour
 {
-    [SerializeField] private ParticleSystem _particleSystem2;
+    [SerializeField] private ParticleSystem _explosionParticle;
 
     [ContextMenu("aaaa")]
-    public void Attack()
+    public void PlayExplosionEffect()
     {
-        _particleSystem2.Play();
-        Debug.Log("再生しました");
+        _explosionParticle.Play();
+        Debug.Log("爆発エフェクトを再生");
     }
 }
