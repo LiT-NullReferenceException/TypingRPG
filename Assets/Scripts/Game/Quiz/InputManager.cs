@@ -74,8 +74,8 @@ public class InputManager : MonoBehaviour
         else if (Input.GetKeyDown(KeyCode.Y)) input = 'y';
         else if (Input.GetKeyDown(KeyCode.Z)) input = 'z';
         else if (Input.GetKeyDown(KeyCode.Minus)) input = '-';
-        else if (Input.GetKeyDown(KeyCode.Exclaim)) input = '!';
-        else if (Input.GetKeyDown(KeyCode.Question)) input = '?';
+        else if (Input.GetKeyDown(KeyCode.Alpha1)) input = '!';
+        else if (Input.GetKeyDown(KeyCode.Slash)) input = '?';
         else if (Input.GetKeyDown(KeyCode.Comma)) input = ',';
         else if (Input.GetKeyDown(KeyCode.Period)) input = '.';
 
