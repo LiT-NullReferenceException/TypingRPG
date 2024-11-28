@@ -128,6 +128,10 @@ public class GameController : MonoBehaviour
         Debug.Log("ターゲット: " + targetText);
         DebugPatterns();
 
+        string nowInput = inputedString + currentInput;
+        List<string> matches = FindMatches(nowInput);
+        _quizDisplayManager.ChangeDisplayRoman(matches[0], nowInput.Length);
+
         // ↑新インプットシステム
     }
 
@@ -192,16 +196,16 @@ public class GameController : MonoBehaviour
 
             // inputedString += currentInput;
 
-            Debug.Log(string.Format("inputedString = {0}", inputedString));
+            // Debug.Log(string.Format("inputedString = {0}", inputedString));
 
             string nowInput = inputedString + currentInput;
             List<string> matches = FindMatches(nowInput);
 
-            Debug.Log("部分一致する文字列:");
-            foreach (var match in matches)
-            {
-                Debug.Log(string.Format("match => {0}", match));
-            }
+            //Debug.Log("部分一致する文字列:");
+            //foreach (var match in matches)
+            //{
+            //    Debug.Log(string.Format("match => {0}", match));
+            //}
 
             _quizDisplayManager.ChangeDisplayRoman(matches[0], nowInput.Length);
         }
@@ -221,6 +225,10 @@ public class GameController : MonoBehaviour
 
             Debug.Log("ターゲット: " + targetText);
             DebugPatterns();
+
+            string nowInput = inputedString + currentInput;
+            List<string> matches = FindMatches(nowInput);
+            _quizDisplayManager.ChangeDisplayRoman(matches[0], nowInput.Length);
 
             // 単語を更新 = 攻撃する
             int attackPower = _player.attackPower + (int)Mathf.Floor(_charCombo * 0.25f); // コンボ数を考慮した攻撃力を計算
