@@ -30,6 +30,8 @@ public class GameController : MonoBehaviour
 
     [SerializeField] private AudioManager audioManager = null;
 
+    [SerializeField] private List<string> possibleCombinations = null;
+
     // ↓新インプットシステム
 
     // [SerializeField] private HiraganaToRomanConverter hiraganaToRomanConverter = null;
@@ -421,6 +423,7 @@ public class GameController : MonoBehaviour
         currentInput = "";
         inputedString = "";
         isComplete = false;
+        possibleCombinations = null;
     }
 
     // 入力を処理
@@ -499,7 +502,11 @@ public class GameController : MonoBehaviour
     public List<string> FindMatches(string input)
     {
         // すべての候補文字列の生成
-        var possibleCombinations = GenerateCombinations(romanPatterns);
+        if (possibleCombinations == null)
+        {
+            possibleCombinations = GenerateCombinations(romanPatterns);
+        }
+        
 
         List<string> matches = new List<string>();
 
