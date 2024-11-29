@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Runtime.CompilerServices;
 using Fusion;
+using UniRx;
 using Unity.VisualScripting;
 using UnityEngine;
 
@@ -23,7 +24,9 @@ public class EnemyManager : NetworkBehaviour
     //         Debug.Log(string.Format("[EnemyManager - Update()] ブースト開始"));
     //     }
     // }
-    
+    public IReadOnlyReactiveProperty<bool> OnIsBoostingHandler => _onIsBoostingHandler;
+    private readonly ReactiveProperty<bool> _onIsBoostingHandler = new ReactiveProperty<bool>();
+
 
     [Rpc(RpcSources.All, RpcTargets.StateAuthority)]
     public void Rpc_SetIsBoosting()
@@ -35,6 +38,8 @@ public class EnemyManager : NetworkBehaviour
     
     float boostingTimer = 5.0f; // 残りのブースト時間を格納する変数
     [SerializeField] private float boostingTime = 10.0f; // ブーストされる時間を格納する変数
+    public IReadOnlyReactiveProperty<bool> OnBoostingTimerHandler => _onBoostingTimerHandler;
+    private readonly ReactiveProperty<bool> _onBoostingTimerHandler = new ReactiveProperty<bool>();
 
     public enum Status
     {
