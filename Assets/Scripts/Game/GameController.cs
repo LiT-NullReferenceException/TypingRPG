@@ -223,7 +223,7 @@ public class GameController : MonoBehaviour
             romanPatterns = ConvertToRomanPatterns(targetText);
             ResetGame();
 
-            Debug.Log("ターゲット: " + targetText);
+            // Debug.Log("ターゲット: " + targetText);
             DebugPatterns();
 
             string nowInput = inputedString + currentInput;
