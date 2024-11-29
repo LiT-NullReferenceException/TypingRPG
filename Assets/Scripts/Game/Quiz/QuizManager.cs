@@ -12,10 +12,26 @@ public class QuizManager : MonoBehaviour
     public int doneInputIndex = 0;
     //public int GetDoneInputIndex { get { return doneInputIndex; } }
 
+    // ランダムモードかどうか
+    [SerializeField] private bool isRandom = true;
+    // 順番モードの時のインデックス
+    [SerializeField] private int quizIndex = 0;
+
+
     // 新しくクイズをデータセットから選び出す
     public void ChangeQuiz()
     {
-        Quiz nextQuiz = quizDataBase.quizzes[Random.Range(0, quizDataBase.quizzes.Count)];
+        Quiz nextQuiz;
+        if (isRandom)
+        {
+            nextQuiz = quizDataBase.quizzes[Random.Range(0, quizDataBase.quizzes.Count)];
+        }
+        else
+        {
+            nextQuiz = quizDataBase.quizzes[quizIndex];
+            quizIndex++;
+        }
+        
 
         SetQuiz(nextQuiz);
     }

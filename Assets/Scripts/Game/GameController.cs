@@ -299,34 +299,100 @@ public class GameController : MonoBehaviour
     }
 
     // ひらがなをローマ字パターンに変換
+    //private List<List<string>> ConvertToRomanPatterns(string input)
+    //{
+    //    List<List<string>> result = new List<List<string>>();
+    //    int i = 0;
+
+    //    while (i < input.Length)
+    //    {
+    //        bool foundMatch = false;
+
+    //        // 複合文字（2文字以上）を先にチェック
+    //        foreach (var entry in conversionDictionary)
+    //        {
+    //            if (i + 1 < input.Length && input.Substring(i, 2) == entry.Pattern)
+    //            {
+    //                result.Add(new List<string>(entry.TypePattern));
+    //                i += 2;
+    //                foundMatch = true;
+    //                break;
+    //            }
+    //            else if (i + 2 < input.Length && input.Substring(i, 3) == entry.Pattern)
+    //            {
+    //                result.Add(new List<string>(entry.TypePattern));
+    //                i += 3;
+    //                foundMatch = true;
+    //                break;
+    //            }
+    //        }
+
+    //        if (!foundMatch)
+    //        {
+    //            string kana = input[i].ToString();
+    //            var entry = conversionDictionary.Find(e => e.Pattern == kana);
+
+    //            if (entry != null)
+    //            {
+    //                result.Add(new List<string>(entry.TypePattern));
+    //            }
+    //            else
+    //            {
+    //                result.Add(new List<string> { kana });
+    //            }
+
+    //            i++;
+    //        }
+    //    }
+
+    //    return result;
+    //}
     private List<List<string>> ConvertToRomanPatterns(string input)
     {
         List<List<string>> result = new List<List<string>>();
         int i = 0;
 
+        // 小文字の判定関数
+        bool IsSmallKana(char c)
+        {
+            return c == 'ゃ' || c == 'ゅ' || c == 'ょ' || c == 'っ';
+        }
+
         while (i < input.Length)
         {
             bool foundMatch = false;
 
-            // 複合文字（2文字以上）を先にチェック
-            foreach (var entry in conversionDictionary)
+            // 1. 複合パターン（3文字、2文字）を優先
+            for (int len = 3; len >= 2; len--)
             {
-                if (i + 1 < input.Length && input.Substring(i, 2) == entry.Pattern)
+                if (i + len - 1 < input.Length)
                 {
-                    result.Add(new List<string>(entry.TypePattern));
-                    i += 2;
-                    foundMatch = true;
-                    break;
-                }
-                else if (i + 2 < input.Length && input.Substring(i, 3) == entry.Pattern)
-                {
-                    result.Add(new List<string>(entry.TypePattern));
-                    i += 3;
-                    foundMatch = true;
-                    break;
+                    string substring = input.Substring(i, len);
+                    var entry = conversionDictionary.Find(e => e.Pattern == substring);
+                    if (entry != null)
+                    {
+                        result.Add(new List<string>(entry.TypePattern));
+                        i += len;
+                        foundMatch = true;
+                        break;
+                    }
                 }
             }
 
+            // 2. 小文字の処理
+            if (!foundMatch && i + 1 < input.Length && IsSmallKana(input[i + 1]))
+            {
+                string combined = input[i].ToString() + input[i + 1].ToString();
+                var entry = conversionDictionary.Find(e => e.Pattern == combined);
+                if (entry != null)
+                {
+                    result.Add(new List<string>(entry.TypePattern));
+                    i += 2; // 小文字を含めて2文字進む
+                    foundMatch = true;
+                }
+            }
+
+            // 3. 単体文字の処理
             if (!foundMatch)
             {
                 string kana = input[i].ToString();
