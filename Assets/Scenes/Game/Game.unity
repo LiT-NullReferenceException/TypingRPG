@@ -2573,6 +2573,7 @@ MonoBehaviour:
   _attackEffectManager: {fileID: 826265584}
   camera: {fileID: 856032950}
   audioManager: {fileID: 832347849}
+  possibleCombinations: []
   dictionaryFile: {fileID: 4900000, guid: 8aa075f261ebd2e499e118dee281d420, type: 3}
   playersPosition: []
   enemy: {fileID: 4859571276374576486}
@@ -3501,8 +3502,12 @@ MonoBehaviour:
     japanese: 
     roman: 
   doneInputIndex: 0
-  isRandom: 0
+  isRandom: 1
   quizIndex: 1696
+  difficultyIndex:
+  - index: 2
+  - index: 3
+  - index: 4
 --- !u!4 &1993195419
 Transform:
   m_ObjectHideFlags: 0
