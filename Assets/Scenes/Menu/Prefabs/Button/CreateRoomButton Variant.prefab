@@ -12,6 +12,14 @@ PrefabInstance:
       propertyPath: m_text
       value: "\u4F5C\u6210\u3059\u308B"
       objectReference: {fileID: 0}
+    - target: {fileID: 88825305194995099, guid: 255bca7d04ef945c097aa68f727eefa9, type: 3}
+      propertyPath: m_fontAsset
+      value: 
+      objectReference: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+    - target: {fileID: 88825305194995099, guid: 255bca7d04ef945c097aa68f727eefa9, type: 3}
+      propertyPath: m_sharedMaterial
+      value: 
+      objectReference: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
     - target: {fileID: 664058749101549756, guid: 255bca7d04ef945c097aa68f727eefa9, type: 3}
       propertyPath: m_Name
       value: CreateRoomButton Variant
@@ -95,10 +103,6 @@ PrefabInstance:
     - target: {fileID: 746398133525308445, guid: 255bca7d04ef945c097aa68f727eefa9, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7230432981543872752, guid: 255bca7d04ef945c097aa68f727eefa9, type: 3}
-      propertyPath: m_AnchoredPosition.y
-      value: 12
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
