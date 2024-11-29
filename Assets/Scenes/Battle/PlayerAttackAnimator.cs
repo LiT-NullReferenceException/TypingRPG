@@ -1,4 +1,6 @@
+using System.Net.NetworkInformation;
 using Cysharp.Threading.Tasks;
+using UnityEditor;
 using UnityEngine;
 
 public class PlayerAttackAnimator : MonoBehaviour
@@ -8,6 +10,8 @@ public class PlayerAttackAnimator : MonoBehaviour
     /// </summary>
     [SerializeField, Tooltip("射出するオブジェクトをここに割り当てる")]
     private GameObject ThrowingObject;
+    
+    [SerializeField] private ParticleSystem _explosionParticle;
 
     /// <summary>
     /// 標的のオブジェクト
@@ -45,8 +49,9 @@ public class PlayerAttackAnimator : MonoBehaviour
         ThrowingObject.transform.position = _playerTrans.position;
         await UniTask.WaitForSeconds(0.5f);
         ThrowingBall();
-        await UniTask.WaitForSeconds(1);
-        ThrowingObject.GetComponent<AttackEffect>().Attack();
+        await UniTask.WaitForSeconds(1.7f);
+        // ThrowingObject.GetComponent<AttackEffect>().Attack();
+        Instantiate(_explosionParticle, Vector3.zero, Quaternion.identity);
     }
 
     /// <summary>
