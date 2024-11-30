@@ -1,0 +1,8792 @@
+[
+    {
+        "original": "もも",
+        "japanese": "もも",
+        "roman": ""
+    },
+    {
+        "original": "パパ",
+        "japanese": "ぱぱ",
+        "roman": ""
+    },
+    {
+        "original": "熊",
+        "japanese": "くま",
+        "roman": ""
+    },
+    {
+        "original": "愛",
+        "japanese": "あい",
+        "roman": ""
+    },
+    {
+        "original": "赤",
+        "japanese": "あか",
+        "roman": ""
+    },
+    {
+        "original": "アジ",
+        "japanese": "あじ",
+        "roman": ""
+    },
+    {
+        "original": "穴",
+        "japanese": "あな",
+        "roman": ""
+    },
+    {
+        "original": "鮎",
+        "japanese": "あゆ",
+        "roman": ""
+    },
+    {
+        "original": "イカ",
+        "japanese": "いか",
+        "roman": ""
+    },
+    {
+        "original": "石",
+        "japanese": "いし",
+        "roman": ""
+    },
+    {
+        "original": "犬",
+        "japanese": "いぬ",
+        "roman": ""
+    },
+    {
+        "original": "牛",
+        "japanese": "うし",
+        "roman": ""
+    },
+    {
+        "original": "嘘",
+        "japanese": "うそ",
+        "roman": ""
+    },
+    {
+        "original": "ウニ",
+        "japanese": "うに",
+        "roman": ""
+    },
+    {
+        "original": "梅",
+        "japanese": "うめ",
+        "roman": ""
+    },
+    {
+        "original": "エイ",
+        "japanese": "えい",
+        "roman": ""
+    },
+    {
+        "original": "サバ",
+        "japanese": "さば",
+        "roman": ""
+    },
+    {
+        "original": "海老",
+        "japanese": "えび",
+        "roman": ""
+    },
+    {
+        "original": "笑み",
+        "japanese": "えみ",
+        "roman": ""
+    },
+    {
+        "original": "カニ",
+        "japanese": "かに",
+        "roman": ""
+    },
+    {
+        "original": "ワニ",
+        "japanese": "わに",
+        "roman": ""
+    },
+    {
+        "original": "ゴム",
+        "japanese": "ごむ",
+        "roman": ""
+    },
+    {
+        "original": "サル",
+        "japanese": "さる",
+        "roman": ""
+    },
+    {
+        "original": "寿司",
+        "japanese": "すし",
+        "roman": ""
+    },
+    {
+        "original": "タコ",
+        "japanese": "たこ",
+        "roman": ""
+    },
+    {
+        "original": "タマ",
+        "japanese": "たま",
+        "roman": ""
+    },
+    {
+        "original": "チゲ",
+        "japanese": "ちげ",
+        "roman": ""
+    },
+    {
+        "original": "ポチ",
+        "japanese": "ぽち",
+        "roman": ""
+    },
+    {
+        "original": "ミケ",
+        "japanese": "みけ",
+        "roman": ""
+    },
+    {
+        "original": "ブリ",
+        "japanese": "ぶり",
+        "roman": ""
+    },
+    {
+        "original": "ピザ",
+        "japanese": "ぴざ",
+        "roman": ""
+    },
+    {
+        "original": "夏",
+        "japanese": "なつ",
+        "roman": ""
+    },
+    {
+        "original": "春",
+        "japanese": "はる",
+        "roman": ""
+    },
+    {
+        "original": "秋",
+        "japanese": "あき",
+        "roman": ""
+    },
+    {
+        "original": "冬",
+        "japanese": "ふゆ",
+        "roman": ""
+    },
+    {
+        "original": "時価",
+        "japanese": "じか",
+        "roman": ""
+    },
+    {
+        "original": "猫",
+        "japanese": "ねこ",
+        "roman": ""
+    },
+    {
+        "original": "井戸",
+        "japanese": "いど",
+        "roman": ""
+    },
+    {
+        "original": "月",
+        "japanese": "つき",
+        "roman": ""
+    },
+    {
+        "original": "竹",
+        "japanese": "たけ",
+        "roman": ""
+    },
+    {
+        "original": "砂",
+        "japanese": "すな",
+        "roman": ""
+    },
+    {
+        "original": "海",
+        "japanese": "うみ",
+        "roman": ""
+    },
+    {
+        "original": "貝",
+        "japanese": "かい",
+        "roman": ""
+    },
+    {
+        "original": "ネギ",
+        "japanese": "ねぎ",
+        "roman": ""
+    },
+    {
+        "original": "地下",
+        "japanese": "ちか",
+        "roman": ""
+    },
+    {
+        "original": "風",
+        "japanese": "かぜ",
+        "roman": ""
+    },
+    {
+        "original": "城",
+        "japanese": "しろ",
+        "roman": ""
+    },
+    {
+        "original": "壁",
+        "japanese": "かべ",
+        "roman": ""
+    },
+    {
+        "original": "象",
+        "japanese": "ぞう",
+        "roman": ""
+    },
+    {
+        "original": "ノリ",
+        "japanese": "のり",
+        "roman": ""
+    },
+    {
+        "original": "イス",
+        "japanese": "いす",
+        "roman": ""
+    },
+    {
+        "original": "皿",
+        "japanese": "さら",
+        "roman": ""
+    },
+    {
+        "original": "花",
+        "japanese": "はな",
+        "roman": ""
+    },
+    {
+        "original": "馬",
+        "japanese": "うま",
+        "roman": ""
+    },
+    {
+        "original": "パン",
+        "japanese": "ぱん",
+        "roman": ""
+    },
+    {
+        "original": "米",
+        "japanese": "こめ",
+        "roman": ""
+    },
+    {
+        "original": "ガム",
+        "japanese": "がむ",
+        "roman": ""
+    },
+    {
+        "original": "ドア",
+        "japanese": "どあ",
+        "roman": ""
+    },
+    {
+        "original": "糸",
+        "japanese": "いと",
+        "roman": ""
+    },
+    {
+        "original": "雪",
+        "japanese": "ゆき",
+        "roman": ""
+    },
+    {
+        "original": "夜景",
+        "japanese": "やけい",
+        "roman": ""
+    },
+    {
+        "original": "ライチ",
+        "japanese": "らいち",
+        "roman": ""
+    },
+    {
+        "original": "資源",
+        "japanese": "しげん",
+        "roman": ""
+    },
+    {
+        "original": "モデル",
+        "japanese": "もでる",
+        "roman": ""
+    },
+    {
+        "original": "コイン",
+        "japanese": "こいん",
+        "roman": ""
+    },
+    {
+        "original": "アフロ",
+        "japanese": "あふろ",
+        "roman": ""
+    },
+    {
+        "original": "漢字",
+        "japanese": "かんじ",
+        "roman": ""
+    },
+    {
+        "original": "バナナ",
+        "japanese": "ばなな",
+        "roman": ""
+    },
+    {
+        "original": "バット",
+        "japanese": "ばっと",
+        "roman": ""
+    },
+    {
+        "original": "アナゴ",
+        "japanese": "あなご",
+        "roman": ""
+    },
+    {
+        "original": "ウナギ",
+        "japanese": "うなぎ",
+        "roman": ""
+    },
+    {
+        "original": "わーい",
+        "japanese": "わーい",
+        "roman": ""
+    },
+    {
+        "original": "スイカ",
+        "japanese": "すいか",
+        "roman": ""
+    },
+    {
+        "original": "イチゴ",
+        "japanese": "いちご",
+        "roman": ""
+    },
+    {
+        "original": "黒酢",
+        "japanese": "くろず",
+        "roman": ""
+    },
+    {
+        "original": "つつじ",
+        "japanese": "つつじ",
+        "roman": ""
+    },
+    {
+        "original": "ゾンビ",
+        "japanese": "ぞんび",
+        "roman": ""
+    },
+    {
+        "original": "豪雨",
+        "japanese": "ごうう",
+        "roman": ""
+    },
+    {
+        "original": "カーブ",
+        "japanese": "かーぶ",
+        "roman": ""
+    },
+    {
+        "original": "赤身",
+        "japanese": "あかみ",
+        "roman": ""
+    },
+    {
+        "original": "アワビ",
+        "japanese": "あわび",
+        "roman": ""
+    },
+    {
+        "original": "イクラ",
+        "japanese": "いくら",
+        "roman": ""
+    },
+    {
+        "original": "イワシ",
+        "japanese": "いわし",
+        "roman": ""
+    },
+    {
+        "original": "お茶",
+        "japanese": "おちゃ",
+        "roman": ""
+    },
+    {
+        "original": "カエル",
+        "japanese": "かえる",
+        "roman": ""
+    },
+    {
+        "original": "カレイ",
+        "japanese": "かれい",
+        "roman": ""
+    },
+    {
+        "original": "あれ?",
+        "japanese": "あれ?",
+        "roman": ""
+    },
+    {
+        "original": "毛ガニ",
+        "japanese": "けがに",
+        "roman": ""
+    },
+    {
+        "original": "殺気",
+        "japanese": "さっき",
+        "roman": ""
+    },
+    {
+        "original": "サンマ",
+        "japanese": "さんま",
+        "roman": ""
+    },
+    {
+        "original": "ハマチ",
+        "japanese": "はまち",
+        "roman": ""
+    },
+    {
+        "original": "白身",
+        "japanese": "しろみ",
+        "roman": ""
+    },
+    {
+        "original": "カッパ",
+        "japanese": "かっぱ",
+        "roman": ""
+    },
+    {
+        "original": "ニャー",
+        "japanese": "にゃー",
+        "roman": ""
+    },
+    {
+        "original": "バッタ",
+        "japanese": "ばった",
+        "roman": ""
+    },
+    {
+        "original": "ヒラメ",
+        "japanese": "ひらめ",
+        "roman": ""
+    },
+    {
+        "original": "ホタテ",
+        "japanese": "ほたて",
+        "roman": ""
+    },
+    {
+        "original": "マウス",
+        "japanese": "まうす",
+        "roman": ""
+    },
+    {
+        "original": "マグロ",
+        "japanese": "まぐろ",
+        "roman": ""
+    },
+    {
+        "original": "スルメ",
+        "japanese": "するめ",
+        "roman": ""
+    },
+    {
+        "original": "酸素",
+        "japanese": "さんそ",
+        "roman": ""
+    },
+    {
+        "original": "プリン",
+        "japanese": "ぷりん",
+        "roman": ""
+    },
+    {
+        "original": "ワサビ",
+        "japanese": "わさび",
+        "roman": ""
+    },
+    {
+        "original": "カッパ",
+        "japanese": "かっぱ",
+        "roman": ""
+    },
+    {
+        "original": "マッチ",
+        "japanese": "まっち",
+        "roman": ""
+    },
+    {
+        "original": "あー!",
+        "japanese": "あー!",
+        "roman": ""
+    },
+    {
+        "original": "わー!",
+        "japanese": "わー!",
+        "roman": ""
+    },
+    {
+        "original": "トンボ",
+        "japanese": "とんぼ",
+        "roman": ""
+    },
+    {
+        "original": "電話",
+        "japanese": "でんわ",
+        "roman": ""
+    },
+    {
+        "original": "スズメ",
+        "japanese": "すずめ",
+        "roman": ""
+    },
+    {
+        "original": "レタス",
+        "japanese": "れたす",
+        "roman": ""
+    },
+    {
+        "original": "バケツ",
+        "japanese": "ばけつ",
+        "roman": ""
+    },
+    {
+        "original": "ボール",
+        "japanese": "ぼーる",
+        "roman": ""
+    },
+    {
+        "original": "眼鏡",
+        "japanese": "めがね",
+        "roman": ""
+    },
+    {
+        "original": "小鳥",
+        "japanese": "ことり",
+        "roman": ""
+    },
+    {
+        "original": "必死",
+        "japanese": "ひっし",
+        "roman": ""
+    },
+    {
+        "original": "ナマズ",
+        "japanese": "なまず",
+        "roman": ""
+    },
+    {
+        "original": "アサリ",
+        "japanese": "あさり",
+        "roman": ""
+    },
+    {
+        "original": "シジミ",
+        "japanese": "しじみ",
+        "roman": ""
+    },
+    {
+        "original": "虫歯",
+        "japanese": "むしば",
+        "roman": ""
+    },
+    {
+        "original": "尻尾",
+        "japanese": "しっぽ",
+        "roman": ""
+    },
+    {
+        "original": "バット",
+        "japanese": "ばっと",
+        "roman": ""
+    },
+    {
+        "original": "募金",
+        "japanese": "ぼきん",
+        "roman": ""
+    },
+    {
+        "original": "ウサギ",
+        "japanese": "うさぎ",
+        "roman": ""
+    },
+    {
+        "original": "アヒル",
+        "japanese": "あひる",
+        "roman": ""
+    },
+    {
+        "original": "ヒツジ",
+        "japanese": "ひつじ",
+        "roman": ""
+    },
+    {
+        "original": "机",
+        "japanese": "つくえ",
+        "roman": ""
+    },
+    {
+        "original": "アイス",
+        "japanese": "あいす",
+        "roman": ""
+    },
+    {
+        "original": "花火",
+        "japanese": "はなび",
+        "roman": ""
+    },
+    {
+        "original": "おやつ",
+        "japanese": "おやつ",
+        "roman": ""
+    },
+    {
+        "original": "ミルク",
+        "japanese": "みるく",
+        "roman": ""
+    },
+    {
+        "original": "コップ",
+        "japanese": "こっぷ",
+        "roman": ""
+    },
+    {
+        "original": "お風呂",
+        "japanese": "おふろ",
+        "roman": ""
+    },
+    {
+        "original": "桜",
+        "japanese": "さくら",
+        "roman": ""
+    },
+    {
+        "original": "輪ゴム",
+        "japanese": "わごむ",
+        "roman": ""
+    },
+    {
+        "original": "名刺",
+        "japanese": "めいし",
+        "roman": ""
+    },
+    {
+        "original": "ノート",
+        "japanese": "のーと",
+        "roman": ""
+    },
+    {
+        "original": "車",
+        "japanese": "くるま",
+        "roman": ""
+    },
+    {
+        "original": "キック",
+        "japanese": "きっく",
+        "roman": ""
+    },
+    {
+        "original": "スキー",
+        "japanese": "すきー",
+        "roman": ""
+    },
+    {
+        "original": "姉妹",
+        "japanese": "しまい",
+        "roman": ""
+    },
+    {
+        "original": "リボン",
+        "japanese": "りぼん",
+        "roman": ""
+    },
+    {
+        "original": "ズボン",
+        "japanese": "ずぼん",
+        "roman": ""
+    },
+    {
+        "original": "ブーツ",
+        "japanese": "ぶーつ",
+        "roman": ""
+    },
+    {
+        "original": "りんご",
+        "japanese": "りんご",
+        "roman": ""
+    },
+    {
+        "original": "コアラ",
+        "japanese": "こあら",
+        "roman": ""
+    },
+    {
+        "original": "レンズ",
+        "japanese": "れんず",
+        "roman": ""
+    },
+    {
+        "original": "ダイヤ",
+        "japanese": "だいや",
+        "roman": ""
+    },
+    {
+        "original": "するめ",
+        "japanese": "するめ",
+        "roman": ""
+    },
+    {
+        "original": "カレー",
+        "japanese": "かれー",
+        "roman": ""
+    },
+    {
+        "original": "メロン",
+        "japanese": "めろん",
+        "roman": ""
+    },
+    {
+        "original": "メダカ",
+        "japanese": "めだか",
+        "roman": ""
+    },
+    {
+        "original": "寝言",
+        "japanese": "ねごと",
+        "roman": ""
+    },
+    {
+        "original": "不意打ち",
+        "japanese": "ふいうち",
+        "roman": ""
+    },
+    {
+        "original": "クマゲラ",
+        "japanese": "くまげら",
+        "roman": ""
+    },
+    {
+        "original": "ムササビ",
+        "japanese": "むささび",
+        "roman": ""
+    },
+    {
+        "original": "スペイン",
+        "japanese": "すぺいん",
+        "roman": ""
+    },
+    {
+        "original": "父の日",
+        "japanese": "ちちのひ",
+        "roman": ""
+    },
+    {
+        "original": "さざなみ",
+        "japanese": "さざなみ",
+        "roman": ""
+    },
+    {
+        "original": "書道",
+        "japanese": "しょどう",
+        "roman": ""
+    },
+    {
+        "original": "立ち読み",
+        "japanese": "たちよみ",
+        "roman": ""
+    },
+    {
+        "original": "微笑",
+        "japanese": "びしょう",
+        "roman": ""
+    },
+    {
+        "original": "オカリナ",
+        "japanese": "おかりな",
+        "roman": ""
+    },
+    {
+        "original": "富士山",
+        "japanese": "ふじさん",
+        "roman": ""
+    },
+    {
+        "original": "指揮者",
+        "japanese": "しきしゃ",
+        "roman": ""
+    },
+    {
+        "original": "パパイヤ",
+        "japanese": "ぱぱいや",
+        "roman": ""
+    },
+    {
+        "original": "ドリアン",
+        "japanese": "どりあん",
+        "roman": ""
+    },
+    {
+        "original": "コーヒー",
+        "japanese": "こーひー",
+        "roman": ""
+    },
+    {
+        "original": "ししゃも",
+        "japanese": "ししゃも",
+        "roman": ""
+    },
+    {
+        "original": "たこ焼き",
+        "japanese": "たこやき",
+        "roman": ""
+    },
+    {
+        "original": "トビッコ",
+        "japanese": "とびっこ",
+        "roman": ""
+    },
+    {
+        "original": "野球",
+        "japanese": "やきゅう",
+        "roman": ""
+    },
+    {
+        "original": "オムレツ",
+        "japanese": "おむれつ",
+        "roman": ""
+    },
+    {
+        "original": "グローブ",
+        "japanese": "ぐろーぶ",
+        "roman": ""
+    },
+    {
+        "original": "忍者",
+        "japanese": "にんじゃ",
+        "roman": ""
+    },
+    {
+        "original": "騎馬戦",
+        "japanese": "きばせん",
+        "roman": ""
+    },
+    {
+        "original": "綿菓子",
+        "japanese": "わたがし",
+        "roman": ""
+    },
+    {
+        "original": "ラーメン",
+        "japanese": "らーめん",
+        "roman": ""
+    },
+    {
+        "original": "ヨーヨー",
+        "japanese": "よーよー",
+        "roman": ""
+    },
+    {
+        "original": "顔文字",
+        "japanese": "かおもじ",
+        "roman": ""
+    },
+    {
+        "original": "こしあん",
+        "japanese": "こしあん",
+        "roman": ""
+    },
+    {
+        "original": "つぶあん",
+        "japanese": "つぶあん",
+        "roman": ""
+    },
+    {
+        "original": "台風",
+        "japanese": "たいふう",
+        "roman": ""
+    },
+    {
+        "original": "ソプラノ",
+        "japanese": "そぷらの",
+        "roman": ""
+    },
+    {
+        "original": "イノシシ",
+        "japanese": "いのしし",
+        "roman": ""
+    },
+    {
+        "original": "フィルム",
+        "japanese": "ふぃるむ",
+        "roman": ""
+    },
+    {
+        "original": "ブランド",
+        "japanese": "ぶらんど",
+        "roman": ""
+    },
+    {
+        "original": "アボカド",
+        "japanese": "あぼかど",
+        "roman": ""
+    },
+    {
+        "original": "オレンジ",
+        "japanese": "おれんじ",
+        "roman": ""
+    },
+    {
+        "original": "面積",
+        "japanese": "めんせき",
+        "roman": ""
+    },
+    {
+        "original": "たんぽぽ",
+        "japanese": "たんぽぽ",
+        "roman": ""
+    },
+    {
+        "original": "梅酒",
+        "japanese": "うめしゅ",
+        "roman": ""
+    },
+    {
+        "original": "タピオカ",
+        "japanese": "たぴおか",
+        "roman": ""
+    },
+    {
+        "original": "カンフー",
+        "japanese": "かんふー",
+        "roman": ""
+    },
+    {
+        "original": "てぬぐい",
+        "japanese": "てぬぐい",
+        "roman": ""
+    },
+    {
+        "original": "アイコン",
+        "japanese": "あいこん",
+        "roman": ""
+    },
+    {
+        "original": "シマウマ",
+        "japanese": "しまうま",
+        "roman": ""
+    },
+    {
+        "original": "ライオン",
+        "japanese": "らいおん",
+        "roman": ""
+    },
+    {
+        "original": "ろうそく",
+        "japanese": "ろうそく",
+        "roman": ""
+    },
+    {
+        "original": "靴下",
+        "japanese": "くつした",
+        "roman": ""
+    },
+    {
+        "original": "金髪",
+        "japanese": "きんぱつ",
+        "roman": ""
+    },
+    {
+        "original": "けんだま",
+        "japanese": "けんだま",
+        "roman": ""
+    },
+    {
+        "original": "かに玉",
+        "japanese": "かにたま",
+        "roman": ""
+    },
+    {
+        "original": "木刀",
+        "japanese": "ぼくとう",
+        "roman": ""
+    },
+    {
+        "original": "洗車",
+        "japanese": "せんしゃ",
+        "roman": ""
+    },
+    {
+        "original": "赤貝",
+        "japanese": "あかがい",
+        "roman": ""
+    },
+    {
+        "original": "甘エビ",
+        "japanese": "あまえび",
+        "roman": ""
+    },
+    {
+        "original": "ウグイス",
+        "japanese": "うぐいす",
+        "roman": ""
+    },
+    {
+        "original": "イヤーン",
+        "japanese": "いやーん",
+        "roman": ""
+    },
+    {
+        "original": "えんがわ",
+        "japanese": "えんがわ",
+        "roman": ""
+    },
+    {
+        "original": "大トロ",
+        "japanese": "おおとろ",
+        "roman": ""
+    },
+    {
+        "original": "数の子",
+        "japanese": "かずのこ",
+        "roman": ""
+    },
+    {
+        "original": "サーモン",
+        "japanese": "さーもん",
+        "roman": ""
+    },
+    {
+        "original": "スーパー",
+        "japanese": "すーぱー",
+        "roman": ""
+    },
+    {
+        "original": "スライム",
+        "japanese": "すらいむ",
+        "roman": ""
+    },
+    {
+        "original": "でこピン",
+        "japanese": "でこぴん",
+        "roman": ""
+    },
+    {
+        "original": "アザラシ",
+        "japanese": "あざらし",
+        "roman": ""
+    },
+    {
+        "original": "ネギとろ",
+        "japanese": "ねぎとろ",
+        "roman": ""
+    },
+    {
+        "original": "反省",
+        "japanese": "はんせい",
+        "roman": ""
+    },
+    {
+        "original": "金魚",
+        "japanese": "きんぎょ",
+        "roman": ""
+    },
+    {
+        "original": "ザリガニ",
+        "japanese": "ざりがに",
+        "roman": ""
+    },
+    {
+        "original": "ミジンコ",
+        "japanese": "みじんこ",
+        "roman": ""
+    },
+    {
+        "original": "新橋",
+        "japanese": "しんばし",
+        "roman": ""
+    },
+    {
+        "original": "蜂蜜",
+        "japanese": "はちみつ",
+        "roman": ""
+    },
+    {
+        "original": "カンパチ",
+        "japanese": "かんぱち",
+        "roman": ""
+    },
+    {
+        "original": "醤油",
+        "japanese": "しょうゆ",
+        "roman": ""
+    },
+    {
+        "original": "スキヤキ",
+        "japanese": "すきやき",
+        "roman": ""
+    },
+    {
+        "original": "鈴虫",
+        "japanese": "すずむし",
+        "roman": ""
+    },
+    {
+        "original": "キャー!",
+        "japanese": "きゃー!",
+        "roman": ""
+    },
+    {
+        "original": "生ハム",
+        "japanese": "なまはむ",
+        "roman": ""
+    },
+    {
+        "original": "チャイム",
+        "japanese": "ちゃいむ",
+        "roman": ""
+    },
+    {
+        "original": "サーカス",
+        "japanese": "さーかす",
+        "roman": ""
+    },
+    {
+        "original": "キャベツ",
+        "japanese": "きゃべつ",
+        "roman": ""
+    },
+    {
+        "original": "掃除機",
+        "japanese": "そうじき",
+        "roman": ""
+    },
+    {
+        "original": "青空",
+        "japanese": "あおぞら",
+        "roman": ""
+    },
+    {
+        "original": "おにぎり",
+        "japanese": "おにぎり",
+        "roman": ""
+    },
+    {
+        "original": "風鈴",
+        "japanese": "ふうりん",
+        "roman": ""
+    },
+    {
+        "original": "ボーナス",
+        "japanese": "ぼーなす",
+        "roman": ""
+    },
+    {
+        "original": "地球",
+        "japanese": "ちきゅう",
+        "roman": ""
+    },
+    {
+        "original": "キャンプ",
+        "japanese": "きゃんぷ",
+        "roman": ""
+    },
+    {
+        "original": "拍手",
+        "japanese": "はくしゅ",
+        "roman": ""
+    },
+    {
+        "original": "大根",
+        "japanese": "だいこん",
+        "roman": ""
+    },
+    {
+        "original": "深海",
+        "japanese": "しんかい",
+        "roman": ""
+    },
+    {
+        "original": "学校",
+        "japanese": "がっこう",
+        "roman": ""
+    },
+    {
+        "original": "ファイル",
+        "japanese": "ふぁいる",
+        "roman": ""
+    },
+    {
+        "original": "クリック",
+        "japanese": "くりっく",
+        "roman": ""
+    },
+    {
+        "original": "貯金",
+        "japanese": "ちょきん",
+        "roman": ""
+    },
+    {
+        "original": "ニワトリ",
+        "japanese": "にわとり",
+        "roman": ""
+    },
+    {
+        "original": "ゴール!",
+        "japanese": "ごーる!",
+        "roman": ""
+    },
+    {
+        "original": "お祭り",
+        "japanese": "おまつり",
+        "roman": ""
+    },
+    {
+        "original": "シャベル",
+        "japanese": "しゃべる",
+        "roman": ""
+    },
+    {
+        "original": "スコップ",
+        "japanese": "すこっぷ",
+        "roman": ""
+    },
+    {
+        "original": "初夢",
+        "japanese": "はつゆめ",
+        "roman": ""
+    },
+    {
+        "original": "クッキー",
+        "japanese": "くっきー",
+        "roman": ""
+    },
+    {
+        "original": "コーヒー",
+        "japanese": "こーひー",
+        "roman": ""
+    },
+    {
+        "original": "紅茶",
+        "japanese": "こうちゃ",
+        "roman": ""
+    },
+    {
+        "original": "銭湯",
+        "japanese": "せんとう",
+        "roman": ""
+    },
+    {
+        "original": "お花見",
+        "japanese": "おはなみ",
+        "roman": ""
+    },
+    {
+        "original": "消しゴム",
+        "japanese": "けしごむ",
+        "roman": ""
+    },
+    {
+        "original": "べテラン",
+        "japanese": "べてらん",
+        "roman": ""
+    },
+    {
+        "original": "かまくら",
+        "japanese": "かまくら",
+        "roman": ""
+    },
+    {
+        "original": "タイマー",
+        "japanese": "たいまー",
+        "roman": ""
+    },
+    {
+        "original": "バンパー",
+        "japanese": "ばんぱー",
+        "roman": ""
+    },
+    {
+        "original": "長靴",
+        "japanese": "ながぐつ",
+        "roman": ""
+    },
+    {
+        "original": "サッカー",
+        "japanese": "さっかー",
+        "roman": ""
+    },
+    {
+        "original": "スケート",
+        "japanese": "すけーと",
+        "roman": ""
+    },
+    {
+        "original": "バッテラ",
+        "japanese": "ばってら",
+        "roman": ""
+    },
+    {
+        "original": "議長",
+        "japanese": "ぎちょう",
+        "roman": ""
+    },
+    {
+        "original": "ネクタイ",
+        "japanese": "ねくたい",
+        "roman": ""
+    },
+    {
+        "original": "かぼちゃ",
+        "japanese": "かぼちゃ",
+        "roman": ""
+    },
+    {
+        "original": "黒板",
+        "japanese": "こくばん",
+        "roman": ""
+    },
+    {
+        "original": "悪知恵",
+        "japanese": "わるぢえ",
+        "roman": ""
+    },
+    {
+        "original": "缶蹴り",
+        "japanese": "かんけり",
+        "roman": ""
+    },
+    {
+        "original": "姫りんご",
+        "japanese": "ひめりんご",
+        "roman": ""
+    },
+    {
+        "original": "玉の輿",
+        "japanese": "たまのこし",
+        "roman": ""
+    },
+    {
+        "original": "オンライン",
+        "japanese": "おんらいん",
+        "roman": ""
+    },
+    {
+        "original": "日本地図",
+        "japanese": "にほんちず",
+        "roman": ""
+    },
+    {
+        "original": "珍獣",
+        "japanese": "ちんじゅう",
+        "roman": ""
+    },
+    {
+        "original": "もらい泣き",
+        "japanese": "もらいなき",
+        "roman": ""
+    },
+    {
+        "original": "ホウセンカ",
+        "japanese": "ほうせんか",
+        "roman": ""
+    },
+    {
+        "original": "水彩画",
+        "japanese": "すいさいが",
+        "roman": ""
+    },
+    {
+        "original": "火星人",
+        "japanese": "かせいじん",
+        "roman": ""
+    },
+    {
+        "original": "リコーダー",
+        "japanese": "りこーだー",
+        "roman": ""
+    },
+    {
+        "original": "バイオリン",
+        "japanese": "ばいおりん",
+        "roman": ""
+    },
+    {
+        "original": "ハーモニカ",
+        "japanese": "はーもにか",
+        "roman": ""
+    },
+    {
+        "original": "ストラップ",
+        "japanese": "すとらっぷ",
+        "roman": ""
+    },
+    {
+        "original": "ソリティア",
+        "japanese": "そりてぃあ",
+        "roman": ""
+    },
+    {
+        "original": "モンブラン",
+        "japanese": "もんぶらん",
+        "roman": ""
+    },
+    {
+        "original": "カツカレー",
+        "japanese": "かつかれー",
+        "roman": ""
+    },
+    {
+        "original": "こどもの日",
+        "japanese": "こどものひ",
+        "roman": ""
+    },
+    {
+        "original": "ラッキー!",
+        "japanese": "らっきー!",
+        "roman": ""
+    },
+    {
+        "original": "メンチカツ",
+        "japanese": "めんちかつ",
+        "roman": ""
+    },
+    {
+        "original": "オムライス",
+        "japanese": "おむらいす",
+        "roman": ""
+    },
+    {
+        "original": "英単語",
+        "japanese": "えいたんご",
+        "roman": ""
+    },
+    {
+        "original": "アクセント",
+        "japanese": "あくせんと",
+        "roman": ""
+    },
+    {
+        "original": "いい湯だな",
+        "japanese": "いいゆだな",
+        "roman": ""
+    },
+    {
+        "original": "さくらんぼ",
+        "japanese": "さくらんぼ",
+        "roman": ""
+    },
+    {
+        "original": "にわか雨",
+        "japanese": "にわかあめ",
+        "roman": ""
+    },
+    {
+        "original": "ランキング",
+        "japanese": "らんきんぐ",
+        "roman": ""
+    },
+    {
+        "original": "チャーハン",
+        "japanese": "ちゃーはん",
+        "roman": ""
+    },
+    {
+        "original": "クリスマス",
+        "japanese": "くりすます",
+        "roman": ""
+    },
+    {
+        "original": "ちょうちょ",
+        "japanese": "ちょうちょ",
+        "roman": ""
+    },
+    {
+        "original": "マヨネーズ",
+        "japanese": "まよねーず",
+        "roman": ""
+    },
+    {
+        "original": "花吹雪",
+        "japanese": "はなふぶき",
+        "roman": ""
+    },
+    {
+        "original": "シクラメン",
+        "japanese": "しくらめん",
+        "roman": ""
+    },
+    {
+        "original": "腕時計",
+        "japanese": "うでどけい",
+        "roman": ""
+    },
+    {
+        "original": "台所",
+        "japanese": "だいどころ",
+        "roman": ""
+    },
+    {
+        "original": "リコーダー",
+        "japanese": "りこーだー",
+        "roman": ""
+    },
+    {
+        "original": "りんご飴",
+        "japanese": "りんごあめ",
+        "roman": ""
+    },
+    {
+        "original": "カレンダー",
+        "japanese": "かれんだー",
+        "roman": ""
+    },
+    {
+        "original": "ホイッスル",
+        "japanese": "ほいっする",
+        "roman": ""
+    },
+    {
+        "original": "サファイア",
+        "japanese": "さふぁいあ",
+        "roman": ""
+    },
+    {
+        "original": "紙粘土",
+        "japanese": "かみねんど",
+        "roman": ""
+    },
+    {
+        "original": "大都会",
+        "japanese": "だいとかい",
+        "roman": ""
+    },
+    {
+        "original": "デリケート",
+        "japanese": "でりけーと",
+        "roman": ""
+    },
+    {
+        "original": "砂時計",
+        "japanese": "すなどけい",
+        "roman": ""
+    },
+    {
+        "original": "ストライプ",
+        "japanese": "すとらいぷ",
+        "roman": ""
+    },
+    {
+        "original": "フィルター",
+        "japanese": "ふぃるたー",
+        "roman": ""
+    },
+    {
+        "original": "おままごと",
+        "japanese": "おままごと",
+        "roman": ""
+    },
+    {
+        "original": "ハリケーン",
+        "japanese": "はりけーん",
+        "roman": ""
+    },
+    {
+        "original": "雪だるま",
+        "japanese": "ゆきだるま",
+        "roman": ""
+    },
+    {
+        "original": "スニーカー",
+        "japanese": "すにーかー",
+        "roman": ""
+    },
+    {
+        "original": "トラクター",
+        "japanese": "とらくたー",
+        "roman": ""
+    },
+    {
+        "original": "癒し系",
+        "japanese": "いやしけい",
+        "roman": ""
+    },
+    {
+        "original": "お気に入り",
+        "japanese": "おきにいり",
+        "roman": ""
+    },
+    {
+        "original": "地平線",
+        "japanese": "ちへいせん",
+        "roman": ""
+    },
+    {
+        "original": "クレーター",
+        "japanese": "くれーたー",
+        "roman": ""
+    },
+    {
+        "original": "ギャラリー",
+        "japanese": "ぎゃらりー",
+        "roman": ""
+    },
+    {
+        "original": "ランドセル",
+        "japanese": "らんどせる",
+        "roman": ""
+    },
+    {
+        "original": "控え室",
+        "japanese": "ひかえしつ",
+        "roman": ""
+    },
+    {
+        "original": "テディベア",
+        "japanese": "てでぃべあ",
+        "roman": ""
+    },
+    {
+        "original": "夢心地",
+        "japanese": "ゆめごこち",
+        "roman": ""
+    },
+    {
+        "original": "身長",
+        "japanese": "しんちょう",
+        "roman": ""
+    },
+    {
+        "original": "体重",
+        "japanese": "たいじゅう",
+        "roman": ""
+    },
+    {
+        "original": "アンケート",
+        "japanese": "あんけーと",
+        "roman": ""
+    },
+    {
+        "original": "クリスタル",
+        "japanese": "くりすたる",
+        "roman": ""
+    },
+    {
+        "original": "カンガルー",
+        "japanese": "かんがるー",
+        "roman": ""
+    },
+    {
+        "original": "手裏剣",
+        "japanese": "しゅりけん",
+        "roman": ""
+    },
+    {
+        "original": "ひざ小僧",
+        "japanese": "ひざこぞう",
+        "roman": ""
+    },
+    {
+        "original": "ストレート",
+        "japanese": "すとれーと",
+        "roman": ""
+    },
+    {
+        "original": "ロングパス",
+        "japanese": "ろんぐぱす",
+        "roman": ""
+    },
+    {
+        "original": "氷河期",
+        "japanese": "ひょうがき",
+        "roman": ""
+    },
+    {
+        "original": "江戸幕府",
+        "japanese": "えどばくふ",
+        "roman": ""
+    },
+    {
+        "original": "古本屋",
+        "japanese": "ふるほんや",
+        "roman": ""
+    },
+    {
+        "original": "ラフレシア",
+        "japanese": "らふれしあ",
+        "roman": ""
+    },
+    {
+        "original": "ひなあられ",
+        "japanese": "ひなあられ",
+        "roman": ""
+    },
+    {
+        "original": "アメフラシ",
+        "japanese": "あめふらし",
+        "roman": ""
+    },
+    {
+        "original": "飴ちゃん",
+        "japanese": "あめちゃん",
+        "roman": ""
+    },
+    {
+        "original": "アラ嫌だ",
+        "japanese": "あらいやだ",
+        "roman": ""
+    },
+    {
+        "original": "いい天気",
+        "japanese": "いいてんき",
+        "roman": ""
+    },
+    {
+        "original": "痛いです",
+        "japanese": "いたいです",
+        "roman": ""
+    },
+    {
+        "original": "エビフライ",
+        "japanese": "えびふらい",
+        "roman": ""
+    },
+    {
+        "original": "大盛りで",
+        "japanese": "おおもりで",
+        "roman": ""
+    },
+    {
+        "original": "カウンター",
+        "japanese": "かうんたー",
+        "roman": ""
+    },
+    {
+        "original": "銀シャリ",
+        "japanese": "ぎんしゃり",
+        "roman": ""
+    },
+    {
+        "original": "シャッター",
+        "japanese": "しゃったー",
+        "roman": ""
+    },
+    {
+        "original": "新聞紙",
+        "japanese": "しんぶんし",
+        "roman": ""
+    },
+    {
+        "original": "ズワイガニ",
+        "japanese": "ずわいがに",
+        "roman": ""
+    },
+    {
+        "original": "タラバガニ",
+        "japanese": "たらばがに",
+        "roman": ""
+    },
+    {
+        "original": "中トロ",
+        "japanese": "ちゅうとろ",
+        "roman": ""
+    },
+    {
+        "original": "アメとムチ",
+        "japanese": "あめとむち",
+        "roman": ""
+    },
+    {
+        "original": "玉子焼き",
+        "japanese": "たまごやき",
+        "roman": ""
+    },
+    {
+        "original": "目玉焼き",
+        "japanese": "めだまやき",
+        "roman": ""
+    },
+    {
+        "original": "ブルドッグ",
+        "japanese": "ぶるどっぐ",
+        "roman": ""
+    },
+    {
+        "original": "ボタン海老",
+        "japanese": "ぼたんえび",
+        "roman": ""
+    },
+    {
+        "original": "本気の目",
+        "japanese": "ほんきのめ",
+        "roman": ""
+    },
+    {
+        "original": "モヤシっ子",
+        "japanese": "もやしっこ",
+        "roman": ""
+    },
+    {
+        "original": "酔っ払い",
+        "japanese": "よっぱらい",
+        "roman": ""
+    },
+    {
+        "original": "綿ボコリ",
+        "japanese": "わたぼこり",
+        "roman": ""
+    },
+    {
+        "original": "ちらしズシ",
+        "japanese": "ちらしずし",
+        "roman": ""
+    },
+    {
+        "original": "手巻きズシ",
+        "japanese": "てまきずし",
+        "roman": ""
+    },
+    {
+        "original": "リサイクル",
+        "japanese": "りさいくる",
+        "roman": ""
+    },
+    {
+        "original": "鉄火巻き",
+        "japanese": "てっかまき",
+        "roman": ""
+    },
+    {
+        "original": "オフサイド",
+        "japanese": "おふさいど",
+        "roman": ""
+    },
+    {
+        "original": "特盛りで",
+        "japanese": "とくもりで",
+        "roman": ""
+    },
+    {
+        "original": "スルメイカ",
+        "japanese": "するめいか",
+        "roman": ""
+    },
+    {
+        "original": "こどもの日",
+        "japanese": "こどものひ",
+        "roman": ""
+    },
+    {
+        "original": "エコロジー",
+        "japanese": "えころじー",
+        "roman": ""
+    },
+    {
+        "original": "エチケット",
+        "japanese": "えちけっと",
+        "roman": ""
+    },
+    {
+        "original": "ティラミス",
+        "japanese": "てぃらみす",
+        "roman": ""
+    },
+    {
+        "original": "デザイナー",
+        "japanese": "でざいなー",
+        "roman": ""
+    },
+    {
+        "original": "羽根ボウキ",
+        "japanese": "はねぼうき",
+        "roman": ""
+    },
+    {
+        "original": "カレンダー",
+        "japanese": "かれんだー",
+        "roman": ""
+    },
+    {
+        "original": "キーボード",
+        "japanese": "きーぼーど",
+        "roman": ""
+    },
+    {
+        "original": "サクラサク",
+        "japanese": "さくらさく",
+        "roman": ""
+    },
+    {
+        "original": "肩叩き",
+        "japanese": "かたたたき",
+        "roman": ""
+    },
+    {
+        "original": "熱帯夜",
+        "japanese": "ねったいや",
+        "roman": ""
+    },
+    {
+        "original": "カッパ巻き",
+        "japanese": "かっぱまき",
+        "roman": ""
+    },
+    {
+        "original": "親子丼",
+        "japanese": "おやこどん",
+        "roman": ""
+    },
+    {
+        "original": "ビリヤード",
+        "japanese": "びりやーど",
+        "roman": ""
+    },
+    {
+        "original": "ボウリング",
+        "japanese": "ぼうりんぐ",
+        "roman": ""
+    },
+    {
+        "original": "次世代機",
+        "japanese": "じせだいき",
+        "roman": ""
+    },
+    {
+        "original": "タイピング",
+        "japanese": "たいぴんぐ",
+        "roman": ""
+    },
+    {
+        "original": "マンホール",
+        "japanese": "まんほーる",
+        "roman": ""
+    },
+    {
+        "original": "遊園地",
+        "japanese": "ゆうえんち",
+        "roman": ""
+    },
+    {
+        "original": "ドライヤー",
+        "japanese": "どらいやー",
+        "roman": ""
+    },
+    {
+        "original": "ワイシャツ",
+        "japanese": "わいしゃつ",
+        "roman": ""
+    },
+    {
+        "original": "大掃除",
+        "japanese": "おおそうじ",
+        "roman": ""
+    },
+    {
+        "original": "オートバイ",
+        "japanese": "おーとばい",
+        "roman": ""
+    },
+    {
+        "original": "高気圧",
+        "japanese": "こうきあつ",
+        "roman": ""
+    },
+    {
+        "original": "ジャングル",
+        "japanese": "じゃんぐる",
+        "roman": ""
+    },
+    {
+        "original": "シャンパン",
+        "japanese": "しゃんぱん",
+        "roman": ""
+    },
+    {
+        "original": "映画館",
+        "japanese": "えいがかん",
+        "roman": ""
+    },
+    {
+        "original": "コンサート",
+        "japanese": "こんさーと",
+        "roman": ""
+    },
+    {
+        "original": "午前様",
+        "japanese": "ごぜんさま",
+        "roman": ""
+    },
+    {
+        "original": "もしもし?",
+        "japanese": "もしもし?",
+        "roman": ""
+    },
+    {
+        "original": "無人島",
+        "japanese": "むじんとう",
+        "roman": ""
+    },
+    {
+        "original": "ゴージャス",
+        "japanese": "ごーじゃす",
+        "roman": ""
+    },
+    {
+        "original": "こんにちは",
+        "japanese": "こんにちは",
+        "roman": ""
+    },
+    {
+        "original": "さようなら",
+        "japanese": "さようなら",
+        "roman": ""
+    },
+    {
+        "original": "大人気",
+        "japanese": "だいにんき",
+        "roman": ""
+    },
+    {
+        "original": "初日の出",
+        "japanese": "はつひので",
+        "roman": ""
+    },
+    {
+        "original": "スピーカー",
+        "japanese": "すぴーかー",
+        "roman": ""
+    },
+    {
+        "original": "ティッシュ",
+        "japanese": "てぃっしゅ",
+        "roman": ""
+    },
+    {
+        "original": "江戸時代",
+        "japanese": "えどじだい",
+        "roman": ""
+    },
+    {
+        "original": "ちょんまげ",
+        "japanese": "ちょんまげ",
+        "roman": ""
+    },
+    {
+        "original": "鯉のぼり",
+        "japanese": "こいのぼり",
+        "roman": ""
+    },
+    {
+        "original": "ソーセージ",
+        "japanese": "そーせーじ",
+        "roman": ""
+    },
+    {
+        "original": "兄弟",
+        "japanese": "きょうだい",
+        "roman": ""
+    },
+    {
+        "original": "雪だるま",
+        "japanese": "ゆきだるま",
+        "roman": ""
+    },
+    {
+        "original": "卓球",
+        "japanese": "たっきゅう",
+        "roman": ""
+    },
+    {
+        "original": "カタルシス",
+        "japanese": "かたるしす",
+        "roman": ""
+    },
+    {
+        "original": "さくらもち",
+        "japanese": "さくらもち",
+        "roman": ""
+    },
+    {
+        "original": "ヨーグルト",
+        "japanese": "よーぐると",
+        "roman": ""
+    },
+    {
+        "original": "消火器",
+        "japanese": "しょうかき",
+        "roman": ""
+    },
+    {
+        "original": "プロの技",
+        "japanese": "ぷろのわざ",
+        "roman": ""
+    },
+    {
+        "original": "武勇伝",
+        "japanese": "ぶゆうでん",
+        "roman": ""
+    },
+    {
+        "original": "アルマジロ",
+        "japanese": "あるまじろ",
+        "roman": ""
+    },
+    {
+        "original": "テレビっ子",
+        "japanese": "てれびっこ",
+        "roman": ""
+    },
+    {
+        "original": "ハロウィン",
+        "japanese": "はろうぃん",
+        "roman": ""
+    },
+    {
+        "original": "パンプキン",
+        "japanese": "ぱんぷきん",
+        "roman": ""
+    },
+    {
+        "original": "自画自賛",
+        "japanese": "じがじさん",
+        "roman": ""
+    },
+    {
+        "original": "ペアルック",
+        "japanese": "ぺあるっく",
+        "roman": ""
+    },
+    {
+        "original": "おぼっちゃま",
+        "japanese": "おぼっちゃま",
+        "roman": ""
+    },
+    {
+        "original": "チャンピオン",
+        "japanese": "ちゃんぴおん",
+        "roman": ""
+    },
+    {
+        "original": "ビーチボール",
+        "japanese": "びーちぼーる",
+        "roman": ""
+    },
+    {
+        "original": "国語辞典",
+        "japanese": "こくごじてん",
+        "roman": ""
+    },
+    {
+        "original": "告白する",
+        "japanese": "こくはくする",
+        "roman": ""
+    },
+    {
+        "original": "都道府県",
+        "japanese": "とどうふけん",
+        "roman": ""
+    },
+    {
+        "original": "父の威厳",
+        "japanese": "ちちのいげん",
+        "roman": ""
+    },
+    {
+        "original": "犬の散歩",
+        "japanese": "いぬのさんぽ",
+        "roman": ""
+    },
+    {
+        "original": "頑張って!",
+        "japanese": "がんばって!",
+        "roman": ""
+    },
+    {
+        "original": "不思議ちゃん",
+        "japanese": "ふしぎちゃん",
+        "roman": ""
+    },
+    {
+        "original": "私語厳禁",
+        "japanese": "しごげんきん",
+        "roman": ""
+    },
+    {
+        "original": "ガラムマサラ",
+        "japanese": "がらむまさら",
+        "roman": ""
+    },
+    {
+        "original": "美少年",
+        "japanese": "びしょうねん",
+        "roman": ""
+    },
+    {
+        "original": "星がきれい",
+        "japanese": "ほしがきれい",
+        "roman": ""
+    },
+    {
+        "original": "カウチポテト",
+        "japanese": "かうちぽてと",
+        "roman": ""
+    },
+    {
+        "original": "味が薄い",
+        "japanese": "あじがうすい",
+        "roman": ""
+    },
+    {
+        "original": "色鉛筆",
+        "japanese": "いろえんぴつ",
+        "roman": ""
+    },
+    {
+        "original": "図書委員",
+        "japanese": "としょいいん",
+        "roman": ""
+    },
+    {
+        "original": "送りバント",
+        "japanese": "おくりばんと",
+        "roman": ""
+    },
+    {
+        "original": "羊の群れ",
+        "japanese": "ひつじのむれ",
+        "roman": ""
+    },
+    {
+        "original": "またあした!",
+        "japanese": "またあした!",
+        "roman": ""
+    },
+    {
+        "original": "トランペット",
+        "japanese": "とらんぺっと",
+        "roman": ""
+    },
+    {
+        "original": "クラリネット",
+        "japanese": "くらりねっと",
+        "roman": ""
+    },
+    {
+        "original": "今何時?",
+        "japanese": "いまなんじ?",
+        "roman": ""
+    },
+    {
+        "original": "ドレスアップ",
+        "japanese": "どれすあっぷ",
+        "roman": ""
+    },
+    {
+        "original": "カスタネット",
+        "japanese": "かすたねっと",
+        "roman": ""
+    },
+    {
+        "original": "四季折々",
+        "japanese": "しきおりおり",
+        "roman": ""
+    },
+    {
+        "original": "万華鏡",
+        "japanese": "まんげきょう",
+        "roman": ""
+    },
+    {
+        "original": "大河ドラマ",
+        "japanese": "たいがどらま",
+        "roman": ""
+    },
+    {
+        "original": "アイスある?",
+        "japanese": "あいすある?",
+        "roman": ""
+    },
+    {
+        "original": "電子辞書",
+        "japanese": "でんしじしょ",
+        "roman": ""
+    },
+    {
+        "original": "うっとりする",
+        "japanese": "うっとりする",
+        "roman": ""
+    },
+    {
+        "original": "ひっぱりだこ",
+        "japanese": "ひっぱりだこ",
+        "roman": ""
+    },
+    {
+        "original": "道に迷う",
+        "japanese": "みちにまよう",
+        "roman": ""
+    },
+    {
+        "original": "フルマラソン",
+        "japanese": "ふるまらそん",
+        "roman": ""
+    },
+    {
+        "original": "会議中",
+        "japanese": "かいぎちゅう",
+        "roman": ""
+    },
+    {
+        "original": "チキンカレー",
+        "japanese": "ちきんかれー",
+        "roman": ""
+    },
+    {
+        "original": "猫に小判",
+        "japanese": "ねこにこばん",
+        "roman": ""
+    },
+    {
+        "original": "ト音記号",
+        "japanese": "とおんきごう",
+        "roman": ""
+    },
+    {
+        "original": "寝耳に水",
+        "japanese": "ねみみにみず",
+        "roman": ""
+    },
+    {
+        "original": "小春日和",
+        "japanese": "こはるびより",
+        "roman": ""
+    },
+    {
+        "original": "中古車",
+        "japanese": "ちゅうこしゃ",
+        "roman": ""
+    },
+    {
+        "original": "電話帳",
+        "japanese": "でんわちょう",
+        "roman": ""
+    },
+    {
+        "original": "体操服",
+        "japanese": "たいそうふく",
+        "roman": ""
+    },
+    {
+        "original": "心理テスト",
+        "japanese": "しんりてすと",
+        "roman": ""
+    },
+    {
+        "original": "ひらけゴマ!",
+        "japanese": "ひらけごま!",
+        "roman": ""
+    },
+    {
+        "original": "アットマーク",
+        "japanese": "あっとまーく",
+        "roman": ""
+    },
+    {
+        "original": "四字熟語",
+        "japanese": "よじじゅくご",
+        "roman": ""
+    },
+    {
+        "original": "天気予報",
+        "japanese": "てんきよほう",
+        "roman": ""
+    },
+    {
+        "original": "森林浴",
+        "japanese": "しんりんよく",
+        "roman": ""
+    },
+    {
+        "original": "ベストヒット",
+        "japanese": "べすとひっと",
+        "roman": ""
+    },
+    {
+        "original": "エクササイズ",
+        "japanese": "えくささいず",
+        "roman": ""
+    },
+    {
+        "original": "ヒッチハイク",
+        "japanese": "ひっちはいく",
+        "roman": ""
+    },
+    {
+        "original": "水平線",
+        "japanese": "すいへいせん",
+        "roman": ""
+    },
+    {
+        "original": "コックピット",
+        "japanese": "こっくぴっと",
+        "roman": ""
+    },
+    {
+        "original": "寝耳に水",
+        "japanese": "ねみみにみず",
+        "roman": ""
+    },
+    {
+        "original": "期末テスト",
+        "japanese": "きまつてすと",
+        "roman": ""
+    },
+    {
+        "original": "ポテトサラダ",
+        "japanese": "ぽてとさらだ",
+        "roman": ""
+    },
+    {
+        "original": "類人猿",
+        "japanese": "るいじんえん",
+        "roman": ""
+    },
+    {
+        "original": "専門店",
+        "japanese": "せんもんてん",
+        "roman": ""
+    },
+    {
+        "original": "ダイナマイト",
+        "japanese": "だいなまいと",
+        "roman": ""
+    },
+    {
+        "original": "カラーコピー",
+        "japanese": "からーこぴー",
+        "roman": ""
+    },
+    {
+        "original": "恐竜",
+        "japanese": "きょうりゅう",
+        "roman": ""
+    },
+    {
+        "original": "追っ手をまく",
+        "japanese": "おってをまく",
+        "roman": ""
+    },
+    {
+        "original": "ネイルサロン",
+        "japanese": "ねいるさろん",
+        "roman": ""
+    },
+    {
+        "original": "まだまだだな",
+        "japanese": "まだまだだな",
+        "roman": ""
+    },
+    {
+        "original": "ハツカネズミ",
+        "japanese": "はつかねずみ",
+        "roman": ""
+    },
+    {
+        "original": "ブロッコリー",
+        "japanese": "ぶろっこりー",
+        "roman": ""
+    },
+    {
+        "original": "アスパラガス",
+        "japanese": "あすぱらがす",
+        "roman": ""
+    },
+    {
+        "original": "バドミントン",
+        "japanese": "ばどみんとん",
+        "roman": ""
+    },
+    {
+        "original": "新発見",
+        "japanese": "しんはっけん",
+        "roman": ""
+    },
+    {
+        "original": "意気投合",
+        "japanese": "いきとうごう",
+        "roman": ""
+    },
+    {
+        "original": "アスタリスク",
+        "japanese": "あすたりすく",
+        "roman": ""
+    },
+    {
+        "original": "グラジオラス",
+        "japanese": "ぐらじおらす",
+        "roman": ""
+    },
+    {
+        "original": "ダブルプレー",
+        "japanese": "だぶるぷれー",
+        "roman": ""
+    },
+    {
+        "original": "内野安打",
+        "japanese": "ないやあんだ",
+        "roman": ""
+    },
+    {
+        "original": "ヨガのポーズ",
+        "japanese": "よがのぽーず",
+        "roman": ""
+    },
+    {
+        "original": "アキレス腱",
+        "japanese": "あきれすけん",
+        "roman": ""
+    },
+    {
+        "original": "ファンクラブ",
+        "japanese": "ふぁんくらぶ",
+        "roman": ""
+    },
+    {
+        "original": "エンディング",
+        "japanese": "えんでぃんぐ",
+        "roman": ""
+    },
+    {
+        "original": "ボンジュール",
+        "japanese": "ぼんじゅーる",
+        "roman": ""
+    },
+    {
+        "original": "お好み焼き",
+        "japanese": "おこのみやき",
+        "roman": ""
+    },
+    {
+        "original": "もんじゃ焼き",
+        "japanese": "もんじゃやき",
+        "roman": ""
+    },
+    {
+        "original": "支離滅裂",
+        "japanese": "しりめつれつ",
+        "roman": ""
+    },
+    {
+        "original": "あら奥様",
+        "japanese": "あらおくさま",
+        "roman": ""
+    },
+    {
+        "original": "いただきます",
+        "japanese": "いただきます",
+        "roman": ""
+    },
+    {
+        "original": "おいなりさん",
+        "japanese": "おいなりさん",
+        "roman": ""
+    },
+    {
+        "original": "お新香巻き",
+        "japanese": "おしんこまき",
+        "roman": ""
+    },
+    {
+        "original": "ガチャガチャ",
+        "japanese": "がちゃがちゃ",
+        "roman": ""
+    },
+    {
+        "original": "紙がない!",
+        "japanese": "かみがない!",
+        "roman": ""
+    },
+    {
+        "original": "キューちゃん",
+        "japanese": "きゅーちゃん",
+        "roman": ""
+    },
+    {
+        "original": "栗きんとん",
+        "japanese": "くりきんとん",
+        "roman": ""
+    },
+    {
+        "original": "ごちそうさま",
+        "japanese": "ごちそうさま",
+        "roman": ""
+    },
+    {
+        "original": "ごめんなさい",
+        "japanese": "ごめんなさい",
+        "roman": ""
+    },
+    {
+        "original": "少林寺",
+        "japanese": "しょうりんじ",
+        "roman": ""
+    },
+    {
+        "original": "しょっぱいヨ",
+        "japanese": "しょっぱいよ",
+        "roman": ""
+    },
+    {
+        "original": "ストッキング",
+        "japanese": "すとっきんぐ",
+        "roman": ""
+    },
+    {
+        "original": "ディスプレイ",
+        "japanese": "でぃすぷれい",
+        "roman": ""
+    },
+    {
+        "original": "トイレどこ?",
+        "japanese": "といれどこ?",
+        "roman": ""
+    },
+    {
+        "original": "なんてこった",
+        "japanese": "なんてこった",
+        "roman": ""
+    },
+    {
+        "original": "まずはビール",
+        "japanese": "まずはびーる",
+        "roman": ""
+    },
+    {
+        "original": "寝正月",
+        "japanese": "ねしょうがつ",
+        "roman": ""
+    },
+    {
+        "original": "子猫ちゃん",
+        "japanese": "こねこちゃん",
+        "roman": ""
+    },
+    {
+        "original": "右折禁止",
+        "japanese": "うせつきんし",
+        "roman": ""
+    },
+    {
+        "original": "回転ずし",
+        "japanese": "かいてんずし",
+        "roman": ""
+    },
+    {
+        "original": "ひなたぼっこ",
+        "japanese": "ひなたぼっこ",
+        "roman": ""
+    },
+    {
+        "original": "タイムカード",
+        "japanese": "たいむかーど",
+        "roman": ""
+    },
+    {
+        "original": "オークション",
+        "japanese": "おーくしょん",
+        "roman": ""
+    },
+    {
+        "original": "コンピュータ",
+        "japanese": "こんぴゅーた",
+        "roman": ""
+    },
+    {
+        "original": "宝の地図",
+        "japanese": "たからのちず",
+        "roman": ""
+    },
+    {
+        "original": "鍋奉行",
+        "japanese": "なべぶぎょう",
+        "roman": ""
+    },
+    {
+        "original": "ポップコーン",
+        "japanese": "ぽっぷこーん",
+        "roman": ""
+    },
+    {
+        "original": "トトカルチョ",
+        "japanese": "ととかるちょ",
+        "roman": ""
+    },
+    {
+        "original": "顕微鏡",
+        "japanese": "けんびきょう",
+        "roman": ""
+    },
+    {
+        "original": "チョコレート",
+        "japanese": "ちょこれーと",
+        "roman": ""
+    },
+    {
+        "original": "フランスパン",
+        "japanese": "ふらんすぱん",
+        "roman": ""
+    },
+    {
+        "original": "右クリック",
+        "japanese": "みぎくりっく",
+        "roman": ""
+    },
+    {
+        "original": "小悪魔的",
+        "japanese": "こあくまてき",
+        "roman": ""
+    },
+    {
+        "original": "永久歯",
+        "japanese": "えいきゅうし",
+        "roman": ""
+    },
+    {
+        "original": "カオス理論",
+        "japanese": "かおすりろん",
+        "roman": ""
+    },
+    {
+        "original": "古代遺跡",
+        "japanese": "こだいいせき",
+        "roman": ""
+    },
+    {
+        "original": "あんた誰?",
+        "japanese": "あんただれ?",
+        "roman": ""
+    },
+    {
+        "original": "オリンピック",
+        "japanese": "おりんぴっく",
+        "roman": ""
+    },
+    {
+        "original": "ここはどこ?",
+        "japanese": "ここはどこ?",
+        "roman": ""
+    },
+    {
+        "original": "海水浴",
+        "japanese": "かいすいよく",
+        "roman": ""
+    },
+    {
+        "original": "アップルパイ",
+        "japanese": "あっぷるぱい",
+        "roman": ""
+    },
+    {
+        "original": "深海魚",
+        "japanese": "しんかいぎょ",
+        "roman": ""
+    },
+    {
+        "original": "猫じゃらし",
+        "japanese": "ねこじゃらし",
+        "roman": ""
+    },
+    {
+        "original": "イチゴジャム",
+        "japanese": "いちごじゃむ",
+        "roman": ""
+    },
+    {
+        "original": "ロールケーキ",
+        "japanese": "ろーるけーき",
+        "roman": ""
+    },
+    {
+        "original": "成人の日",
+        "japanese": "せいじんのひ",
+        "roman": ""
+    },
+    {
+        "original": "現場合わせ",
+        "japanese": "げんばあわせ",
+        "roman": ""
+    },
+    {
+        "original": "ウーロン茶",
+        "japanese": "うーろんちゃ",
+        "roman": ""
+    },
+    {
+        "original": "熱帯魚",
+        "japanese": "ねったいぎょ",
+        "roman": ""
+    },
+    {
+        "original": "体温計",
+        "japanese": "たいおんけい",
+        "roman": ""
+    },
+    {
+        "original": "茶碗蒸し",
+        "japanese": "ちゃわんむし",
+        "roman": ""
+    },
+    {
+        "original": "貯金箱",
+        "japanese": "ちょきんばこ",
+        "roman": ""
+    },
+    {
+        "original": "目からウロコ",
+        "japanese": "めからうろこ",
+        "roman": ""
+    },
+    {
+        "original": "シャボン玉",
+        "japanese": "しゃぼんだま",
+        "roman": ""
+    },
+    {
+        "original": "軍艦巻き",
+        "japanese": "ぐんかんまき",
+        "roman": ""
+    },
+    {
+        "original": "ヘリコプター",
+        "japanese": "へりこぷたー",
+        "roman": ""
+    },
+    {
+        "original": "エレベーター",
+        "japanese": "えれべーたー",
+        "roman": ""
+    },
+    {
+        "original": "秋の夜長",
+        "japanese": "あきのよなが",
+        "roman": ""
+    },
+    {
+        "original": "都市伝説",
+        "japanese": "としでんせつ",
+        "roman": ""
+    },
+    {
+        "original": "戻り鰹",
+        "japanese": "もどりがつお",
+        "roman": ""
+    },
+    {
+        "original": "カルパッチョ",
+        "japanese": "かるぱっちょ",
+        "roman": ""
+    },
+    {
+        "original": "怖い話",
+        "japanese": "こわいはなし",
+        "roman": ""
+    },
+    {
+        "original": "道路工事",
+        "japanese": "どうろこうじ",
+        "roman": ""
+    },
+    {
+        "original": "ダイナミック",
+        "japanese": "だいなみっく",
+        "roman": ""
+    },
+    {
+        "original": "大道芸",
+        "japanese": "だいどうげい",
+        "roman": ""
+    },
+    {
+        "original": "引越しそば",
+        "japanese": "ひっこしそば",
+        "roman": ""
+    },
+    {
+        "original": "アスファルト",
+        "japanese": "あすふぁると",
+        "roman": ""
+    },
+    {
+        "original": "メロンソーダ",
+        "japanese": "めろんそーだ",
+        "roman": ""
+    },
+    {
+        "original": "火の用心",
+        "japanese": "ひのようじん",
+        "roman": ""
+    },
+    {
+        "original": "お持ち帰り",
+        "japanese": "おもちかえり",
+        "roman": ""
+    },
+    {
+        "original": "魔法使い",
+        "japanese": "まほうつかい",
+        "roman": ""
+    },
+    {
+        "original": "シャーベット",
+        "japanese": "しゃーべっと",
+        "roman": ""
+    },
+    {
+        "original": "休み時間",
+        "japanese": "やすみじかん",
+        "roman": ""
+    },
+    {
+        "original": "初心者",
+        "japanese": "しょしんしゃ",
+        "roman": ""
+    },
+    {
+        "original": "同窓会",
+        "japanese": "どうそうかい",
+        "roman": ""
+    },
+    {
+        "original": "チーズケーキ",
+        "japanese": "ちーずけーき",
+        "roman": ""
+    },
+    {
+        "original": "パイナップル",
+        "japanese": "ぱいなっぷる",
+        "roman": ""
+    },
+    {
+        "original": "じゃあまたね",
+        "japanese": "じゃあまたね",
+        "roman": ""
+    },
+    {
+        "original": "ジャンピング",
+        "japanese": "じゃんぴんぐ",
+        "roman": ""
+    },
+    {
+        "original": "三段跳び",
+        "japanese": "さんだんとび",
+        "roman": ""
+    },
+    {
+        "original": "メトロノーム",
+        "japanese": "めとろのーむ",
+        "roman": ""
+    },
+    {
+        "original": "人が悪い",
+        "japanese": "ひとがわるい",
+        "roman": ""
+    },
+    {
+        "original": "アーティスト",
+        "japanese": "あーてぃすと",
+        "roman": ""
+    },
+    {
+        "original": "了解!",
+        "japanese": "りょうかい!",
+        "roman": ""
+    },
+    {
+        "original": "人魚姫",
+        "japanese": "にんぎょひめ",
+        "roman": ""
+    },
+    {
+        "original": "ネイルアート",
+        "japanese": "ねいるあーと",
+        "roman": ""
+    },
+    {
+        "original": "のらりくらり",
+        "japanese": "のらりくらり",
+        "roman": ""
+    },
+    {
+        "original": "トロンボーン",
+        "japanese": "とろんぼーん",
+        "roman": ""
+    },
+    {
+        "original": "善は急げ",
+        "japanese": "ぜんはいそげ",
+        "roman": ""
+    },
+    {
+        "original": "殺し文句",
+        "japanese": "ころしもんく",
+        "roman": ""
+    },
+    {
+        "original": "プラス思考",
+        "japanese": "ぷらすしこう",
+        "roman": ""
+    },
+    {
+        "original": "森林浴",
+        "japanese": "しんりんよく",
+        "roman": ""
+    },
+    {
+        "original": "カーチェイス",
+        "japanese": "かーちぇいす",
+        "roman": ""
+    },
+    {
+        "original": "ロマンチック",
+        "japanese": "ろまんちっく",
+        "roman": ""
+    },
+    {
+        "original": "小春日和",
+        "japanese": "こはるびより",
+        "roman": ""
+    },
+    {
+        "original": "泥棒猫",
+        "japanese": "どろぼうねこ",
+        "roman": ""
+    },
+    {
+        "original": "天然水",
+        "japanese": "てんねんすい",
+        "roman": ""
+    },
+    {
+        "original": "鍵がない!",
+        "japanese": "かぎがない!",
+        "roman": ""
+    },
+    {
+        "original": "アップルティー",
+        "japanese": "あっぷるてぃー",
+        "roman": ""
+    },
+    {
+        "original": "フォークデュオ",
+        "japanese": "ふぉーくでゅお",
+        "roman": ""
+    },
+    {
+        "original": "パウダースノウ",
+        "japanese": "ぱうだーすのう",
+        "roman": ""
+    },
+    {
+        "original": "センチメンタル",
+        "japanese": "せんちめんたる",
+        "roman": ""
+    },
+    {
+        "original": "竜頭蛇尾",
+        "japanese": "りゅうとうだび",
+        "roman": ""
+    },
+    {
+        "original": "遺産相続",
+        "japanese": "いさんそうぞく",
+        "roman": ""
+    },
+    {
+        "original": "ラジオ体操",
+        "japanese": "らじおたいそう",
+        "roman": ""
+    },
+    {
+        "original": "完全試合",
+        "japanese": "かんぜんじあい",
+        "roman": ""
+    },
+    {
+        "original": "バウムクーヘン",
+        "japanese": "ばうむくーへん",
+        "roman": ""
+    },
+    {
+        "original": "縄文土器",
+        "japanese": "じょうもんどき",
+        "roman": ""
+    },
+    {
+        "original": "梅雨前線",
+        "japanese": "ばいうぜんせん",
+        "roman": ""
+    },
+    {
+        "original": "大和魂",
+        "japanese": "やまとだましい",
+        "roman": ""
+    },
+    {
+        "original": "北斗七星",
+        "japanese": "ほくとしちせい",
+        "roman": ""
+    },
+    {
+        "original": "北欧神話",
+        "japanese": "ほくおうしんわ",
+        "roman": ""
+    },
+    {
+        "original": "万葉集",
+        "japanese": "まんようしゅう",
+        "roman": ""
+    },
+    {
+        "original": "消える魔球",
+        "japanese": "きえるまきゅう",
+        "roman": ""
+    },
+    {
+        "original": "間違い探し",
+        "japanese": "まちがいさがし",
+        "roman": ""
+    },
+    {
+        "original": "複雑怪奇",
+        "japanese": "ふくざつかいき",
+        "roman": ""
+    },
+    {
+        "original": "ホワイトボード",
+        "japanese": "ほわいとぼーど",
+        "roman": ""
+    },
+    {
+        "original": "テレビ番組",
+        "japanese": "てれびばんぐみ",
+        "roman": ""
+    },
+    {
+        "original": "鬼に金棒",
+        "japanese": "おににかなぼう",
+        "roman": ""
+    },
+    {
+        "original": "ミクロの世界",
+        "japanese": "みくろのせかい",
+        "roman": ""
+    },
+    {
+        "original": "防犯ブザー",
+        "japanese": "ぼうはんぶざー",
+        "roman": ""
+    },
+    {
+        "original": "結婚します",
+        "japanese": "けっこんします",
+        "roman": ""
+    },
+    {
+        "original": "朝のあいさつ",
+        "japanese": "あさのあいさつ",
+        "roman": ""
+    },
+    {
+        "original": "チェック模様",
+        "japanese": "ちぇっくもよう",
+        "roman": ""
+    },
+    {
+        "original": "消費量",
+        "japanese": "しょうひりょう",
+        "roman": ""
+    },
+    {
+        "original": "レンジでチン!",
+        "japanese": "れんじでちん!",
+        "roman": ""
+    },
+    {
+        "original": "カルスト台地",
+        "japanese": "かるすとだいち",
+        "roman": ""
+    },
+    {
+        "original": "ハレー彗星",
+        "japanese": "はれーすいせい",
+        "roman": ""
+    },
+    {
+        "original": "絶滅の危機",
+        "japanese": "ぜつめつのきき",
+        "roman": ""
+    },
+    {
+        "original": "試合速報",
+        "japanese": "しあいそくほう",
+        "roman": ""
+    },
+    {
+        "original": "社交ダンス",
+        "japanese": "しゃこうだんす",
+        "roman": ""
+    },
+    {
+        "original": "今日の日記",
+        "japanese": "きょうのにっき",
+        "roman": ""
+    },
+    {
+        "original": "給食費",
+        "japanese": "きゅうしょくひ",
+        "roman": ""
+    },
+    {
+        "original": "サボテンの花",
+        "japanese": "さぼてんのはな",
+        "roman": ""
+    },
+    {
+        "original": "空の王者",
+        "japanese": "そらのおうじゃ",
+        "roman": ""
+    },
+    {
+        "original": "染色体",
+        "japanese": "せんしょくたい",
+        "roman": ""
+    },
+    {
+        "original": "淡い初恋",
+        "japanese": "あわいはつこい",
+        "roman": ""
+    },
+    {
+        "original": "首位をキープ",
+        "japanese": "しゅいをきーぷ",
+        "roman": ""
+    },
+    {
+        "original": "フォークギター",
+        "japanese": "ふぉーくぎたー",
+        "roman": ""
+    },
+    {
+        "original": "パイプオルガン",
+        "japanese": "ぱいぷおるがん",
+        "roman": ""
+    },
+    {
+        "original": "防犯ブザー",
+        "japanese": "ぼうはんぶざー",
+        "roman": ""
+    },
+    {
+        "original": "コケコッコー!",
+        "japanese": "こけこっこー!",
+        "roman": ""
+    },
+    {
+        "original": "ねこにマタタビ",
+        "japanese": "ねこにまたたび",
+        "roman": ""
+    },
+    {
+        "original": "ご飯たべた?",
+        "japanese": "ごはんたべた?",
+        "roman": ""
+    },
+    {
+        "original": "リップクリーム",
+        "japanese": "りっぷくりーむ",
+        "roman": ""
+    },
+    {
+        "original": "走り高跳び",
+        "japanese": "はしりたかとび",
+        "roman": ""
+    },
+    {
+        "original": "名刺交換",
+        "japanese": "めいしこうかん",
+        "roman": ""
+    },
+    {
+        "original": "さるのこしかけ",
+        "japanese": "さるのこしかけ",
+        "roman": ""
+    },
+    {
+        "original": "始発列車",
+        "japanese": "しはつれっしゃ",
+        "roman": ""
+    },
+    {
+        "original": "麦わら帽子",
+        "japanese": "むぎわらぼうし",
+        "roman": ""
+    },
+    {
+        "original": "ぴったりサイズ",
+        "japanese": "ぴったりさいず",
+        "roman": ""
+    },
+    {
+        "original": "白紙に戻す",
+        "japanese": "はくしにもどす",
+        "roman": ""
+    },
+    {
+        "original": "急展開",
+        "japanese": "きゅうてんかい",
+        "roman": ""
+    },
+    {
+        "original": "梅雨前線",
+        "japanese": "ばいうぜんせん",
+        "roman": ""
+    },
+    {
+        "original": "残念賞",
+        "japanese": "ざんねんしょう",
+        "roman": ""
+    },
+    {
+        "original": "ショートケーキ",
+        "japanese": "しょーとけーき",
+        "roman": ""
+    },
+    {
+        "original": "ぺペロンチーノ",
+        "japanese": "ぺぺろんちーの",
+        "roman": ""
+    },
+    {
+        "original": "ブロック崩し",
+        "japanese": "ぶろっくくずし",
+        "roman": ""
+    },
+    {
+        "original": "バルーンアート",
+        "japanese": "ばるーんあーと",
+        "roman": ""
+    },
+    {
+        "original": "真っ白な雪",
+        "japanese": "まっしろなゆき",
+        "roman": ""
+    },
+    {
+        "original": "体内時計",
+        "japanese": "たいないどけい",
+        "roman": ""
+    },
+    {
+        "original": "以心伝心",
+        "japanese": "いしんでんしん",
+        "roman": ""
+    },
+    {
+        "original": "目覚まし時計",
+        "japanese": "めざましどけい",
+        "roman": ""
+    },
+    {
+        "original": "義務教育",
+        "japanese": "ぎむきょういく",
+        "roman": ""
+    },
+    {
+        "original": "曇りのち晴れ",
+        "japanese": "くもりのちはれ",
+        "roman": ""
+    },
+    {
+        "original": "ネームプレート",
+        "japanese": "ねーむぷれーと",
+        "roman": ""
+    },
+    {
+        "original": "七色の虹",
+        "japanese": "なないろのにじ",
+        "roman": ""
+    },
+    {
+        "original": "待ち受け画面",
+        "japanese": "まちうけがめん",
+        "roman": ""
+    },
+    {
+        "original": "人気タレント",
+        "japanese": "にんきたれんと",
+        "roman": ""
+    },
+    {
+        "original": "サッカーゴール",
+        "japanese": "さっかーごーる",
+        "roman": ""
+    },
+    {
+        "original": "お肌つるつる",
+        "japanese": "おはだつるつる",
+        "roman": ""
+    },
+    {
+        "original": "抜き打ち検査",
+        "japanese": "ぬきうちけんさ",
+        "roman": ""
+    },
+    {
+        "original": "どんでん返し",
+        "japanese": "どんでんがえし",
+        "roman": ""
+    },
+    {
+        "original": "鉛筆削り",
+        "japanese": "えんぴつけずり",
+        "roman": ""
+    },
+    {
+        "original": "三時のおやつ",
+        "japanese": "さんじのおやつ",
+        "roman": ""
+    },
+    {
+        "original": "ロッカールーム",
+        "japanese": "ろっかーるーむ",
+        "roman": ""
+    },
+    {
+        "original": "お花見行こう",
+        "japanese": "おはなみいこう",
+        "roman": ""
+    },
+    {
+        "original": "路上ライブ",
+        "japanese": "ろじょうらいぶ",
+        "roman": ""
+    },
+    {
+        "original": "気分爽快",
+        "japanese": "きぶんそうかい",
+        "roman": ""
+    },
+    {
+        "original": "グーチョキパー",
+        "japanese": "ぐーちょきぱー",
+        "roman": ""
+    },
+    {
+        "original": "研修会",
+        "japanese": "けんしゅうかい",
+        "roman": ""
+    },
+    {
+        "original": "宅急便",
+        "japanese": "たっきゅうびん",
+        "roman": ""
+    },
+    {
+        "original": "ジグソーパズル",
+        "japanese": "じぐそーぱずる",
+        "roman": ""
+    },
+    {
+        "original": "ロングスカート",
+        "japanese": "ろんぐすかーと",
+        "roman": ""
+    },
+    {
+        "original": "インフルエンザ",
+        "japanese": "いんふるえんざ",
+        "roman": ""
+    },
+    {
+        "original": "マロンクリーム",
+        "japanese": "まろんくりーむ",
+        "roman": ""
+    },
+    {
+        "original": "また会う日まで",
+        "japanese": "またあうひまで",
+        "roman": ""
+    },
+    {
+        "original": "鎌倉幕府",
+        "japanese": "かまくらばくふ",
+        "roman": ""
+    },
+    {
+        "original": "竹やぶ焼けた",
+        "japanese": "たけやぶやけた",
+        "roman": ""
+    },
+    {
+        "original": "小宇宙",
+        "japanese": "しょううちゅう",
+        "roman": ""
+    },
+    {
+        "original": "石油ストーブ",
+        "japanese": "せきゆすとーぶ",
+        "roman": ""
+    },
+    {
+        "original": "セロハンテープ",
+        "japanese": "せろはんてーぷ",
+        "roman": ""
+    },
+    {
+        "original": "質問事項",
+        "japanese": "しつもんじこう",
+        "roman": ""
+    },
+    {
+        "original": "激しい雷雨",
+        "japanese": "はげしいらいう",
+        "roman": ""
+    },
+    {
+        "original": "キャッチコピー",
+        "japanese": "きゃっちこぴー",
+        "roman": ""
+    },
+    {
+        "original": "クーリングオフ",
+        "japanese": "くーりんぐおふ",
+        "roman": ""
+    },
+    {
+        "original": "ノートパソコン",
+        "japanese": "のーとぱそこん",
+        "roman": ""
+    },
+    {
+        "original": "メジャーリーグ",
+        "japanese": "めじゃーりーぐ",
+        "roman": ""
+    },
+    {
+        "original": "千本ノック",
+        "japanese": "せんぼんのっく",
+        "roman": ""
+    },
+    {
+        "original": "メールフォーム",
+        "japanese": "めーるふぉーむ",
+        "roman": ""
+    },
+    {
+        "original": "プラネタリウム",
+        "japanese": "ぷらねたりうむ",
+        "roman": ""
+    },
+    {
+        "original": "アニメーション",
+        "japanese": "あにめーしょん",
+        "roman": ""
+    },
+    {
+        "original": "いつものやつね",
+        "japanese": "いつものやつね",
+        "roman": ""
+    },
+    {
+        "original": "沖縄行こう",
+        "japanese": "おきなわいこう",
+        "roman": ""
+    },
+    {
+        "original": "お塩ください",
+        "japanese": "おしおください",
+        "roman": ""
+    },
+    {
+        "original": "グキッていった",
+        "japanese": "ぐきっていった",
+        "roman": ""
+    },
+    {
+        "original": "財布落とした",
+        "japanese": "さいふおとした",
+        "roman": ""
+    },
+    {
+        "original": "撮影禁止",
+        "japanese": "さつえいきんし",
+        "roman": ""
+    },
+    {
+        "original": "死なばもろとも",
+        "japanese": "しなばもろとも",
+        "roman": ""
+    },
+    {
+        "original": "洗濯びより",
+        "japanese": "せんたくびより",
+        "roman": ""
+    },
+    {
+        "original": "タイムサービス",
+        "japanese": "たいむさーびす",
+        "roman": ""
+    },
+    {
+        "original": "竹ヤブ焼けた",
+        "japanese": "たけやぶやけた",
+        "roman": ""
+    },
+    {
+        "original": "何てったって",
+        "japanese": "なんてったって",
+        "roman": ""
+    },
+    {
+        "original": "バッドチョイス",
+        "japanese": "ばっどちょいす",
+        "roman": ""
+    },
+    {
+        "original": "抜本的な",
+        "japanese": "ばっぽんてきな",
+        "roman": ""
+    },
+    {
+        "original": "ヒヨコピヨピヨ",
+        "japanese": "ひよこぴよぴよ",
+        "roman": ""
+    },
+    {
+        "original": "ブラックホール",
+        "japanese": "ぶらっくほーる",
+        "roman": ""
+    },
+    {
+        "original": "ポキッて折れた",
+        "japanese": "ぽきっておれた",
+        "roman": ""
+    },
+    {
+        "original": "目潰し禁止",
+        "japanese": "めつぶしきんし",
+        "roman": ""
+    },
+    {
+        "original": "インターネット",
+        "japanese": "いんたーねっと",
+        "roman": ""
+    },
+    {
+        "original": "ワサビ入れすぎ",
+        "japanese": "わさびいれすぎ",
+        "roman": ""
+    },
+    {
+        "original": "小さじ一杯",
+        "japanese": "こさじいっぱい",
+        "roman": ""
+    },
+    {
+        "original": "日本の心",
+        "japanese": "にほんのこころ",
+        "roman": ""
+    },
+    {
+        "original": "引っ越しました",
+        "japanese": "ひっこしました",
+        "roman": ""
+    },
+    {
+        "original": "デジタルカメラ",
+        "japanese": "でじたるかめら",
+        "roman": ""
+    },
+    {
+        "original": "ダブルクリック",
+        "japanese": "だぶるくりっく",
+        "roman": ""
+    },
+    {
+        "original": "ホイールマウス",
+        "japanese": "ほいーるまうす",
+        "roman": ""
+    },
+    {
+        "original": "携帯電話",
+        "japanese": "けいたいでんわ",
+        "roman": ""
+    },
+    {
+        "original": "マツタケご飯",
+        "japanese": "まつたけごはん",
+        "roman": ""
+    },
+    {
+        "original": "背水の陣",
+        "japanese": "はいすいのじん",
+        "roman": ""
+    },
+    {
+        "original": "知らぬが仏",
+        "japanese": "しらぬがほとけ",
+        "roman": ""
+    },
+    {
+        "original": "地獄に仏",
+        "japanese": "じごくにほとけ",
+        "roman": ""
+    },
+    {
+        "original": "賞味期限",
+        "japanese": "しょうみきげん",
+        "roman": ""
+    },
+    {
+        "original": "左クリック",
+        "japanese": "ひだりくりっく",
+        "roman": ""
+    },
+    {
+        "original": "ブロードバンド",
+        "japanese": "ぶろーどばんど",
+        "roman": ""
+    },
+    {
+        "original": "春分の日",
+        "japanese": "しゅんぶんのひ",
+        "roman": ""
+    },
+    {
+        "original": "マイナスイオン",
+        "japanese": "まいなすいおん",
+        "roman": ""
+    },
+    {
+        "original": "カップラーメン",
+        "japanese": "かっぷらーめん",
+        "roman": ""
+    },
+    {
+        "original": "日進月歩",
+        "japanese": "にっしんげっぽ",
+        "roman": ""
+    },
+    {
+        "original": "ノルマ達成",
+        "japanese": "のるまたっせい",
+        "roman": ""
+    },
+    {
+        "original": "王様ゲーム",
+        "japanese": "おうさまげーむ",
+        "roman": ""
+    },
+    {
+        "original": "ランチメニュー",
+        "japanese": "らんちめにゅー",
+        "roman": ""
+    },
+    {
+        "original": "メールマガジン",
+        "japanese": "めーるまがじん",
+        "roman": ""
+    },
+    {
+        "original": "名刺交換",
+        "japanese": "めいしこうかん",
+        "roman": ""
+    },
+    {
+        "original": "バーゲンセール",
+        "japanese": "ばーげんせーる",
+        "roman": ""
+    },
+    {
+        "original": "アロマテラピー",
+        "japanese": "あろまてらぴー",
+        "roman": ""
+    },
+    {
+        "original": "日曜大工",
+        "japanese": "にちようだいく",
+        "roman": ""
+    },
+    {
+        "original": "ショートカット",
+        "japanese": "しょーとかっと",
+        "roman": ""
+    },
+    {
+        "original": "抜き打ちテスト",
+        "japanese": "ぬきうちてすと",
+        "roman": ""
+    },
+    {
+        "original": "ラーメンライス",
+        "japanese": "らーめんらいす",
+        "roman": ""
+    },
+    {
+        "original": "ハッピーエンド",
+        "japanese": "はっぴーえんど",
+        "roman": ""
+    },
+    {
+        "original": "年末年始",
+        "japanese": "ねんまつねんし",
+        "roman": ""
+    },
+    {
+        "original": "花より団子",
+        "japanese": "はなよりだんご",
+        "roman": ""
+    },
+    {
+        "original": "入学式",
+        "japanese": "にゅうがくしき",
+        "roman": ""
+    },
+    {
+        "original": "卒業式",
+        "japanese": "そつぎょうしき",
+        "roman": ""
+    },
+    {
+        "original": "なんだって!?",
+        "japanese": "なんだって!?",
+        "roman": ""
+    },
+    {
+        "original": "そんなバカな!",
+        "japanese": "そんなばかな!",
+        "roman": ""
+    },
+    {
+        "original": "おたまじゃくし",
+        "japanese": "おたまじゃくし",
+        "roman": ""
+    },
+    {
+        "original": "寝違えました",
+        "japanese": "ねちがえました",
+        "roman": ""
+    },
+    {
+        "original": "イソギンチャク",
+        "japanese": "いそぎんちゃく",
+        "roman": ""
+    },
+    {
+        "original": "音速の壁",
+        "japanese": "おんそくのかべ",
+        "roman": ""
+    },
+    {
+        "original": "じゃんけんポン",
+        "japanese": "じゃんけんぽん",
+        "roman": ""
+    },
+    {
+        "original": "男のロマン",
+        "japanese": "おとこのろまん",
+        "roman": ""
+    },
+    {
+        "original": "星座占い",
+        "japanese": "せいざうらない",
+        "roman": ""
+    },
+    {
+        "original": "メラニン色素",
+        "japanese": "めらにんしきそ",
+        "roman": ""
+    },
+    {
+        "original": "パイプオルガン",
+        "japanese": "ぱいぷおるがん",
+        "roman": ""
+    },
+    {
+        "original": "ロールキャベツ",
+        "japanese": "ろーるきゃべつ",
+        "roman": ""
+    },
+    {
+        "original": "ラジオ体操",
+        "japanese": "らじおたいそう",
+        "roman": ""
+    },
+    {
+        "original": "エスカレーター",
+        "japanese": "えすかれーたー",
+        "roman": ""
+    },
+    {
+        "original": "ロケットパンチ",
+        "japanese": "ろけっとぱんち",
+        "roman": ""
+    },
+    {
+        "original": "七面鳥",
+        "japanese": "しちめんちょう",
+        "roman": ""
+    },
+    {
+        "original": "モーターボート",
+        "japanese": "もーたーぼーと",
+        "roman": ""
+    },
+    {
+        "original": "家庭菜園",
+        "japanese": "かていさいえん",
+        "roman": ""
+    },
+    {
+        "original": "タイムマシーン",
+        "japanese": "たいむましーん",
+        "roman": ""
+    },
+    {
+        "original": "つぶらな瞳",
+        "japanese": "つぶらなひとみ",
+        "roman": ""
+    },
+    {
+        "original": "長蛇の列",
+        "japanese": "ちょうだのれつ",
+        "roman": ""
+    },
+    {
+        "original": "線香花火",
+        "japanese": "せんこうはなび",
+        "roman": ""
+    },
+    {
+        "original": "ハードディスク",
+        "japanese": "はーどでぃすく",
+        "roman": ""
+    },
+    {
+        "original": "卒業式",
+        "japanese": "そつぎょうしき",
+        "roman": ""
+    },
+    {
+        "original": "入学式",
+        "japanese": "にゅうがくしき",
+        "roman": ""
+    },
+    {
+        "original": "メールアドレス",
+        "japanese": "めーるあどれす",
+        "roman": ""
+    },
+    {
+        "original": "栗にそっくり",
+        "japanese": "くりにそっくり",
+        "roman": ""
+    },
+    {
+        "original": "イチゴ大福",
+        "japanese": "いちごだいふく",
+        "roman": ""
+    },
+    {
+        "original": "流しそうめん",
+        "japanese": "ながしそうめん",
+        "roman": ""
+    },
+    {
+        "original": "肋骨折れた",
+        "japanese": "ろっこつおれた",
+        "roman": ""
+    },
+    {
+        "original": "ハンドルネーム",
+        "japanese": "はんどるねーむ",
+        "roman": ""
+    },
+    {
+        "original": "スケッチブック",
+        "japanese": "すけっちぶっく",
+        "roman": ""
+    },
+    {
+        "original": "ラッシュアワー",
+        "japanese": "らっしゅあわー",
+        "roman": ""
+    },
+    {
+        "original": "寝る子は育つ",
+        "japanese": "ねるこはそだつ",
+        "roman": ""
+    },
+    {
+        "original": "ヘソ出しルック",
+        "japanese": "へそだしるっく",
+        "roman": ""
+    },
+    {
+        "original": "元気だった?",
+        "japanese": "げんきだった?",
+        "roman": ""
+    },
+    {
+        "original": "鼻毛でてるよ",
+        "japanese": "はなげでてるよ",
+        "roman": ""
+    },
+    {
+        "original": "なんでだろう?",
+        "japanese": "なんでだろう?",
+        "roman": ""
+    },
+    {
+        "original": "ミリオンセラー",
+        "japanese": "みりおんせらー",
+        "roman": ""
+    },
+    {
+        "original": "シュークリーム",
+        "japanese": "しゅーくりーむ",
+        "roman": ""
+    },
+    {
+        "original": "家庭菜園",
+        "japanese": "かていさいえん",
+        "roman": ""
+    },
+    {
+        "original": "職員室",
+        "japanese": "しょくいんしつ",
+        "roman": ""
+    },
+    {
+        "original": "理科の実験",
+        "japanese": "りかのじっけん",
+        "roman": ""
+    },
+    {
+        "original": "国語のテスト",
+        "japanese": "こくごのてすと",
+        "roman": ""
+    },
+    {
+        "original": "献血しよう",
+        "japanese": "けんけつしよう",
+        "roman": ""
+    },
+    {
+        "original": "因果応報",
+        "japanese": "いんがおうほう",
+        "roman": ""
+    },
+    {
+        "original": "急がば廻れ",
+        "japanese": "いそがばまわれ",
+        "roman": ""
+    },
+    {
+        "original": "陽はまた昇る",
+        "japanese": "ひはまたのぼる",
+        "roman": ""
+    },
+    {
+        "original": "タツノオトシゴ",
+        "japanese": "たつのおとしご",
+        "roman": ""
+    },
+    {
+        "original": "エッフェル塔",
+        "japanese": "えっふぇるとう",
+        "roman": ""
+    },
+    {
+        "original": "チューインガム",
+        "japanese": "ちゅーいんがむ",
+        "roman": ""
+    },
+    {
+        "original": "王様ゲーム",
+        "japanese": "おうさまげーむ",
+        "roman": ""
+    },
+    {
+        "original": "ワールドカップ",
+        "japanese": "わーるどかっぷ",
+        "roman": ""
+    },
+    {
+        "original": "豆電球",
+        "japanese": "まめでんきゅう",
+        "roman": ""
+    },
+    {
+        "original": "月とすっぽん",
+        "japanese": "つきとすっぽん",
+        "roman": ""
+    },
+    {
+        "original": "夕焼け小焼け",
+        "japanese": "ゆうやけこやけ",
+        "roman": ""
+    },
+    {
+        "original": "ノミの心臓",
+        "japanese": "のみのしんぞう",
+        "roman": ""
+    },
+    {
+        "original": "以心伝心",
+        "japanese": "いしんでんしん",
+        "roman": ""
+    },
+    {
+        "original": "スポットライト",
+        "japanese": "すぽっとらいと",
+        "roman": ""
+    },
+    {
+        "original": "南無阿弥陀仏",
+        "japanese": "なむあみだぶつ",
+        "roman": ""
+    },
+    {
+        "original": "天空の城",
+        "japanese": "てんくうのしろ",
+        "roman": ""
+    },
+    {
+        "original": "大きいチワワ",
+        "japanese": "おおきいちわわ",
+        "roman": ""
+    },
+    {
+        "original": "マロングラッセ",
+        "japanese": "まろんぐらっせ",
+        "roman": ""
+    },
+    {
+        "original": "真実の口",
+        "japanese": "しんじつのくち",
+        "roman": ""
+    },
+    {
+        "original": "迷える子羊",
+        "japanese": "まよえるこひつじ",
+        "roman": ""
+    },
+    {
+        "original": "産地直送",
+        "japanese": "さんちちょくそう",
+        "roman": ""
+    },
+    {
+        "original": "全席禁煙",
+        "japanese": "ぜんせききんえん",
+        "roman": ""
+    },
+    {
+        "original": "起承転結",
+        "japanese": "きしょうてんけつ",
+        "roman": ""
+    },
+    {
+        "original": "合コンしようよ",
+        "japanese": "ごうこんしようよ",
+        "roman": ""
+    },
+    {
+        "original": "東洋の魔女",
+        "japanese": "とうようのまじょ",
+        "roman": ""
+    },
+    {
+        "original": "美女と野獣",
+        "japanese": "びじょとやじゅう",
+        "roman": ""
+    },
+    {
+        "original": "兄弟げんか",
+        "japanese": "きょうだいげんか",
+        "roman": ""
+    },
+    {
+        "original": "身体測定",
+        "japanese": "しんたいそくてい",
+        "roman": ""
+    },
+    {
+        "original": "百万ボルト",
+        "japanese": "ひゃくまんぼると",
+        "roman": ""
+    },
+    {
+        "original": "アセロラ果汁",
+        "japanese": "あせろらかじゅう",
+        "roman": ""
+    },
+    {
+        "original": "俺じゃないって",
+        "japanese": "おれじゃないって",
+        "roman": ""
+    },
+    {
+        "original": "良妻賢母",
+        "japanese": "りょうさいけんぼ",
+        "roman": ""
+    },
+    {
+        "original": "ニンジンは嫌い",
+        "japanese": "にんじんはきらい",
+        "roman": ""
+    },
+    {
+        "original": "ちゃぶ台返し",
+        "japanese": "ちゃぶだいがえし",
+        "roman": ""
+    },
+    {
+        "original": "ワープロ検定",
+        "japanese": "わーぷろけんてい",
+        "roman": ""
+    },
+    {
+        "original": "一撃必殺",
+        "japanese": "いちげきひっさつ",
+        "roman": ""
+    },
+    {
+        "original": "天国と地獄",
+        "japanese": "てんごくとじごく",
+        "roman": ""
+    },
+    {
+        "original": "ボディランゲージ",
+        "japanese": "ぼでぃらんげーじ",
+        "roman": ""
+    },
+    {
+        "original": "ドラゴンフルーツ",
+        "japanese": "どらごんふるーつ",
+        "roman": ""
+    },
+    {
+        "original": "心霊スポット",
+        "japanese": "しんれいすぽっと",
+        "roman": ""
+    },
+    {
+        "original": "忘れ物ない?",
+        "japanese": "わすれものない?",
+        "roman": ""
+    },
+    {
+        "original": "カルシウム不足",
+        "japanese": "かるしうむぶそく",
+        "roman": ""
+    },
+    {
+        "original": "ウーパールーパー",
+        "japanese": "うーぱーるーぱー",
+        "roman": ""
+    },
+    {
+        "original": "小鳥のさえずり",
+        "japanese": "ことりのさえずり",
+        "roman": ""
+    },
+    {
+        "original": "没収します",
+        "japanese": "ぼっしゅうします",
+        "roman": ""
+    },
+    {
+        "original": "元気いっぱい!",
+        "japanese": "げんきいっぱい!",
+        "roman": ""
+    },
+    {
+        "original": "お肌に優しい",
+        "japanese": "おはだにやさしい",
+        "roman": ""
+    },
+    {
+        "original": "生け花が趣味",
+        "japanese": "いけばながしゅみ",
+        "roman": ""
+    },
+    {
+        "original": "新品の机",
+        "japanese": "しんぴんのつくえ",
+        "roman": ""
+    },
+    {
+        "original": "デミグラスソース",
+        "japanese": "でみぐらすそーす",
+        "roman": ""
+    },
+    {
+        "original": "動物の不思議",
+        "japanese": "どうぶつのふしぎ",
+        "roman": ""
+    },
+    {
+        "original": "あたたかい日差し",
+        "japanese": "あたたかいひざし",
+        "roman": ""
+    },
+    {
+        "original": "電撃結婚",
+        "japanese": "でんげきけっこん",
+        "roman": ""
+    },
+    {
+        "original": "面白半分",
+        "japanese": "おもしろはんぶん",
+        "roman": ""
+    },
+    {
+        "original": "意外な一面",
+        "japanese": "いがいないちめん",
+        "roman": ""
+    },
+    {
+        "original": "若手のルーキー",
+        "japanese": "わかてのるーきー",
+        "roman": ""
+    },
+    {
+        "original": "健闘を祈る",
+        "japanese": "けんとうをいのる",
+        "roman": ""
+    },
+    {
+        "original": "引越し貧乏",
+        "japanese": "ひっこしびんぼう",
+        "roman": ""
+    },
+    {
+        "original": "頑張れニッポン",
+        "japanese": "がんばれにっぽん",
+        "roman": ""
+    },
+    {
+        "original": "ピンポンダッシュ",
+        "japanese": "ぴんぽんだっしゅ",
+        "roman": ""
+    },
+    {
+        "original": "ゆびきりげんまん",
+        "japanese": "ゆびきりげんまん",
+        "roman": ""
+    },
+    {
+        "original": "ししゃもの卵",
+        "japanese": "ししゃものたまご",
+        "roman": ""
+    },
+    {
+        "original": "からしめんたいこ",
+        "japanese": "からしめんたいこ",
+        "roman": ""
+    },
+    {
+        "original": "ハッシュドビーフ",
+        "japanese": "はっしゅどびーふ",
+        "roman": ""
+    },
+    {
+        "original": "ブラックコーヒー",
+        "japanese": "ぶらっくこーひー",
+        "roman": ""
+    },
+    {
+        "original": "政権交代",
+        "japanese": "せいけんこうたい",
+        "roman": ""
+    },
+    {
+        "original": "ここだけの話",
+        "japanese": "ここだけのはなし",
+        "roman": ""
+    },
+    {
+        "original": "禁酒禁煙",
+        "japanese": "きんしゅきんえん",
+        "roman": ""
+    },
+    {
+        "original": "今がチャンス!",
+        "japanese": "いまがちゃんす!",
+        "roman": ""
+    },
+    {
+        "original": "前言撤回",
+        "japanese": "ぜんげんてっかい",
+        "roman": ""
+    },
+    {
+        "original": "私はメガネ派",
+        "japanese": "わたしはめがねは",
+        "roman": ""
+    },
+    {
+        "original": "折り返し地点",
+        "japanese": "おりかえしちてん",
+        "roman": ""
+    },
+    {
+        "original": "防災訓練",
+        "japanese": "ぼうさいくんれん",
+        "roman": ""
+    },
+    {
+        "original": "星の王子様",
+        "japanese": "ほしのおうじさま",
+        "roman": ""
+    },
+    {
+        "original": "踏んだり蹴ったり",
+        "japanese": "ふんだりけったり",
+        "roman": ""
+    },
+    {
+        "original": "時すでに遅し",
+        "japanese": "ときすでにおそし",
+        "roman": ""
+    },
+    {
+        "original": "ある日の出来事",
+        "japanese": "あるひのできごと",
+        "roman": ""
+    },
+    {
+        "original": "チャーシューメン",
+        "japanese": "ちゃーしゅーめん",
+        "roman": ""
+    },
+    {
+        "original": "社長秘書",
+        "japanese": "しゃちょうひしょ",
+        "roman": ""
+    },
+    {
+        "original": "ニュース速報",
+        "japanese": "にゅーすそくほう",
+        "roman": ""
+    },
+    {
+        "original": "ボンゴレビアンコ",
+        "japanese": "ぼんごれびあんこ",
+        "roman": ""
+    },
+    {
+        "original": "エイプリルフール",
+        "japanese": "えいぷりるふーる",
+        "roman": ""
+    },
+    {
+        "original": "焼きとうもろこし",
+        "japanese": "やきとうもろこし",
+        "roman": ""
+    },
+    {
+        "original": "格安物件",
+        "japanese": "かくやすぶっけん",
+        "roman": ""
+    },
+    {
+        "original": "テレビのリモコン",
+        "japanese": "てれびのりもこん",
+        "roman": ""
+    },
+    {
+        "original": "愛妻弁当",
+        "japanese": "あいさいべんとう",
+        "roman": ""
+    },
+    {
+        "original": "ブラックペッパー",
+        "japanese": "ぶらっくぺっぱー",
+        "roman": ""
+    },
+    {
+        "original": "桜舞う季節",
+        "japanese": "さくらまうきせつ",
+        "roman": ""
+    },
+    {
+        "original": "ダイレクトメール",
+        "japanese": "だいれくとめーる",
+        "roman": ""
+    },
+    {
+        "original": "空気がおいしい",
+        "japanese": "くうきがおいしい",
+        "roman": ""
+    },
+    {
+        "original": "三角定規",
+        "japanese": "さんかくじょうぎ",
+        "roman": ""
+    },
+    {
+        "original": "気象予報士",
+        "japanese": "きしょうよほうし",
+        "roman": ""
+    },
+    {
+        "original": "一石二鳥",
+        "japanese": "いっせきにちょう",
+        "roman": ""
+    },
+    {
+        "original": "コーンポタージュ",
+        "japanese": "こーんぽたーじゅ",
+        "roman": ""
+    },
+    {
+        "original": "もぎたてフルーツ",
+        "japanese": "もぎたてふるーつ",
+        "roman": ""
+    },
+    {
+        "original": "会議室の鍵",
+        "japanese": "かいぎしつのかぎ",
+        "roman": ""
+    },
+    {
+        "original": "東京地裁",
+        "japanese": "とうきょうちさい",
+        "roman": ""
+    },
+    {
+        "original": "熱血教師",
+        "japanese": "ねっけつきょうし",
+        "roman": ""
+    },
+    {
+        "original": "グレープフルーツ",
+        "japanese": "ぐれーぷふるーつ",
+        "roman": ""
+    },
+    {
+        "original": "桜の花びら",
+        "japanese": "さくらのはなびら",
+        "roman": ""
+    },
+    {
+        "original": "中間テスト",
+        "japanese": "ちゅうかんてすと",
+        "roman": ""
+    },
+    {
+        "original": "透明人間",
+        "japanese": "とうめいにんげん",
+        "roman": ""
+    },
+    {
+        "original": "暗号解読",
+        "japanese": "あんごうかいどく",
+        "roman": ""
+    },
+    {
+        "original": "日本代表",
+        "japanese": "にほんだいひょう",
+        "roman": ""
+    },
+    {
+        "original": "至福のひととき",
+        "japanese": "しふくのひととき",
+        "roman": ""
+    },
+    {
+        "original": "リクルートスーツ",
+        "japanese": "りくるーとすーつ",
+        "roman": ""
+    },
+    {
+        "original": "校歌斉唱",
+        "japanese": "こうかせいしょう",
+        "roman": ""
+    },
+    {
+        "original": "賞金稼ぎ",
+        "japanese": "しょうきんかせぎ",
+        "roman": ""
+    },
+    {
+        "original": "いいお味ですね",
+        "japanese": "いいおあじですね",
+        "roman": ""
+    },
+    {
+        "original": "熟練の技",
+        "japanese": "じゅくれんのわざ",
+        "roman": ""
+    },
+    {
+        "original": "駐車場",
+        "japanese": "ちゅうしゃじょう",
+        "roman": ""
+    },
+    {
+        "original": "写真撮影",
+        "japanese": "しゃしんさつえい",
+        "roman": ""
+    },
+    {
+        "original": "ダチョウの卵",
+        "japanese": "だちょうのたまご",
+        "roman": ""
+    },
+    {
+        "original": "全国大会",
+        "japanese": "ぜんこくたいかい",
+        "roman": ""
+    },
+    {
+        "original": "参勤交代",
+        "japanese": "さんきんこうたい",
+        "roman": ""
+    },
+    {
+        "original": "ヒットエンドラン",
+        "japanese": "ひっとえんどらん",
+        "roman": ""
+    },
+    {
+        "original": "現代社会",
+        "japanese": "げんだいしゃかい",
+        "roman": ""
+    },
+    {
+        "original": "気象衛星",
+        "japanese": "きしょうえいせい",
+        "roman": ""
+    },
+    {
+        "original": "ベースランニング",
+        "japanese": "べーすらんにんぐ",
+        "roman": ""
+    },
+    {
+        "original": "野球一筋",
+        "japanese": "やきゅうひとすじ",
+        "roman": ""
+    },
+    {
+        "original": "天体観測",
+        "japanese": "てんたいかんそく",
+        "roman": ""
+    },
+    {
+        "original": "西洋タンポポ",
+        "japanese": "せいようたんぽぽ",
+        "roman": ""
+    },
+    {
+        "original": "必勝祈願",
+        "japanese": "ひっしょうきがん",
+        "roman": ""
+    },
+    {
+        "original": "宇宙征服",
+        "japanese": "うちゅうせいふく",
+        "roman": ""
+    },
+    {
+        "original": "宇宙遊泳",
+        "japanese": "うちゅうゆうえい",
+        "roman": ""
+    },
+    {
+        "original": "生徒会長",
+        "japanese": "せいとかいちょう",
+        "roman": ""
+    },
+    {
+        "original": "痛くしないでね",
+        "japanese": "いたくしないでね",
+        "roman": ""
+    },
+    {
+        "original": "一円拾った",
+        "japanese": "いちえんひろった",
+        "roman": ""
+    },
+    {
+        "original": "嘘でもいいから",
+        "japanese": "うそでもいいから",
+        "roman": ""
+    },
+    {
+        "original": "エビでタイを釣る",
+        "japanese": "えびでたいをつる",
+        "roman": ""
+    },
+    {
+        "original": "大さじ一杯",
+        "japanese": "おおさじいっぱい",
+        "roman": ""
+    },
+    {
+        "original": "お先に失礼",
+        "japanese": "おさきにしつれい",
+        "roman": ""
+    },
+    {
+        "original": "寿退社",
+        "japanese": "ことぶきたいしゃ",
+        "roman": ""
+    },
+    {
+        "original": "この木何の木?",
+        "japanese": "このきなんのき?",
+        "roman": ""
+    },
+    {
+        "original": "心霊写真",
+        "japanese": "しんれいしゃしん",
+        "roman": ""
+    },
+    {
+        "original": "スナップ効かせて",
+        "japanese": "すなっぷきかせて",
+        "roman": ""
+    },
+    {
+        "original": "ちょっと待った!",
+        "japanese": "ちょっとまった!",
+        "roman": ""
+    },
+    {
+        "original": "次は日本酒",
+        "japanese": "つぎはにほんしゅ",
+        "roman": ""
+    },
+    {
+        "original": "デパートで迷子",
+        "japanese": "でぱーとでまいご",
+        "roman": ""
+    },
+    {
+        "original": "電球切れた",
+        "japanese": "でんきゅうきれた",
+        "roman": ""
+    },
+    {
+        "original": "寝坊で仮病",
+        "japanese": "ねぼうでけびょう",
+        "roman": ""
+    },
+    {
+        "original": "バスガス爆発",
+        "japanese": "ばすがすばくはつ",
+        "roman": ""
+    },
+    {
+        "original": "ピラミッドパワー",
+        "japanese": "ぴらみっどぱわー",
+        "roman": ""
+    },
+    {
+        "original": "プリンアラモード",
+        "japanese": "ぷりんあらもーど",
+        "roman": ""
+    },
+    {
+        "original": "持ってけドロボー",
+        "japanese": "もってけどろぼー",
+        "roman": ""
+    },
+    {
+        "original": "最寄駅は千葉",
+        "japanese": "もよりえきはちば",
+        "roman": ""
+    },
+    {
+        "original": "落雷注意",
+        "japanese": "らくらいちゅうい",
+        "roman": ""
+    },
+    {
+        "original": "魂の叫び",
+        "japanese": "たましいのさけび",
+        "roman": ""
+    },
+    {
+        "original": "一円足りない",
+        "japanese": "いちえんたりない",
+        "roman": ""
+    },
+    {
+        "original": "タッチタイピング",
+        "japanese": "たっちたいぴんぐ",
+        "roman": ""
+    },
+    {
+        "original": "ミステリーツアー",
+        "japanese": "みすてりーつあー",
+        "roman": ""
+    },
+    {
+        "original": "計量カップ",
+        "japanese": "けいりょうかっぷ",
+        "roman": ""
+    },
+    {
+        "original": "お醤油とって",
+        "japanese": "おしょうゆとって",
+        "roman": ""
+    },
+    {
+        "original": "工業地帯",
+        "japanese": "こうぎょうちたい",
+        "roman": ""
+    },
+    {
+        "original": "新婚旅行",
+        "japanese": "しんこんりょこう",
+        "roman": ""
+    },
+    {
+        "original": "ネットサーフィン",
+        "japanese": "ねっとさーふぃん",
+        "roman": ""
+    },
+    {
+        "original": "コンビニ弁当",
+        "japanese": "こんびにべんとう",
+        "roman": ""
+    },
+    {
+        "original": "チンして食べてね",
+        "japanese": "ちんしてたべてね",
+        "roman": ""
+    },
+    {
+        "original": "一匹狼",
+        "japanese": "いっぴきおおかみ",
+        "roman": ""
+    },
+    {
+        "original": "キックボクシング",
+        "japanese": "きっくぼくしんぐ",
+        "roman": ""
+    },
+    {
+        "original": "昆虫図鑑",
+        "japanese": "こんちゅうずかん",
+        "roman": ""
+    },
+    {
+        "original": "現地調達",
+        "japanese": "げんちちょうたつ",
+        "roman": ""
+    },
+    {
+        "original": "季節のデザート",
+        "japanese": "きせつのでざーと",
+        "roman": ""
+    },
+    {
+        "original": "フリーマーケット",
+        "japanese": "ふりーまーけっと",
+        "roman": ""
+    },
+    {
+        "original": "深海の神秘",
+        "japanese": "しんかいのしんぴ",
+        "roman": ""
+    },
+    {
+        "original": "シャープペンシル",
+        "japanese": "しゃーぷぺんしる",
+        "roman": ""
+    },
+    {
+        "original": "貧乏暇なし",
+        "japanese": "びんぼうひまなし",
+        "roman": ""
+    },
+    {
+        "original": "棚からぼた餅",
+        "japanese": "たなからぼたもち",
+        "roman": ""
+    },
+    {
+        "original": "暑中見舞い",
+        "japanese": "しょちゅうみまい",
+        "roman": ""
+    },
+    {
+        "original": "あふれ出る知性",
+        "japanese": "あふれでるちせい",
+        "roman": ""
+    },
+    {
+        "original": "コインランドリー",
+        "japanese": "こいんらんどりー",
+        "roman": ""
+    },
+    {
+        "original": "バースデーケーキ",
+        "japanese": "ばーすでーけーき",
+        "roman": ""
+    },
+    {
+        "original": "メリークリスマス",
+        "japanese": "めりーくりすます",
+        "roman": ""
+    },
+    {
+        "original": "光ファイバー",
+        "japanese": "ひかりふぁいばー",
+        "roman": ""
+    },
+    {
+        "original": "シロナガスクジラ",
+        "japanese": "しろながすくじら",
+        "roman": ""
+    },
+    {
+        "original": "シュノーケリング",
+        "japanese": "しゅのーけりんぐ",
+        "roman": ""
+    },
+    {
+        "original": "スカイダイビング",
+        "japanese": "すかいだいびんぐ",
+        "roman": ""
+    },
+    {
+        "original": "検索エンジン",
+        "japanese": "けんさくえんじん",
+        "roman": ""
+    },
+    {
+        "original": "暑中見舞い",
+        "japanese": "しょちゅうみまい",
+        "roman": ""
+    },
+    {
+        "original": "シミュレーション",
+        "japanese": "しみゅれーしょん",
+        "roman": ""
+    },
+    {
+        "original": "ホームポジション",
+        "japanese": "ほーむぽじしょん",
+        "roman": ""
+    },
+    {
+        "original": "優柔不断",
+        "japanese": "ゆうじゅうふだん",
+        "roman": ""
+    },
+    {
+        "original": "人体のしくみ",
+        "japanese": "じんたいのしくみ",
+        "roman": ""
+    },
+    {
+        "original": "コーヒーブレイク",
+        "japanese": "こーひーぶれいく",
+        "roman": ""
+    },
+    {
+        "original": "豪華客船",
+        "japanese": "ごうかきゃくせん",
+        "roman": ""
+    },
+    {
+        "original": "通勤快速",
+        "japanese": "つうきんかいそく",
+        "roman": ""
+    },
+    {
+        "original": "安全第一",
+        "japanese": "あんぜんだいいち",
+        "roman": ""
+    },
+    {
+        "original": "猛犬注意",
+        "japanese": "もうけんちゅうい",
+        "roman": ""
+    },
+    {
+        "original": "イワシの缶詰",
+        "japanese": "いわしのかんづめ",
+        "roman": ""
+    },
+    {
+        "original": "バンジージャンプ",
+        "japanese": "ばんじーじゃんぷ",
+        "roman": ""
+    },
+    {
+        "original": "ストップウォッチ",
+        "japanese": "すとっぷうぉっち",
+        "roman": ""
+    },
+    {
+        "original": "懐中時計",
+        "japanese": "かいちゅうどけい",
+        "roman": ""
+    },
+    {
+        "original": "誠意を見せます",
+        "japanese": "せいいをみせます",
+        "roman": ""
+    },
+    {
+        "original": "ジェット噴射",
+        "japanese": "じぇっとふんしゃ",
+        "roman": ""
+    },
+    {
+        "original": "ハワイアンブルー",
+        "japanese": "はわいあんぶるー",
+        "roman": ""
+    },
+    {
+        "original": "不在着信",
+        "japanese": "ふざいちゃくしん",
+        "roman": ""
+    },
+    {
+        "original": "注射怖い",
+        "japanese": "ちゅうしゃこわい",
+        "roman": ""
+    },
+    {
+        "original": "エンゲル係数",
+        "japanese": "えんげるけいすう",
+        "roman": ""
+    },
+    {
+        "original": "人生色々",
+        "japanese": "じんせいいろいろ",
+        "roman": ""
+    },
+    {
+        "original": "論より証拠",
+        "japanese": "ろんよりしょうこ",
+        "roman": ""
+    },
+    {
+        "original": "あんたに惚れた!",
+        "japanese": "あんたにほれた!",
+        "roman": ""
+    },
+    {
+        "original": "舌噛んじゃった",
+        "japanese": "したかんじゃった",
+        "roman": ""
+    },
+    {
+        "original": "ケーキは別腹",
+        "japanese": "けーきはべつばら",
+        "roman": ""
+    },
+    {
+        "original": "絶対音感",
+        "japanese": "ぜったいおんかん",
+        "roman": ""
+    },
+    {
+        "original": "禁断の果実",
+        "japanese": "きんだんのかじつ",
+        "roman": ""
+    },
+    {
+        "original": "アリバイ工作",
+        "japanese": "ありばいこうさく",
+        "roman": ""
+    },
+    {
+        "original": "公園デビュー",
+        "japanese": "こうえんでびゅー",
+        "roman": ""
+    },
+    {
+        "original": "今日の占い",
+        "japanese": "きょうのうらない",
+        "roman": ""
+    },
+    {
+        "original": "手も足も出ない",
+        "japanese": "てもあしもでない",
+        "roman": ""
+    },
+    {
+        "original": "ホイップクリーム",
+        "japanese": "ほいっぷくりーむ",
+        "roman": ""
+    },
+    {
+        "original": "絶世の美女",
+        "japanese": "ぜっせいのびじょ",
+        "roman": ""
+    },
+    {
+        "original": "穴あき靴下",
+        "japanese": "あなあきくつした",
+        "roman": ""
+    },
+    {
+        "original": "光陰矢の如し",
+        "japanese": "こういんやのごとし",
+        "roman": ""
+    },
+    {
+        "original": "ジャイアントパンダ",
+        "japanese": "じゃいあんとぱんだ",
+        "roman": ""
+    },
+    {
+        "original": "ここ掘れ、ワンワン",
+        "japanese": "ここほれ,わんわん",
+        "roman": ""
+    },
+    {
+        "original": "ディスコフィーバー",
+        "japanese": "でぃすこふぃーばー",
+        "roman": ""
+    },
+    {
+        "original": "あっちむいてホイ!",
+        "japanese": "あっちむいてほい!",
+        "roman": ""
+    },
+    {
+        "original": "卒業旅行",
+        "japanese": "そつぎょうりょこう",
+        "roman": ""
+    },
+    {
+        "original": "期待して損した",
+        "japanese": "きたいしてそんした",
+        "roman": ""
+    },
+    {
+        "original": "匿名希望さん",
+        "japanese": "とくめいきぼうさん",
+        "roman": ""
+    },
+    {
+        "original": "コラーゲン配合",
+        "japanese": "こらーげんはいごう",
+        "roman": ""
+    },
+    {
+        "original": "ちょっと休憩",
+        "japanese": "ちょっときゅうけい",
+        "roman": ""
+    },
+    {
+        "original": "コップ割っちゃった",
+        "japanese": "こっぷわっちゃった",
+        "roman": ""
+    },
+    {
+        "original": "今日も負けました",
+        "japanese": "きょうもまけました",
+        "roman": ""
+    },
+    {
+        "original": "ティッシュ取って!",
+        "japanese": "てぃっしゅとって!",
+        "roman": ""
+    },
+    {
+        "original": "冷凍食品",
+        "japanese": "れいとうしょくひん",
+        "roman": ""
+    },
+    {
+        "original": "あなたに一目ぼれ",
+        "japanese": "あなたにひとめぼれ",
+        "roman": ""
+    },
+    {
+        "original": "この指とーまれ!",
+        "japanese": "このゆびとーまれ!",
+        "roman": ""
+    },
+    {
+        "original": "雲行きが怪しい",
+        "japanese": "くもゆきがあやしい",
+        "roman": ""
+    },
+    {
+        "original": "旅に出たい気分",
+        "japanese": "たびにでたいきぶん",
+        "roman": ""
+    },
+    {
+        "original": "未知の生命体",
+        "japanese": "みちのせいめいたい",
+        "roman": ""
+    },
+    {
+        "original": "昭和の歌姫",
+        "japanese": "しょうわのうたひめ",
+        "roman": ""
+    },
+    {
+        "original": "赤いチューリップ",
+        "japanese": "あかいちゅーりっぷ",
+        "roman": ""
+    },
+    {
+        "original": "最高新記録",
+        "japanese": "さいこうしんきろく",
+        "roman": ""
+    },
+    {
+        "original": "先生の口癖",
+        "japanese": "せんせいのくちぐせ",
+        "roman": ""
+    },
+    {
+        "original": "携帯ストラップ",
+        "japanese": "けいたいすとらっぷ",
+        "roman": ""
+    },
+    {
+        "original": "億万長者",
+        "japanese": "おくまんちょうじゃ",
+        "roman": ""
+    },
+    {
+        "original": "アンデス山脈",
+        "japanese": "あんですさんみゃく",
+        "roman": ""
+    },
+    {
+        "original": "新築マンション",
+        "japanese": "しんちくまんしょん",
+        "roman": ""
+    },
+    {
+        "original": "エネルギー節約",
+        "japanese": "えねるぎーせつやく",
+        "roman": ""
+    },
+    {
+        "original": "ユーラシア大陸",
+        "japanese": "ゆーらしあたいりく",
+        "roman": ""
+    },
+    {
+        "original": "有酸素運動",
+        "japanese": "ゆうさんそうんどう",
+        "roman": ""
+    },
+    {
+        "original": "プロフェッショナル",
+        "japanese": "ぷろふぇっしょなる",
+        "roman": ""
+    },
+    {
+        "original": "アメリカンコーヒー",
+        "japanese": "あめりかんこーひー",
+        "roman": ""
+    },
+    {
+        "original": "遠洋漁業",
+        "japanese": "えんようぎょぎょう",
+        "roman": ""
+    },
+    {
+        "original": "合格発表",
+        "japanese": "ごうかくはっぴょう",
+        "roman": ""
+    },
+    {
+        "original": "二階から目薬",
+        "japanese": "にかいからめぐすり",
+        "roman": ""
+    },
+    {
+        "original": "産業革命",
+        "japanese": "さんぎょうかくめい",
+        "roman": ""
+    },
+    {
+        "original": "ゴーヤチャンプルー",
+        "japanese": "ごーやちゃんぷるー",
+        "roman": ""
+    },
+    {
+        "original": "恩を仇で返す",
+        "japanese": "おんをあだでかえす",
+        "roman": ""
+    },
+    {
+        "original": "人海戦術",
+        "japanese": "じんかいせんじゅつ",
+        "roman": ""
+    },
+    {
+        "original": "爆発的人気",
+        "japanese": "ばくはつてきにんき",
+        "roman": ""
+    },
+    {
+        "original": "フィギュアスケート",
+        "japanese": "ふぃぎゅあすけーと",
+        "roman": ""
+    },
+    {
+        "original": "木工用ボンド",
+        "japanese": "もっこうようぼんど",
+        "roman": ""
+    },
+    {
+        "original": "空中分解",
+        "japanese": "くうちゅうぶんかい",
+        "roman": ""
+    },
+    {
+        "original": "人気テーマパーク",
+        "japanese": "にんきてーまぱーく",
+        "roman": ""
+    },
+    {
+        "original": "サルも木から落ちる",
+        "japanese": "さるもきからおちる",
+        "roman": ""
+    },
+    {
+        "original": "先行試写会",
+        "japanese": "せんこうししゃかい",
+        "roman": ""
+    },
+    {
+        "original": "ナイスタイミング!",
+        "japanese": "ないすたいみんぐ!",
+        "roman": ""
+    },
+    {
+        "original": "ハッピーバースデー",
+        "japanese": "はっぴーばーすでー",
+        "roman": ""
+    },
+    {
+        "original": "赤裸々な告白",
+        "japanese": "せきららなこくはく",
+        "roman": ""
+    },
+    {
+        "original": "当たって砕けろ!",
+        "japanese": "あたってくだけろ!",
+        "roman": ""
+    },
+    {
+        "original": "暗証番号",
+        "japanese": "あんしょうばんごう",
+        "roman": ""
+    },
+    {
+        "original": "懐中電灯",
+        "japanese": "かいちゅうでんとう",
+        "roman": ""
+    },
+    {
+        "original": "今何時ですか?",
+        "japanese": "いまなんじですか?",
+        "roman": ""
+    },
+    {
+        "original": "今日はいい天気",
+        "japanese": "きょうはいいてんき",
+        "roman": ""
+    },
+    {
+        "original": "学級通信",
+        "japanese": "がっきゅうつうしん",
+        "roman": ""
+    },
+    {
+        "original": "フィギュアスケート",
+        "japanese": "ふぃぎゅあすけーと",
+        "roman": ""
+    },
+    {
+        "original": "カエルの子はカエル",
+        "japanese": "かえるのこはかえる",
+        "roman": ""
+    },
+    {
+        "original": "受験勉強",
+        "japanese": "じゅけんべんきょう",
+        "roman": ""
+    },
+    {
+        "original": "スタジアム観戦",
+        "japanese": "すたじあむかんせん",
+        "roman": ""
+    },
+    {
+        "original": "プレゼンテーション",
+        "japanese": "ぷれぜんてーしょん",
+        "roman": ""
+    },
+    {
+        "original": "引っ越しの準備",
+        "japanese": "ひっこしのじゅんび",
+        "roman": ""
+    },
+    {
+        "original": "大切な書類",
+        "japanese": "たいせつなしょるい",
+        "roman": ""
+    },
+    {
+        "original": "今夜飲みに行こう",
+        "japanese": "こんやのみにいこう",
+        "roman": ""
+    },
+    {
+        "original": "朝顔の観察",
+        "japanese": "あさがおのかんさつ",
+        "roman": ""
+    },
+    {
+        "original": "カスタマーサービス",
+        "japanese": "かすたまーさーびす",
+        "roman": ""
+    },
+    {
+        "original": "乳搾り体験",
+        "japanese": "ちちしぼりたいけん",
+        "roman": ""
+    },
+    {
+        "original": "シャッターチャンス",
+        "japanese": "しゃったーちゃんす",
+        "roman": ""
+    },
+    {
+        "original": "戦国大名",
+        "japanese": "せんごくだいみょう",
+        "roman": ""
+    },
+    {
+        "original": "ドレミファソラシド",
+        "japanese": "どれみふぁそらしど",
+        "roman": ""
+    },
+    {
+        "original": "英会話レッスン",
+        "japanese": "えいかいわれっすん",
+        "roman": ""
+    },
+    {
+        "original": "ハイビジョンテレビ",
+        "japanese": "はいびじょんてれび",
+        "roman": ""
+    },
+    {
+        "original": "ごろ寝する母親",
+        "japanese": "ごろねするははおや",
+        "roman": ""
+    },
+    {
+        "original": "平均寿命",
+        "japanese": "へいきんじゅみょう",
+        "roman": ""
+    },
+    {
+        "original": "ああ言えばこう言う",
+        "japanese": "ああいえばこういう",
+        "roman": ""
+    },
+    {
+        "original": "よくお読みください",
+        "japanese": "よくおよみください",
+        "roman": ""
+    },
+    {
+        "original": "路上アンケート",
+        "japanese": "ろじょうあんけーと",
+        "roman": ""
+    },
+    {
+        "original": "調理師免許",
+        "japanese": "ちょうりしめんきょ",
+        "roman": ""
+    },
+    {
+        "original": "熱帯低気圧",
+        "japanese": "ねったいていきあつ",
+        "roman": ""
+    },
+    {
+        "original": "美しい日本語",
+        "japanese": "うつくしいにほんご",
+        "roman": ""
+    },
+    {
+        "original": "お代官様こそ",
+        "japanese": "おだいかんさまこそ",
+        "roman": ""
+    },
+    {
+        "original": "今日も午前様",
+        "japanese": "きょうもごぜんさま",
+        "roman": ""
+    },
+    {
+        "original": "和風ドレッシング",
+        "japanese": "わふうどれっしんぐ",
+        "roman": ""
+    },
+    {
+        "original": "十円下さい",
+        "japanese": "じゅうえんください",
+        "roman": ""
+    },
+    {
+        "original": "冗談じゃない",
+        "japanese": "じょうだんじゃない",
+        "roman": ""
+    },
+    {
+        "original": "スペシャルプライス",
+        "japanese": "すぺしゃるぷらいす",
+        "roman": ""
+    },
+    {
+        "original": "それがいけなかった",
+        "japanese": "それがいけなかった",
+        "roman": ""
+    },
+    {
+        "original": "大根持ってって",
+        "japanese": "だいこんもってって",
+        "roman": ""
+    },
+    {
+        "original": "魂の一撃",
+        "japanese": "たましいのいちげき",
+        "roman": ""
+    },
+    {
+        "original": "子猫の肉球",
+        "japanese": "こねこのにくきゅう",
+        "roman": ""
+    },
+    {
+        "original": "肉はミディアムで",
+        "japanese": "にくはみでぃあむで",
+        "roman": ""
+    },
+    {
+        "original": "ファンクションキー",
+        "japanese": "ふぁんくしょんきー",
+        "roman": ""
+    },
+    {
+        "original": "本日のオススメ",
+        "japanese": "ほんじつのおすすめ",
+        "roman": ""
+    },
+    {
+        "original": "妙に色っぽい",
+        "japanese": "みょうにいろっぽい",
+        "roman": ""
+    },
+    {
+        "original": "メダカの兄弟",
+        "japanese": "めだかのきょうだい",
+        "roman": ""
+    },
+    {
+        "original": "メンテナンスフリー",
+        "japanese": "めんてなんすふりー",
+        "roman": ""
+    },
+    {
+        "original": "バイオテクノロジー",
+        "japanese": "ばいおてくのろじー",
+        "roman": ""
+    },
+    {
+        "original": "カエルぴょこぴょこ",
+        "japanese": "かえるぴょこぴょこ",
+        "roman": ""
+    },
+    {
+        "original": "サービス残業",
+        "japanese": "さーびすざんぎょう",
+        "roman": ""
+    },
+    {
+        "original": "女の友情",
+        "japanese": "おんなのゆうじょう",
+        "roman": ""
+    },
+    {
+        "original": "観葉植物",
+        "japanese": "かんようしょくぶつ",
+        "roman": ""
+    },
+    {
+        "original": "本日のディナー",
+        "japanese": "ほんじつのでぃなー",
+        "roman": ""
+    },
+    {
+        "original": "コミュニケーション",
+        "japanese": "こみゅにけーしょん",
+        "roman": ""
+    },
+    {
+        "original": "エンゼルフィッシュ",
+        "japanese": "えんぜるふぃっしゅ",
+        "roman": ""
+    },
+    {
+        "original": "チョコレートパフェ",
+        "japanese": "ちょこれーとぱふぇ",
+        "roman": ""
+    },
+    {
+        "original": "フルモデルチェンジ",
+        "japanese": "ふるもでるちぇんじ",
+        "roman": ""
+    },
+    {
+        "original": "半角英数字",
+        "japanese": "はんかくえいすうじ",
+        "roman": ""
+    },
+    {
+        "original": "スペシャルサンクス",
+        "japanese": "すぺしゃるさんくす",
+        "roman": ""
+    },
+    {
+        "original": "有給休暇",
+        "japanese": "ゆうきゅうきゅうか",
+        "roman": ""
+    },
+    {
+        "original": "カラクリ人形",
+        "japanese": "からくりにんぎょう",
+        "roman": ""
+    },
+    {
+        "original": "電気を大切に",
+        "japanese": "でんきをたいせつに",
+        "roman": ""
+    },
+    {
+        "original": "フルーツの王様",
+        "japanese": "ふるーつのおうさま",
+        "roman": ""
+    },
+    {
+        "original": "廊下は走らない",
+        "japanese": "ろうかははしらない",
+        "roman": ""
+    },
+    {
+        "original": "熱湯消毒",
+        "japanese": "ねっとうしょうどく",
+        "roman": ""
+    },
+    {
+        "original": "リュウグウノツカイ",
+        "japanese": "りゅうぐうのつかい",
+        "roman": ""
+    },
+    {
+        "original": "南極大陸",
+        "japanese": "なんきょくたいりく",
+        "roman": ""
+    },
+    {
+        "original": "満天の星空",
+        "japanese": "まんてんのほしぞら",
+        "roman": ""
+    },
+    {
+        "original": "足がしびれました",
+        "japanese": "あしがしびれました",
+        "roman": ""
+    },
+    {
+        "original": "宿題忘れた",
+        "japanese": "しゅくだいわすれた",
+        "roman": ""
+    },
+    {
+        "original": "社会の歯車",
+        "japanese": "しゃかいのはぐるま",
+        "roman": ""
+    },
+    {
+        "original": "アサリのお味噌汁",
+        "japanese": "あさりのおみそしる",
+        "roman": ""
+    },
+    {
+        "original": "新入社員",
+        "japanese": "しんにゅうしゃいん",
+        "roman": ""
+    },
+    {
+        "original": "チョコレートケーキ",
+        "japanese": "ちょこれーとけーき",
+        "roman": ""
+    },
+    {
+        "original": "ミネラルウォーター",
+        "japanese": "みねらるうぉーたー",
+        "roman": ""
+    },
+    {
+        "original": "着信番号",
+        "japanese": "ちゃくしんばんごう",
+        "roman": ""
+    },
+    {
+        "original": "集団登校",
+        "japanese": "しゅうだんとうこう",
+        "roman": ""
+    },
+    {
+        "original": "フロッピーディスク",
+        "japanese": "ふろっぴーでぃすく",
+        "roman": ""
+    },
+    {
+        "original": "集合写真",
+        "japanese": "しゅうごうしゃしん",
+        "roman": ""
+    },
+    {
+        "original": "結婚おめでとう",
+        "japanese": "けっこんおめでとう",
+        "roman": ""
+    },
+    {
+        "original": "火に油を注ぐ",
+        "japanese": "ひにあぶらをそそぐ",
+        "roman": ""
+    },
+    {
+        "original": "相対性理論",
+        "japanese": "そうたいせいりろん",
+        "roman": ""
+    },
+    {
+        "original": "インスピレーション",
+        "japanese": "いんすぴれーしょん",
+        "roman": ""
+    },
+    {
+        "original": "犬用シャンプー",
+        "japanese": "いぬようしゃんぷー",
+        "roman": ""
+    },
+    {
+        "original": "貸切露天風呂",
+        "japanese": "かしきりろてんぶろ",
+        "roman": ""
+    },
+    {
+        "original": "ポケットティッシュ",
+        "japanese": "ぽけっとてぃっしゅ",
+        "roman": ""
+    },
+    {
+        "original": "プレゼンテーション",
+        "japanese": "ぷれぜんてーしょん",
+        "roman": ""
+    },
+    {
+        "original": "アリの巣の観察",
+        "japanese": "ありのすのかんさつ",
+        "roman": ""
+    },
+    {
+        "original": "ファッション雑誌",
+        "japanese": "ふぁっしょんざっし",
+        "roman": ""
+    },
+    {
+        "original": "ジェットコースター",
+        "japanese": "じぇっとこーすたー",
+        "roman": ""
+    },
+    {
+        "original": "ゴールデンウィーク",
+        "japanese": "ごーるでんうぃーく",
+        "roman": ""
+    },
+    {
+        "original": "キャンプファイヤー",
+        "japanese": "きゃんぷふぁいやー",
+        "roman": ""
+    },
+    {
+        "original": "パン食い競争",
+        "japanese": "ぱんくいきょうそう",
+        "roman": ""
+    },
+    {
+        "original": "自転車通学",
+        "japanese": "じてんしゃつうがく",
+        "roman": ""
+    },
+    {
+        "original": "修学旅行",
+        "japanese": "しゅうがくりょこう",
+        "roman": ""
+    },
+    {
+        "original": "風力発電",
+        "japanese": "ふうりょくはつでん",
+        "roman": ""
+    },
+    {
+        "original": "卒業写真",
+        "japanese": "そつぎょうしゃしん",
+        "roman": ""
+    },
+    {
+        "original": "空気清浄機",
+        "japanese": "くうきせいじょうき",
+        "roman": ""
+    },
+    {
+        "original": "チャレンジ精神",
+        "japanese": "ちゃれんじせいしん",
+        "roman": ""
+    },
+    {
+        "original": "発光ダイオード",
+        "japanese": "はっこうだいおーど",
+        "roman": ""
+    },
+    {
+        "original": "賃貸マンション",
+        "japanese": "ちんたいまんしょん",
+        "roman": ""
+    },
+    {
+        "original": "野球中継",
+        "japanese": "やきゅうちゅうけい",
+        "roman": ""
+    },
+    {
+        "original": "エースストライカー",
+        "japanese": "えーすすとらいかー",
+        "roman": ""
+    },
+    {
+        "original": "スペシャルサンクス",
+        "japanese": "すぺしゃるさんくす",
+        "roman": ""
+    },
+    {
+        "original": "完全燃焼",
+        "japanese": "かんぜんねんしょう",
+        "roman": ""
+    },
+    {
+        "original": "イソップ物語",
+        "japanese": "いそっぷものがたり",
+        "roman": ""
+    },
+    {
+        "original": "君ならできるさ!",
+        "japanese": "きみならできるさ!",
+        "roman": ""
+    },
+    {
+        "original": "空中ブランコ",
+        "japanese": "くうちゅうぶらんこ",
+        "roman": ""
+    },
+    {
+        "original": "日本国憲法",
+        "japanese": "にほんこくけんぽう",
+        "roman": ""
+    },
+    {
+        "original": "集中豪雨",
+        "japanese": "しゅうちゅうごうう",
+        "roman": ""
+    },
+    {
+        "original": "驚愕の事実",
+        "japanese": "きょうがくのじじつ",
+        "roman": ""
+    },
+    {
+        "original": "ストレス解消",
+        "japanese": "すとれすかいしょう",
+        "roman": ""
+    },
+    {
+        "original": "プロフェッショナル",
+        "japanese": "ぷろふぇっしょなる",
+        "roman": ""
+    },
+    {
+        "original": "ハングリー精神",
+        "japanese": "はんぐりーせいしん",
+        "roman": ""
+    },
+    {
+        "original": "ノーヒットノーラン",
+        "japanese": "のーひっとのーらん",
+        "roman": ""
+    },
+    {
+        "original": "微笑みの貴公子",
+        "japanese": "ほほえみのきこうし",
+        "roman": ""
+    },
+    {
+        "original": "迷子のご案内",
+        "japanese": "まいごのごあんない",
+        "roman": ""
+    },
+    {
+        "original": "お疲れ様でした",
+        "japanese": "おつかれさまでした",
+        "roman": ""
+    },
+    {
+        "original": "体力測定",
+        "japanese": "たいりょくそくてい",
+        "roman": ""
+    },
+    {
+        "original": "インターナショナル",
+        "japanese": "いんたーなしょなる",
+        "roman": ""
+    },
+    {
+        "original": "無遅刻無欠席",
+        "japanese": "むちこくむけっせき",
+        "roman": ""
+    },
+    {
+        "original": "ティッシュペーパー",
+        "japanese": "てぃっしゅぺーぱー",
+        "roman": ""
+    },
+    {
+        "original": "牛乳吹いた",
+        "japanese": "ぎゅうにゅうふいた",
+        "roman": ""
+    },
+    {
+        "original": "今日はもう寝ます",
+        "japanese": "きょうはもうねます",
+        "roman": ""
+    },
+    {
+        "original": "シャッターチャンス",
+        "japanese": "しゃったーちゃんす",
+        "roman": ""
+    },
+    {
+        "original": "フルモデルチェンジ",
+        "japanese": "ふるもでるちぇんじ",
+        "roman": ""
+    },
+    {
+        "original": "迫りくる恐怖",
+        "japanese": "せまりくるきょうふ",
+        "roman": ""
+    },
+    {
+        "original": "オープンキャンパス",
+        "japanese": "おーぷんきゃんぱす",
+        "roman": ""
+    },
+    {
+        "original": "キャンプファイヤー",
+        "japanese": "きゃんぷふぁいやー",
+        "roman": ""
+    },
+    {
+        "original": "ハロウィンパーティー",
+        "japanese": "はろうぃんぱーてぃー",
+        "roman": ""
+    },
+    {
+        "original": "海上自衛隊",
+        "japanese": "かいじょうじえいたい",
+        "roman": ""
+    },
+    {
+        "original": "うわっ!何だこれ?",
+        "japanese": "うわっ!なんだこれ?",
+        "roman": ""
+    },
+    {
+        "original": "脱出成功!",
+        "japanese": "だっしゅつせいこう!",
+        "roman": ""
+    },
+    {
+        "original": "右脳を鍛えよう!",
+        "japanese": "うのうをきたえよう!",
+        "roman": ""
+    },
+    {
+        "original": "二枚同時リリース",
+        "japanese": "にまいどうじりりーす",
+        "roman": ""
+    },
+    {
+        "original": "星のない夜の空",
+        "japanese": "ほしのないよるのそら",
+        "roman": ""
+    },
+    {
+        "original": "ドラマチックな出会い",
+        "japanese": "どらまちっくなであい",
+        "roman": ""
+    },
+    {
+        "original": "ぷんぷん怒ったぞ!",
+        "japanese": "ぷんぷんおこったぞ!",
+        "roman": ""
+    },
+    {
+        "original": "お嬢様学校",
+        "japanese": "おじょうさまがっこう",
+        "roman": ""
+    },
+    {
+        "original": "ドコサヘキサエン酸",
+        "japanese": "どこさへきさえんさん",
+        "roman": ""
+    },
+    {
+        "original": "スキューバダイビング",
+        "japanese": "すきゅーばだいびんぐ",
+        "roman": ""
+    },
+    {
+        "original": "お遊びはここまでだ",
+        "japanese": "おあそびはここまでだ",
+        "roman": ""
+    },
+    {
+        "original": "タバコがやめられない",
+        "japanese": "たばこがやめられない",
+        "roman": ""
+    },
+    {
+        "original": "お気に入りに登録",
+        "japanese": "おきにいりにとうろく",
+        "roman": ""
+    },
+    {
+        "original": "労働基準法",
+        "japanese": "ろうどうきじゅんほう",
+        "roman": ""
+    },
+    {
+        "original": "ファックス送信!",
+        "japanese": "ふぁっくすそうしん!",
+        "roman": ""
+    },
+    {
+        "original": "いつ見てもきれいだね",
+        "japanese": "いつみてもきれいだね",
+        "roman": ""
+    },
+    {
+        "original": "真珠のネックレス",
+        "japanese": "しんじゅのねっくれす",
+        "roman": ""
+    },
+    {
+        "original": "人生の分岐点",
+        "japanese": "じんせいのぶんきてん",
+        "roman": ""
+    },
+    {
+        "original": "獅子座流星群",
+        "japanese": "ししざりゅうせいぐん",
+        "roman": ""
+    },
+    {
+        "original": "お花見の場所取り",
+        "japanese": "おはなみのばしょとり",
+        "roman": ""
+    },
+    {
+        "original": "石油ファンヒーター",
+        "japanese": "せきゆふぁんひーたー",
+        "roman": ""
+    },
+    {
+        "original": "シンデレラストーリー",
+        "japanese": "しんでれらすとーりー",
+        "roman": ""
+    },
+    {
+        "original": "素顔は見せられない",
+        "japanese": "すがおはみせられない",
+        "roman": ""
+    },
+    {
+        "original": "上昇気流",
+        "japanese": "じょうしょうきりゅう",
+        "roman": ""
+    },
+    {
+        "original": "主導権を握る",
+        "japanese": "しゅどうけんをにぎる",
+        "roman": ""
+    },
+    {
+        "original": "最高の雪景色",
+        "japanese": "さいこうのゆきげしき",
+        "roman": ""
+    },
+    {
+        "original": "コンビニエンスストア",
+        "japanese": "こんびにえんすすとあ",
+        "roman": ""
+    },
+    {
+        "original": "はさみでチョキチョキ",
+        "japanese": "はさみでちょきちょき",
+        "roman": ""
+    },
+    {
+        "original": "勉強しなさい!",
+        "japanese": "べんきょうしなさい!",
+        "roman": ""
+    },
+    {
+        "original": "地球は青かった",
+        "japanese": "ちきゅうはあおかった",
+        "roman": ""
+    },
+    {
+        "original": "運命の赤い糸",
+        "japanese": "うんめいのあかいいと",
+        "roman": ""
+    },
+    {
+        "original": "シルバーアクセサリー",
+        "japanese": "しるばーあくせさりー",
+        "roman": ""
+    },
+    {
+        "original": "少林寺拳法",
+        "japanese": "しょうりんじけんぽう",
+        "roman": ""
+    },
+    {
+        "original": "お料理教室",
+        "japanese": "おりょうりきょうしつ",
+        "roman": ""
+    },
+    {
+        "original": "ホワイトチョコレート",
+        "japanese": "ほわいとちょこれーと",
+        "roman": ""
+    },
+    {
+        "original": "場外ホームラン",
+        "japanese": "じょうがいほーむらん",
+        "roman": ""
+    },
+    {
+        "original": "身分証明書",
+        "japanese": "みぶんしょうめいしょ",
+        "roman": ""
+    },
+    {
+        "original": "ランチタイムサービス",
+        "japanese": "らんちたいむさーびす",
+        "roman": ""
+    },
+    {
+        "original": "再就職先",
+        "japanese": "さいしゅうしょくさき",
+        "roman": ""
+    },
+    {
+        "original": "継続は力なり",
+        "japanese": "けいぞくはちからなり",
+        "roman": ""
+    },
+    {
+        "original": "シューティングゲーム",
+        "japanese": "しゅーてぃんぐげーむ",
+        "roman": ""
+    },
+    {
+        "original": "ごみは持ち帰ろう!",
+        "japanese": "ごみはもちかえろう!",
+        "roman": ""
+    },
+    {
+        "original": "卒業文集",
+        "japanese": "そつぎょうぶんしゅう",
+        "roman": ""
+    },
+    {
+        "original": "一球入魂",
+        "japanese": "いっきゅうにゅうこん",
+        "roman": ""
+    },
+    {
+        "original": "あしたからダイエット",
+        "japanese": "あしたからだいえっと",
+        "roman": ""
+    },
+    {
+        "original": "アナゴ一本握り",
+        "japanese": "あなごいっぽんにぎり",
+        "roman": ""
+    },
+    {
+        "original": "お年玉ちょうだい",
+        "japanese": "おとしだまちょうだい",
+        "roman": ""
+    },
+    {
+        "original": "お主も悪じゃのう",
+        "japanese": "おぬしもわるじゃのう",
+        "roman": ""
+    },
+    {
+        "original": "海洋深層水",
+        "japanese": "かいようしんそうすい",
+        "roman": ""
+    },
+    {
+        "original": "今日は無礼講で",
+        "japanese": "きょうはぶれいこうで",
+        "roman": ""
+    },
+    {
+        "original": "甘いものは別腹",
+        "japanese": "あまいものはべつばら",
+        "roman": ""
+    },
+    {
+        "original": "ずいずいずっころばし",
+        "japanese": "ずいずいずっころばし",
+        "roman": ""
+    },
+    {
+        "original": "ニンジンも食べなさい",
+        "japanese": "にんじんもたべなさい",
+        "roman": ""
+    },
+    {
+        "original": "マッチいりませんかー",
+        "japanese": "まっちいりませんかー",
+        "roman": ""
+    },
+    {
+        "original": "料理は愛情",
+        "japanese": "りょうりはあいじょう",
+        "roman": ""
+    },
+    {
+        "original": "馬の耳に念仏",
+        "japanese": "うまのみみにねんぶつ",
+        "roman": ""
+    },
+    {
+        "original": "英会話教室",
+        "japanese": "えいかいわきょうしつ",
+        "roman": ""
+    },
+    {
+        "original": "だるまさんが転んだ",
+        "japanese": "だるまさんがころんだ",
+        "roman": ""
+    },
+    {
+        "original": "カリフォルニアロール",
+        "japanese": "かりふぉるにあろーる",
+        "roman": ""
+    },
+    {
+        "original": "火星人襲来",
+        "japanese": "かせいじんしゅうらい",
+        "roman": ""
+    },
+    {
+        "original": "クリスマスパーティー",
+        "japanese": "くりすますぱーてぃー",
+        "roman": ""
+    },
+    {
+        "original": "イチゴショートケーキ",
+        "japanese": "いちごしょーとけーき",
+        "roman": ""
+    },
+    {
+        "original": "シンガポールスリング",
+        "japanese": "しんがぽーるすりんぐ",
+        "roman": ""
+    },
+    {
+        "original": "大食い選手権",
+        "japanese": "おおぐいせんしゅけん",
+        "roman": ""
+    },
+    {
+        "original": "スペースキーを連打",
+        "japanese": "すぺーすきーをれんだ",
+        "roman": ""
+    },
+    {
+        "original": "空き缶はリサイクル",
+        "japanese": "あきかんはりさいくる",
+        "roman": ""
+    },
+    {
+        "original": "学校給食",
+        "japanese": "がっこうきゅうしょく",
+        "roman": ""
+    },
+    {
+        "original": "廊下に立ってなさい",
+        "japanese": "ろうかにたってなさい",
+        "roman": ""
+    },
+    {
+        "original": "給食当番",
+        "japanese": "きゅうしょくとうばん",
+        "roman": ""
+    },
+    {
+        "original": "あけましておめでとう",
+        "japanese": "あけましておめでとう",
+        "roman": ""
+    },
+    {
+        "original": "血液型占い",
+        "japanese": "けつえきがたうらない",
+        "roman": ""
+    },
+    {
+        "original": "記憶にございません",
+        "japanese": "きおくにございません",
+        "roman": ""
+    },
+    {
+        "original": "コンビニエンスストア",
+        "japanese": "こんびにえんすすとあ",
+        "roman": ""
+    },
+    {
+        "original": "今日のおすすめ品",
+        "japanese": "きょうのおすすめひん",
+        "roman": ""
+    },
+    {
+        "original": "布団から出られない",
+        "japanese": "ふとんからでられない",
+        "roman": ""
+    },
+    {
+        "original": "料理のさしすせそ",
+        "japanese": "りょうりのさしすせそ",
+        "roman": ""
+    },
+    {
+        "original": "全自動洗濯機",
+        "japanese": "ぜんじどうせんたくき",
+        "roman": ""
+    },
+    {
+        "original": "ハンバーグ定食",
+        "japanese": "はんばーぐていしょく",
+        "roman": ""
+    },
+    {
+        "original": "可愛いチワワですね",
+        "japanese": "かわいいちわわですね",
+        "roman": ""
+    },
+    {
+        "original": "カルシウムが足りない",
+        "japanese": "かるしうむがたりない",
+        "roman": ""
+    },
+    {
+        "original": "お気に入りに登録",
+        "japanese": "おきにいりにとうろく",
+        "roman": ""
+    },
+    {
+        "original": "ショッピングセンター",
+        "japanese": "しょっぴんぐせんたー",
+        "roman": ""
+    },
+    {
+        "original": "ホワイトチョコレート",
+        "japanese": "ほわいとちょこれーと",
+        "roman": ""
+    },
+    {
+        "original": "ファミリーレストラン",
+        "japanese": "ふぁみりーれすとらん",
+        "roman": ""
+    },
+    {
+        "original": "来年のカレンダー",
+        "japanese": "らいねんのかれんだー",
+        "roman": ""
+    },
+    {
+        "original": "脱いだら脱ぎっぱなし",
+        "japanese": "ぬいだらぬぎっぱなし",
+        "roman": ""
+    },
+    {
+        "original": "サンマが安いですよ",
+        "japanese": "さんまがやすいですよ",
+        "roman": ""
+    },
+    {
+        "original": "風呂上りの一杯",
+        "japanese": "ふろあがりのいっぱい",
+        "roman": ""
+    },
+    {
+        "original": "エビフライ定食",
+        "japanese": "えびふらいていしょく",
+        "roman": ""
+    },
+    {
+        "original": "味噌ラーメン大盛り",
+        "japanese": "みそらーめんおおもり",
+        "roman": ""
+    },
+    {
+        "original": "リクライニングシート",
+        "japanese": "りくらいにんぐしーと",
+        "roman": ""
+    },
+    {
+        "original": "読書感想文",
+        "japanese": "どくしょかんそうぶん",
+        "roman": ""
+    },
+    {
+        "original": "お中元の季節",
+        "japanese": "おちゅうげんのきせつ",
+        "roman": ""
+    },
+    {
+        "original": "後悔先に立たず",
+        "japanese": "こうかいさきにたたず",
+        "roman": ""
+    },
+    {
+        "original": "熱帯雨林気候",
+        "japanese": "ねったいうりんきこう",
+        "roman": ""
+    },
+    {
+        "original": "伊勢海老食べ放題",
+        "japanese": "いせえびたべほうだい",
+        "roman": ""
+    },
+    {
+        "original": "電気を大切にね",
+        "japanese": "でんきをたいせつにね",
+        "roman": ""
+    },
+    {
+        "original": "上昇気流",
+        "japanese": "じょうしょうきりゅう",
+        "roman": ""
+    },
+    {
+        "original": "シラウオの踊り食い",
+        "japanese": "しらうおのおどりぐい",
+        "roman": ""
+    },
+    {
+        "original": "早朝ランニング",
+        "japanese": "そうちょうらんにんぐ",
+        "roman": ""
+    },
+    {
+        "original": "東京と京都",
+        "japanese": "とうきょうときょうと",
+        "roman": ""
+    },
+    {
+        "original": "和食か洋食",
+        "japanese": "わしょくかようしょく",
+        "roman": ""
+    },
+    {
+        "original": "商売繁盛",
+        "japanese": "しょうばいはんじょう",
+        "roman": ""
+    },
+    {
+        "original": "アイドリングストップ",
+        "japanese": "あいどりんぐすとっぷ",
+        "roman": ""
+    },
+    {
+        "original": "あしたは晴れらしいよ",
+        "japanese": "あしたははれらしいよ",
+        "roman": ""
+    },
+    {
+        "original": "おっと、忘れてた!",
+        "japanese": "おっと,わすれてた!",
+        "roman": ""
+    },
+    {
+        "original": "落とし穴に落ちた!",
+        "japanese": "おとしあなにおちた!",
+        "roman": ""
+    },
+    {
+        "original": "はるか遠くの銀河",
+        "japanese": "はるかとおくのぎんが",
+        "roman": ""
+    },
+    {
+        "original": "あした天気になーれ",
+        "japanese": "あしたてんきになーれ",
+        "roman": ""
+    },
+    {
+        "original": "ヘッドスライディング",
+        "japanese": "へっどすらいでぃんぐ",
+        "roman": ""
+    },
+    {
+        "original": "学校の七不思議",
+        "japanese": "がっこうのななふしぎ",
+        "roman": ""
+    },
+    {
+        "original": "惚れ薬はいかが?",
+        "japanese": "ほれぐすりはいかが?",
+        "roman": ""
+    },
+    {
+        "original": "招き猫と握手",
+        "japanese": "まねきねことあくしゅ",
+        "roman": ""
+    },
+    {
+        "original": "優勝トロフィー",
+        "japanese": "ゆうしょうとろふぃー",
+        "roman": ""
+    },
+    {
+        "original": "プログラミング言語",
+        "japanese": "ぷろぐらみんぐげんご",
+        "roman": ""
+    },
+    {
+        "original": "コンピュータウィルス",
+        "japanese": "こんぴゅーたうぃるす",
+        "roman": ""
+    },
+    {
+        "original": "コーヒー牛乳",
+        "japanese": "こーひーぎゅうにゅう",
+        "roman": ""
+    },
+    {
+        "original": "医者の不養生",
+        "japanese": "いしゃのふようじょう",
+        "roman": ""
+    },
+    {
+        "original": "今何時か分かる?",
+        "japanese": "いまなんじかわかる?",
+        "roman": ""
+    },
+    {
+        "original": "食べ過ぎて動けない",
+        "japanese": "たべすぎてうごけない",
+        "roman": ""
+    },
+    {
+        "original": "僕も冬眠したい",
+        "japanese": "ぼくもとうみんしたい",
+        "roman": ""
+    },
+    {
+        "original": "横文字はニガテです",
+        "japanese": "よこもじはにがてです",
+        "roman": ""
+    },
+    {
+        "original": "細胞の増殖",
+        "japanese": "さいぼうのぞうしょく",
+        "roman": ""
+    },
+    {
+        "original": "フレミングの法則",
+        "japanese": "ふれみんぐのほうそく",
+        "roman": ""
+    },
+    {
+        "original": "新着情報",
+        "japanese": "しんちゃくじょうほう",
+        "roman": ""
+    },
+    {
+        "original": "デザイナーズマンション",
+        "japanese": "でざいなーずまんしょん",
+        "roman": ""
+    },
+    {
+        "original": "アコースティックギター",
+        "japanese": "あこーすてぃっくぎたー",
+        "roman": ""
+    },
+    {
+        "original": "ポピュラーなプログラム",
+        "japanese": "ぽぴゅらーなぷろぐらむ",
+        "roman": ""
+    },
+    {
+        "original": "緑黄色野菜",
+        "japanese": "りょくおうしょくやさい",
+        "roman": ""
+    },
+    {
+        "original": "頑張れ!あと少し!",
+        "japanese": "がんばれ!あとすこし!",
+        "roman": ""
+    },
+    {
+        "original": "台風接近中",
+        "japanese": "たいふうせっきんちゅう",
+        "roman": ""
+    },
+    {
+        "original": "ビールのおいしい季節",
+        "japanese": "びーるのおいしいきせつ",
+        "roman": ""
+    },
+    {
+        "original": "時計が壊れたんです",
+        "japanese": "とけいがこわれたんです",
+        "roman": ""
+    },
+    {
+        "original": "未経験者歓迎",
+        "japanese": "みけいけんしゃかんげい",
+        "roman": ""
+    },
+    {
+        "original": "卓球で脱臼",
+        "japanese": "たっきゅうでだっきゅう",
+        "roman": ""
+    },
+    {
+        "original": "出血大サービス",
+        "japanese": "しゅっけつだいさーびす",
+        "roman": ""
+    },
+    {
+        "original": "あこがれのセーラー服",
+        "japanese": "あこがれのせーらーふく",
+        "roman": ""
+    },
+    {
+        "original": "ありがとうございました",
+        "japanese": "ありがとうございました",
+        "roman": ""
+    },
+    {
+        "original": "全く覚えていない",
+        "japanese": "まったくおぼえていない",
+        "roman": ""
+    },
+    {
+        "original": "夏休みの過ごし方",
+        "japanese": "なつやすみのすごしかた",
+        "roman": ""
+    },
+    {
+        "original": "激しいリンボーダンス",
+        "japanese": "はげしいりんぼーだんす",
+        "roman": ""
+    },
+    {
+        "original": "愛に国境はない",
+        "japanese": "あいにこっきょうはない",
+        "roman": ""
+    },
+    {
+        "original": "寸分の狂いもない",
+        "japanese": "すんぶんのくるいもない",
+        "roman": ""
+    },
+    {
+        "original": "感動的な再会",
+        "japanese": "かんどうてきなさいかい",
+        "roman": ""
+    },
+    {
+        "original": "弱肉強食",
+        "japanese": "じゃくにくきょうしょく",
+        "roman": ""
+    },
+    {
+        "original": "頭の中は真っ白",
+        "japanese": "あたまのなかはまっしろ",
+        "roman": ""
+    },
+    {
+        "original": "ハードディスクドライブ",
+        "japanese": "はーどでぃすくどらいぶ",
+        "roman": ""
+    },
+    {
+        "original": "トラブルシューティング",
+        "japanese": "とらぶるしゅーてぃんぐ",
+        "roman": ""
+    },
+    {
+        "original": "甲子園球場",
+        "japanese": "こうしえんきゅうじょう",
+        "roman": ""
+    },
+    {
+        "original": "こたつでみかんを食べる",
+        "japanese": "こたつでみかんをたべる",
+        "roman": ""
+    },
+    {
+        "original": "非常事態発生",
+        "japanese": "ひじょうじたいはっせい",
+        "roman": ""
+    },
+    {
+        "original": "全財産をつぎ込む",
+        "japanese": "ぜんざいさんをつぎこむ",
+        "roman": ""
+    },
+    {
+        "original": "リモートコントローラー",
+        "japanese": "りもーとこんとろーらー",
+        "roman": ""
+    },
+    {
+        "original": "ウインドウショッピング",
+        "japanese": "ういんどうしょっぴんぐ",
+        "roman": ""
+    },
+    {
+        "original": "スクランブル交差点",
+        "japanese": "すくらんぶるこうさてん",
+        "roman": ""
+    },
+    {
+        "original": "誕生日おめでとう",
+        "japanese": "たんじょうびおめでとう",
+        "roman": ""
+    },
+    {
+        "original": "ブルータス、お前もか",
+        "japanese": "ぶるーたす,おまえもか",
+        "roman": ""
+    },
+    {
+        "original": "もう一度やり直そう",
+        "japanese": "もういちどやりなおそう",
+        "roman": ""
+    },
+    {
+        "original": "北海道直送",
+        "japanese": "ほっかいどうちょくそう",
+        "roman": ""
+    },
+    {
+        "original": "食べたら歯を磨こうね",
+        "japanese": "たべたらはをみがこうね",
+        "roman": ""
+    },
+    {
+        "original": "エルニーニョ現象",
+        "japanese": "えるにーにょげんしょう",
+        "roman": ""
+    },
+    {
+        "original": "フロンティアスピリット",
+        "japanese": "ふろんてぃあすぴりっと",
+        "roman": ""
+    },
+    {
+        "original": "今日も残業です",
+        "japanese": "きょうもざんぎょうです",
+        "roman": ""
+    },
+    {
+        "original": "カキ氷始めました",
+        "japanese": "かきごおりはじめました",
+        "roman": ""
+    },
+    {
+        "original": "アメリカンフットボール",
+        "japanese": "あめりかんふっとぼーる",
+        "roman": ""
+    },
+    {
+        "original": "誕生日おめでとう",
+        "japanese": "たんじょうびおめでとう",
+        "roman": ""
+    },
+    {
+        "original": "ファーブル昆虫記",
+        "japanese": "ふぁーぶるこんちゅうき",
+        "roman": ""
+    },
+    {
+        "original": "毛細管現象",
+        "japanese": "もうさいかんげんしょう",
+        "roman": ""
+    },
+    {
+        "original": "鰤と書いてブリと読む",
+        "japanese": "ぶりとかいてぶりとよむ",
+        "roman": ""
+    },
+    {
+        "original": "ディスカウントショップ",
+        "japanese": "でぃすかうんとしょっぷ",
+        "roman": ""
+    },
+    {
+        "original": "国民健康保険",
+        "japanese": "こくみんけんこうほけん",
+        "roman": ""
+    },
+    {
+        "original": "ジブラルタル海峡",
+        "japanese": "じぶらるたるかいきょう",
+        "roman": ""
+    },
+    {
+        "original": "これは訓練ではない",
+        "japanese": "これはくんれんではない",
+        "roman": ""
+    },
+    {
+        "original": "全自動皿洗い機",
+        "japanese": "ぜんじどうさらあらいき",
+        "roman": ""
+    },
+    {
+        "original": "よろしくお願いします",
+        "japanese": "よろしくおねがいします",
+        "roman": ""
+    },
+    {
+        "original": "今夜はカレーライスよ",
+        "japanese": "こんやはかれーらいすよ",
+        "roman": ""
+    },
+    {
+        "original": "飼い犬に手を咬まれる",
+        "japanese": "かいいぬにてをかまれる",
+        "roman": ""
+    },
+    {
+        "original": "夏休みの宿題",
+        "japanese": "なつやすみのしゅくだい",
+        "roman": ""
+    },
+    {
+        "original": "オンラインショッピング",
+        "japanese": "おんらいんしょっぴんぐ",
+        "roman": ""
+    },
+    {
+        "original": "おかげ様で元気です",
+        "japanese": "おかげさまでげんきです",
+        "roman": ""
+    },
+    {
+        "original": "無人島でサバイバル",
+        "japanese": "むじんとうでさばいばる",
+        "roman": ""
+    },
+    {
+        "original": "まずはお電話ください",
+        "japanese": "まずはおでんわください",
+        "roman": ""
+    },
+    {
+        "original": "揺りかごから墓場まで",
+        "japanese": "ゆりかごからはかばまで",
+        "roman": ""
+    },
+    {
+        "original": "グラフィックデザイナー",
+        "japanese": "ぐらふぃっくでざいなー",
+        "roman": ""
+    },
+    {
+        "original": "縁の下の力持ち",
+        "japanese": "えんのしたのちからもち",
+        "roman": ""
+    },
+    {
+        "original": "誕生日プレゼント",
+        "japanese": "たんじょうびぷれぜんと",
+        "roman": ""
+    },
+    {
+        "original": "豊富なボキャブラリー",
+        "japanese": "ほうふなぼきゃぶらりー",
+        "roman": ""
+    },
+    {
+        "original": "普段着はパジャマです",
+        "japanese": "ふだんぎはぱじゃまです",
+        "roman": ""
+    },
+    {
+        "original": "全力を尽くします",
+        "japanese": "ぜんりょくをつくします",
+        "roman": ""
+    },
+    {
+        "original": "デパートのアドバルーン",
+        "japanese": "でぱーとのあどばるーん",
+        "roman": ""
+    },
+    {
+        "original": "犬かきなら泳げます",
+        "japanese": "いぬかきならおよげます",
+        "roman": ""
+    },
+    {
+        "original": "猫の手も借りたいです",
+        "japanese": "ねこのてもかりたいです",
+        "roman": ""
+    },
+    {
+        "original": "食虫植物",
+        "japanese": "しょくちゅうしょくぶつ",
+        "roman": ""
+    },
+    {
+        "original": "鬼の居ぬ間に洗濯",
+        "japanese": "おにのいぬまにせんたく",
+        "roman": ""
+    },
+    {
+        "original": "液晶ディスプレイ",
+        "japanese": "えきしょうでぃすぷれい",
+        "roman": ""
+    },
+    {
+        "original": "青い空、白い雲",
+        "japanese": "あおいそら,しろいくも",
+        "roman": ""
+    },
+    {
+        "original": "需要と供給",
+        "japanese": "じゅようときょうきゅう",
+        "roman": ""
+    },
+    {
+        "original": "高級チョコレート",
+        "japanese": "こうきゅうちょこれーと",
+        "roman": ""
+    },
+    {
+        "original": "ワニ革のハンドバッグ",
+        "japanese": "わにがわのはんどばっぐ",
+        "roman": ""
+    },
+    {
+        "original": "現在の状況",
+        "japanese": "げんざいのじょうきょう",
+        "roman": ""
+    },
+    {
+        "original": "ここだけの話ですが",
+        "japanese": "ここだけのはなしですが",
+        "roman": ""
+    },
+    {
+        "original": "鬼は外、福は内",
+        "japanese": "おにはそと,ふくはうち",
+        "roman": ""
+    },
+    {
+        "original": "睡魔には勝てなかった",
+        "japanese": "すいまにはかてなかった",
+        "roman": ""
+    },
+    {
+        "original": "魅力的なアイテム",
+        "japanese": "みりょくてきなあいてむ",
+        "roman": ""
+    },
+    {
+        "original": "立つ鳥跡を濁さず",
+        "japanese": "たつとりあとをにごさず",
+        "roman": ""
+    },
+    {
+        "original": "隠し味はお醤油",
+        "japanese": "かくしあじはおしょうゆ",
+        "roman": ""
+    },
+    {
+        "original": "布団が恋しい季節",
+        "japanese": "ふとんがこいしいきせつ",
+        "roman": ""
+    },
+    {
+        "original": "超常現象",
+        "japanese": "ちょうじょうげんしょう",
+        "roman": ""
+    },
+    {
+        "original": "使用上の注意",
+        "japanese": "しようじょうのちゅうい",
+        "roman": ""
+    },
+    {
+        "original": "ルールを守りましょう",
+        "japanese": "るーるをまもりましょう",
+        "roman": ""
+    },
+    {
+        "original": "シェフの気まぐれランチ",
+        "japanese": "しぇふのきまぐれらんち",
+        "roman": ""
+    },
+    {
+        "original": "白いご飯が食べたい",
+        "japanese": "しろいごはんがたべたい",
+        "roman": ""
+    },
+    {
+        "original": "待ちに待った参観日",
+        "japanese": "まちにまったさんかんび",
+        "roman": ""
+    },
+    {
+        "original": "今晩カレーですか?",
+        "japanese": "こんばんかれーですか?",
+        "roman": ""
+    },
+    {
+        "original": "経営コンサルタント",
+        "japanese": "けいえいこんさるたんと",
+        "roman": ""
+    },
+    {
+        "original": "バックアップしてない!",
+        "japanese": "ばっくあっぷしてない!",
+        "roman": ""
+    },
+    {
+        "original": "エイリアンがやってきた",
+        "japanese": "えいりあんがやってきた",
+        "roman": ""
+    },
+    {
+        "original": "千葉からの転校生",
+        "japanese": "ちばからのてんこうせい",
+        "roman": ""
+    },
+    {
+        "original": "今日は楽しかったよ",
+        "japanese": "きょうはたのしかったよ",
+        "roman": ""
+    },
+    {
+        "original": "あせると間違えますよ",
+        "japanese": "あせるとまちがえますよ",
+        "roman": ""
+    },
+    {
+        "original": "必殺!猫パンチ!",
+        "japanese": "ひっさつ!ねこぱんち!",
+        "roman": ""
+    },
+    {
+        "original": "石橋を叩いて割る",
+        "japanese": "いしばしをたたいてわる",
+        "roman": ""
+    },
+    {
+        "original": "テレフォンショッピング",
+        "japanese": "てれふぉんしょっぴんぐ",
+        "roman": ""
+    },
+    {
+        "original": "お手洗いはあちらです",
+        "japanese": "おてあらいはあちらです",
+        "roman": ""
+    },
+    {
+        "original": "ちょっと待ってください",
+        "japanese": "ちょっとまってください",
+        "roman": ""
+    },
+    {
+        "original": "新しいゲームソフト",
+        "japanese": "あたらしいげーむそふと",
+        "roman": ""
+    },
+    {
+        "original": "強制終了",
+        "japanese": "きょうせいしゅうりょう",
+        "roman": ""
+    },
+    {
+        "original": "こってりスープが決めて",
+        "japanese": "こってりすーぷがきめて",
+        "roman": ""
+    },
+    {
+        "original": "高気圧と低気圧",
+        "japanese": "こうきあつとていきあつ",
+        "roman": ""
+    },
+    {
+        "original": "お前の目は節穴か",
+        "japanese": "おまえのめはふしあなか",
+        "roman": ""
+    },
+    {
+        "original": "運も実力の内",
+        "japanese": "うんもじつりょくのうち",
+        "roman": ""
+    },
+    {
+        "original": "犯人は、お前だ!",
+        "japanese": "はんにんは,おまえだ!",
+        "roman": ""
+    },
+    {
+        "original": "生まれ変わったら美女!",
+        "japanese": "うまれかわったらびじょ!",
+        "roman": ""
+    },
+    {
+        "original": "オムライスが大好物",
+        "japanese": "おむらいすがだいこうぶつ",
+        "roman": ""
+    },
+    {
+        "original": "イラストロジックにはまる",
+        "japanese": "いらすとろじっくにはまる",
+        "roman": ""
+    },
+    {
+        "original": "人の数だけ謎がある",
+        "japanese": "ひとのかずだけなぞがある",
+        "roman": ""
+    },
+    {
+        "original": "箱を開けたらおじいさん",
+        "japanese": "はこをあけたらおじいさん",
+        "roman": ""
+    },
+    {
+        "original": "山と海どっちが好き?",
+        "japanese": "やまとうみどっちがすき?",
+        "roman": ""
+    },
+    {
+        "original": "長い夜になりそうです",
+        "japanese": "ながいよるになりそうです",
+        "roman": ""
+    },
+    {
+        "original": "ずっとこのまま寝ていたい",
+        "japanese": "ずっとこのままねていたい",
+        "roman": ""
+    },
+    {
+        "original": "運命なんて信じない",
+        "japanese": "うんめいなんてしんじない",
+        "roman": ""
+    },
+    {
+        "original": "マスター、いつものやつね",
+        "japanese": "ますたー,いつものやつね",
+        "roman": ""
+    },
+    {
+        "original": "お代わりはいかがですか?",
+        "japanese": "おかわりはいかがですか?",
+        "roman": ""
+    },
+    {
+        "original": "人生山あり谷あり",
+        "japanese": "じんせいやまありたにあり",
+        "roman": ""
+    },
+    {
+        "original": "ずっと遊んで暮らしたい",
+        "japanese": "ずっとあそんでくらしたい",
+        "roman": ""
+    },
+    {
+        "original": "今週のベストセラー",
+        "japanese": "こんしゅうのべすとせらー",
+        "roman": ""
+    },
+    {
+        "original": "いつからいたんですか!?",
+        "japanese": "いつからいたんですか!?",
+        "roman": ""
+    },
+    {
+        "original": "ご自由にお持ち下さい",
+        "japanese": "ごじゆうにおもちください",
+        "roman": ""
+    },
+    {
+        "original": "心理学を専攻する",
+        "japanese": "しんりがくをせんこうする",
+        "roman": ""
+    },
+    {
+        "original": "母性本能をくすぐる",
+        "japanese": "ぼせいほんのうをくすぐる",
+        "roman": ""
+    },
+    {
+        "original": "早起きは三文の得",
+        "japanese": "はやおきはさんもんのとく",
+        "roman": ""
+    },
+    {
+        "original": "世界一周旅行",
+        "japanese": "せかいいっしゅうりょこう",
+        "roman": ""
+    },
+    {
+        "original": "女心と秋の空",
+        "japanese": "おんなごころとあきのそら",
+        "roman": ""
+    },
+    {
+        "original": "主な登場人物",
+        "japanese": "おもなとうじょうじんぶつ",
+        "roman": ""
+    },
+    {
+        "original": "パーソナルコンピュータ",
+        "japanese": "ぱーそなるこんぴゅーた",
+        "roman": ""
+    },
+    {
+        "original": "今度は大丈夫です",
+        "japanese": "こんどはだいじょうぶです",
+        "roman": ""
+    },
+    {
+        "original": "熱狂的サポーター",
+        "japanese": "ねっきょうてきさぽーたー",
+        "roman": ""
+    },
+    {
+        "original": "どん底からはいあがれ!",
+        "japanese": "どんぞこからはいあがれ!",
+        "roman": ""
+    },
+    {
+        "original": "意表をつくアイディア",
+        "japanese": "いひょうをつくあいでぃあ",
+        "roman": ""
+    },
+    {
+        "original": "アルバイト募集中",
+        "japanese": "あるばいとぼしゅうちゅう",
+        "roman": ""
+    },
+    {
+        "original": "代表取締役",
+        "japanese": "だいひょうとりしまりやく",
+        "roman": ""
+    },
+    {
+        "original": "どうしても思い出せない",
+        "japanese": "どうしてもおもいだせない",
+        "roman": ""
+    },
+    {
+        "original": "寒い日が続いています",
+        "japanese": "さむいひがつづいています",
+        "roman": ""
+    },
+    {
+        "original": "特許出願中",
+        "japanese": "とっきょしゅつがんちゅう",
+        "roman": ""
+    },
+    {
+        "original": "関西国際空港",
+        "japanese": "かんさいこくさいくうこう",
+        "roman": ""
+    },
+    {
+        "original": "ライバル心に火がついた",
+        "japanese": "らいばるしんにひがついた",
+        "roman": ""
+    },
+    {
+        "original": "紐なしバンジージャンプ",
+        "japanese": "ひもなしばんじーじゃんぷ",
+        "roman": ""
+    },
+    {
+        "original": "インクジェットプリンター",
+        "japanese": "いんくじぇっとぷりんたー",
+        "roman": ""
+    },
+    {
+        "original": "無人島に漂着",
+        "japanese": "むじんとうにひょうちゃく",
+        "roman": ""
+    },
+    {
+        "original": "もう少し待ってください",
+        "japanese": "もうすこしまってください",
+        "roman": ""
+    },
+    {
+        "original": "いざ尋常に勝負",
+        "japanese": "いざじんじょうにしょうぶ",
+        "roman": ""
+    },
+    {
+        "original": "職業安定所",
+        "japanese": "しょくぎょうあんていじょ",
+        "roman": ""
+    },
+    {
+        "original": "年末大感謝祭",
+        "japanese": "ねんまつだいかんしゃさい",
+        "roman": ""
+    },
+    {
+        "original": "パパ、ぼく弟ほしい",
+        "japanese": "ぱぱ,ぼくおとうとほしい",
+        "roman": ""
+    },
+    {
+        "original": "衝動買いが欠点",
+        "japanese": "しょうどうがいがけってん",
+        "roman": ""
+    },
+    {
+        "original": "領収書ください",
+        "japanese": "りょうしゅうしょください",
+        "roman": ""
+    },
+    {
+        "original": "処理速度を高速化",
+        "japanese": "しょりそくどをこうそくか",
+        "roman": ""
+    },
+    {
+        "original": "再起動が必要です",
+        "japanese": "さいきどうがひつようです",
+        "roman": ""
+    },
+    {
+        "original": "ホームページ作りました",
+        "japanese": "ほーむぺーじつくりました",
+        "roman": ""
+    },
+    {
+        "original": "青色申告の季節",
+        "japanese": "あおいろしんこくのきせつ",
+        "roman": ""
+    },
+    {
+        "original": "白馬に乗った王子様",
+        "japanese": "はくばにのったおうじさま",
+        "roman": ""
+    },
+    {
+        "original": "アメリカンショートヘアー",
+        "japanese": "あめりかんしょーとへあー",
+        "roman": ""
+    },
+    {
+        "original": "開いた口がふさがらない",
+        "japanese": "あいたくちがふさがらない",
+        "roman": ""
+    },
+    {
+        "original": "グアムとサイパンは近い",
+        "japanese": "ぐあむとさいぱんはちかい",
+        "roman": ""
+    },
+    {
+        "original": "未確認飛行物体",
+        "japanese": "みかくにんひこうぶったい",
+        "roman": ""
+    },
+    {
+        "original": "キャンペーン実施中",
+        "japanese": "きゃんぺーんじっしちゅう",
+        "roman": ""
+    },
+    {
+        "original": "犬は英語でドッグです",
+        "japanese": "いぬはえいごでどっぐです",
+        "roman": ""
+    },
+    {
+        "original": "自分に対するご褒美",
+        "japanese": "じぶんにたいするごほうび",
+        "roman": ""
+    },
+    {
+        "original": "そこを右折してください",
+        "japanese": "そこをうせつしてください",
+        "roman": ""
+    },
+    {
+        "original": "ご利用は計画的に",
+        "japanese": "ごりようはけいかくてきに",
+        "roman": ""
+    },
+    {
+        "original": "体育館に集合",
+        "japanese": "たいいくかんにしゅうごう",
+        "roman": ""
+    },
+    {
+        "original": "右クリックでキャンセル",
+        "japanese": "みぎくりっくできゃんせる",
+        "roman": ""
+    },
+    {
+        "original": "分かった人は手を挙げて",
+        "japanese": "わかったひとはてをあげて",
+        "roman": ""
+    },
+    {
+        "original": "味噌バターコーンラーメン",
+        "japanese": "みそばたーこーんらーめん",
+        "roman": ""
+    },
+    {
+        "original": "酒は飲んでも飲まれるな",
+        "japanese": "さけはのんでものまれるな",
+        "roman": ""
+    },
+    {
+        "original": "バミューダトライアングル",
+        "japanese": "ばみゅーだとらいあんぐる",
+        "roman": ""
+    },
+    {
+        "original": "傘でゴルフの練習",
+        "japanese": "かさでごるふのれんしゅう",
+        "roman": ""
+    },
+    {
+        "original": "チューリップが咲きました",
+        "japanese": "ちゅーりっぷがさきました",
+        "roman": ""
+    },
+    {
+        "original": "ワレワレハウチュウジンダ",
+        "japanese": "われわれはうちゅうじんだ",
+        "roman": ""
+    },
+    {
+        "original": "只より高いものは無い",
+        "japanese": "ただよりたかいものはない",
+        "roman": ""
+    },
+    {
+        "original": "ガーデニングが趣味です",
+        "japanese": "がーでにんぐがしゅみです",
+        "roman": ""
+    },
+    {
+        "original": "猫の首に鈴をつける",
+        "japanese": "ねこのくびにすずをつける",
+        "roman": ""
+    },
+    {
+        "original": "宇宙船地球号",
+        "japanese": "うちゅうせんちきゅうごう",
+        "roman": ""
+    },
+    {
+        "original": "冬将軍の到来",
+        "japanese": "ふゆしょうぐんのとうらい",
+        "roman": ""
+    },
+    {
+        "original": "ホコリでくしゃみ連発",
+        "japanese": "ほこりでくしゃみれんぱつ",
+        "roman": ""
+    },
+    {
+        "original": "辛子明太子おにぎり",
+        "japanese": "からしめんたいこおにぎり",
+        "roman": ""
+    },
+    {
+        "original": "クリスマスツリー点灯",
+        "japanese": "くりすますつりーてんとう",
+        "roman": ""
+    },
+    {
+        "original": "鮭とイクラの親子丼",
+        "japanese": "さけといくらのおやこどん",
+        "roman": ""
+    },
+    {
+        "original": "お醤油取って下さい",
+        "japanese": "おしょうゆとってください",
+        "roman": ""
+    },
+    {
+        "original": "優柔不断な人ね",
+        "japanese": "ゆうじゅうふだんなひとね",
+        "roman": ""
+    },
+    {
+        "original": "働くパパはカッコイイ",
+        "japanese": "はたらくぱぱはかっこいい",
+        "roman": ""
+    },
+    {
+        "original": "極秘プロジェクト始動",
+        "japanese": "ごくひぷろじぇくとしどう",
+        "roman": ""
+    },
+    {
+        "original": "海水浴でスイカ割り",
+        "japanese": "かいすいよくですいかわり",
+        "roman": ""
+    },
+    {
+        "original": "今日はいい天気ですね",
+        "japanese": "きょうはいいてんきですね",
+        "roman": ""
+    },
+    {
+        "original": "障害物競走",
+        "japanese": "しょうがいぶつきょうそう",
+        "roman": ""
+    },
+    {
+        "original": "宿題を忘れました",
+        "japanese": "しゅくだいをわすれました",
+        "roman": ""
+    },
+    {
+        "original": "雨がやんだら虹が出た",
+        "japanese": "あめがやんだらにじがでた",
+        "roman": ""
+    },
+    {
+        "original": "牛肉のカルパッチョ",
+        "japanese": "ぎゅうにくのかるぱっちょ",
+        "roman": ""
+    },
+    {
+        "original": "スモモも桃も桃のうち",
+        "japanese": "すもももももももものうち",
+        "roman": ""
+    },
+    {
+        "original": "穴あきジーパンは寒い",
+        "japanese": "あなあきじーぱんはさむい",
+        "roman": ""
+    },
+    {
+        "original": "カンヌ国際映画祭",
+        "japanese": "かんぬこくさいえいがさい",
+        "roman": ""
+    },
+    {
+        "original": "選挙管理委員会",
+        "japanese": "せんきょかんりいいんかい",
+        "roman": ""
+    },
+    {
+        "original": "最高級食材",
+        "japanese": "さいこうきゅうしょくざい",
+        "roman": ""
+    },
+    {
+        "original": "大化けの可能性あり",
+        "japanese": "おおばけのかのうせいあり",
+        "roman": ""
+    },
+    {
+        "original": "亀の甲より年の功",
+        "japanese": "かめのこうよりとしのこう",
+        "roman": ""
+    },
+    {
+        "original": "サビぬきでお願いします",
+        "japanese": "さびぬきでおねがいします",
+        "roman": ""
+    },
+    {
+        "original": "オペレーティングシステム",
+        "japanese": "おぺれーてぃんぐしすてむ",
+        "roman": ""
+    },
+    {
+        "original": "生死の境をさまよう",
+        "japanese": "せいしのさかいをさまよう",
+        "roman": ""
+    },
+    {
+        "original": "この橋、渡るべからず",
+        "japanese": "このはし,わたるべからず",
+        "roman": ""
+    },
+    {
+        "original": "ただいま品切れ中!",
+        "japanese": "ただいましなぎれちゅう!",
+        "roman": ""
+    },
+    {
+        "original": "起立、礼、着席",
+        "japanese": "きりつ,れい,ちゃくせき",
+        "roman": ""
+    },
+    {
+        "original": "五円玉には穴がある",
+        "japanese": "ごえんだまにはあながある",
+        "roman": ""
+    },
+    {
+        "original": "フグの大量発生",
+        "japanese": "ふぐのたいりょうはっせい",
+        "roman": ""
+    },
+    {
+        "original": "人を呪わば穴二つ",
+        "japanese": "ひとをのろわばあなふたつ",
+        "roman": ""
+    },
+    {
+        "original": "亭主改造計画",
+        "japanese": "ていしゅかいぞうけいかく",
+        "roman": ""
+    },
+    {
+        "original": "地球外生命体",
+        "japanese": "ちきゅうがいせいめいたい",
+        "roman": ""
+    },
+    {
+        "original": "ニューヨークで入浴",
+        "japanese": "にゅーよーくでにゅうよく",
+        "roman": ""
+    },
+    {
+        "original": "猫は狭いところがお好き",
+        "japanese": "ねこはせまいところがおすき",
+        "roman": ""
+    },
+    {
+        "original": "シンクロナイズドスイミング",
+        "japanese": "しんくろないずどすいみんぐ",
+        "roman": ""
+    },
+    {
+        "original": "安心するのはまだ早い",
+        "japanese": "あんしんするのはまだはやい",
+        "roman": ""
+    },
+    {
+        "original": "連続奪三振記録",
+        "japanese": "れんぞくだつさんしんきろく",
+        "roman": ""
+    },
+    {
+        "original": "一難去ってまた一難",
+        "japanese": "いちなんさってまたいちなん",
+        "roman": ""
+    },
+    {
+        "original": "メジャーリーグへ挑戦",
+        "japanese": "めじゃーりーぐへちょうせん",
+        "roman": ""
+    },
+    {
+        "original": "枝毛が増えて気になります",
+        "japanese": "えだげがふえてきになります",
+        "roman": ""
+    },
+    {
+        "original": "流行に流されるな!",
+        "japanese": "りゅうこうにながされるな!",
+        "roman": ""
+    },
+    {
+        "original": "浴衣の綺麗なお姉さん",
+        "japanese": "ゆかたのきれいなおねえさん",
+        "roman": ""
+    },
+    {
+        "original": "綺麗な花にはトゲがある",
+        "japanese": "きれいなはなにはとげがある",
+        "roman": ""
+    },
+    {
+        "original": "もうだめだ、降参しよう",
+        "japanese": "もうだめだ,こうさんしよう",
+        "roman": ""
+    },
+    {
+        "original": "ホップ、ステップ、ジャンプ",
+        "japanese": "ほっぷ,すてっぷ,じゃんぷ",
+        "roman": ""
+    },
+    {
+        "original": "留守番電話サービスです",
+        "japanese": "るすばんでんわさーびすです",
+        "roman": ""
+    },
+    {
+        "original": "迷惑メールが多すぎる",
+        "japanese": "めいわくめーるがおおすぎる",
+        "roman": ""
+    },
+    {
+        "original": "メールのあて先間違えた",
+        "japanese": "めーるのあてさきまちがえた",
+        "roman": ""
+    },
+    {
+        "original": "仲良しこよしのお友達",
+        "japanese": "なかよしこよしのおともだち",
+        "roman": ""
+    },
+    {
+        "original": "全品レジにて半額!",
+        "japanese": "ぜんぴんれじにてはんがく!",
+        "roman": ""
+    },
+    {
+        "original": "ジャスミンティーはいかが?",
+        "japanese": "じゃすみんてぃーはいかが?",
+        "roman": ""
+    },
+    {
+        "original": "ご活躍をお祈りします",
+        "japanese": "ごかつやくをおいのりします",
+        "roman": ""
+    },
+    {
+        "original": "お隣は亭主関白",
+        "japanese": "おとなりはていしゅかんぱく",
+        "roman": ""
+    },
+    {
+        "original": "果肉入りオレンジジュース",
+        "japanese": "かにくいりおれんじじゅーす",
+        "roman": ""
+    },
+    {
+        "original": "おいしいお肉が食べたいな",
+        "japanese": "おいしいおにくがたべたいな",
+        "roman": ""
+    },
+    {
+        "original": "安全なのかは知らないよ",
+        "japanese": "あんぜんなのかはしらないよ",
+        "roman": ""
+    },
+    {
+        "original": "雑誌の置き場に困ってる",
+        "japanese": "ざっしのおきばにこまってる",
+        "roman": ""
+    },
+    {
+        "original": "あしたはあしたの風が吹く",
+        "japanese": "あしたはあしたのかぜがふく",
+        "roman": ""
+    },
+    {
+        "original": "異文化コミュニケーション",
+        "japanese": "いぶんかこみゅにけーしょん",
+        "roman": ""
+    },
+    {
+        "original": "最高級のおもてなし",
+        "japanese": "さいこうきゅうのおもてなし",
+        "roman": ""
+    },
+    {
+        "original": "張りつめた空気が漂う",
+        "japanese": "はりつめたくうきがただよう",
+        "roman": ""
+    },
+    {
+        "original": "少年よ大志を抱け",
+        "japanese": "しょうねんよたいしをいだけ",
+        "roman": ""
+    },
+    {
+        "original": "僕と付き合ってください!",
+        "japanese": "ぼくとつきあってください!",
+        "roman": ""
+    },
+    {
+        "original": "ちゃんと歯を磨きなさい!",
+        "japanese": "ちゃんとはをみがきなさい!",
+        "roman": ""
+    },
+    {
+        "original": "ねこじゃらしでじゃれるねこ",
+        "japanese": "ねこじゃらしでじゃれるねこ",
+        "roman": ""
+    },
+    {
+        "original": "庭には二羽にわとりがいる",
+        "japanese": "にわにはにわにわとりがいる",
+        "roman": ""
+    },
+    {
+        "original": "宇宙人に会いましたよ",
+        "japanese": "うちゅうじんにあいましたよ",
+        "roman": ""
+    },
+    {
+        "original": "エサを与えないで下さい",
+        "japanese": "えさをあたえないでください",
+        "roman": ""
+    },
+    {
+        "original": "アカデミー賞受賞",
+        "japanese": "あかでみーしょうじゅしょう",
+        "roman": ""
+    },
+    {
+        "original": "ここで会ったが百年目",
+        "japanese": "ここであったがひゃくねんめ",
+        "roman": ""
+    },
+    {
+        "original": "ここはドコ?私は誰?",
+        "japanese": "ここはどこ?わたしはだれ?",
+        "roman": ""
+    },
+    {
+        "original": "パスワードを入れてください",
+        "japanese": "ぱすわーどをいれてください",
+        "roman": ""
+    },
+    {
+        "original": "アプリケーションエラーです",
+        "japanese": "あぷりけーしょんえらーです",
+        "roman": ""
+    },
+    {
+        "original": "痛いの痛いの飛んで行け",
+        "japanese": "いたいのいたいのとんでいけ",
+        "roman": ""
+    },
+    {
+        "original": "私英語ワカリマセーン",
+        "japanese": "わたしえいごわかりませーん",
+        "roman": ""
+    },
+    {
+        "original": "お酒は大人になってから",
+        "japanese": "おさけはおとなになってから",
+        "roman": ""
+    },
+    {
+        "original": "我思う、故に我あり",
+        "japanese": "われおもう,ゆえにわれあり",
+        "roman": ""
+    },
+    {
+        "original": "下から読んでも新聞紙",
+        "japanese": "したからよんでもしんぶんし",
+        "roman": ""
+    },
+    {
+        "original": "家に帰るまでが遠足",
+        "japanese": "いえにかえるまでがえんそく",
+        "roman": ""
+    },
+    {
+        "original": "日本の首都は東京",
+        "japanese": "にほんのしゅとはとうきょう",
+        "roman": ""
+    },
+    {
+        "original": "上から読んでも新聞紙",
+        "japanese": "うえからよんでもしんぶんし",
+        "roman": ""
+    },
+    {
+        "original": "コウモリは哺乳類です",
+        "japanese": "こうもりはほにゅうるいです",
+        "roman": ""
+    },
+    {
+        "original": "目覚まし時計に勝ちました",
+        "japanese": "めざましどけいにかちました",
+        "roman": ""
+    },
+    {
+        "original": "言われた通りにやったのに",
+        "japanese": "いわれたとおりにやったのに",
+        "roman": ""
+    },
+    {
+        "original": "新春シャンソンショー",
+        "japanese": "しんしゅんしゃんそんしょー",
+        "roman": ""
+    },
+    {
+        "original": "生むぎ生ごめ生たまご",
+        "japanese": "なまむぎなまごめなまたまご",
+        "roman": ""
+    },
+    {
+        "original": "ダウンロードを開始します",
+        "japanese": "だうんろーどをかいしします",
+        "roman": ""
+    },
+    {
+        "original": "先進国首脳会議",
+        "japanese": "せんしんこくしゅのうかいぎ",
+        "roman": ""
+    },
+    {
+        "original": "とりあえずビールちょうだい",
+        "japanese": "とりあえずびーるちょうだい",
+        "roman": ""
+    },
+    {
+        "original": "細麺太麺ちぢれ麺",
+        "japanese": "ほそめんふとめんちぢれめん",
+        "roman": ""
+    },
+    {
+        "original": "犬も歩けば棒に当たる",
+        "japanese": "いぬもあるけばぼうにあたる",
+        "roman": ""
+    },
+    {
+        "original": "インテリアコーディネーター",
+        "japanese": "いんてりあこーでぃねーたー",
+        "roman": ""
+    },
+    {
+        "original": "今夜はロールキャベツです",
+        "japanese": "こんやはろーるきゃべつです",
+        "roman": ""
+    },
+    {
+        "original": "非常識にも程がある",
+        "japanese": "ひじょうしきにもほどがある",
+        "roman": ""
+    },
+    {
+        "original": "四角い畳を丸く掃く",
+        "japanese": "しかくいたたみをまるくはく",
+        "roman": ""
+    },
+    {
+        "original": "有効期限が切れました",
+        "japanese": "ゆうこうきげんがきれました",
+        "roman": ""
+    },
+    {
+        "original": "特賞はハワイ旅行",
+        "japanese": "とくしょうははわいりょこう",
+        "roman": ""
+    },
+    {
+        "original": "三角関数が問題",
+        "japanese": "さんかくかんすうがもんだい",
+        "roman": ""
+    },
+    {
+        "original": "低気圧が発達中",
+        "japanese": "ていきあつがはったつちゅう",
+        "roman": ""
+    },
+    {
+        "original": "有給休暇を使う",
+        "japanese": "ゆうきゅうきゅうかをつかう",
+        "roman": ""
+    },
+    {
+        "original": "トッピングはチョコレートで",
+        "japanese": "とっぴんぐはちょこれーとで",
+        "roman": ""
+    },
+    {
+        "original": "ミディアムで焼いてください",
+        "japanese": "みでぃあむでやいてください",
+        "roman": ""
+    },
+    {
+        "original": "象の鼻はなぜ長いの?",
+        "japanese": "ぞうのはなはなぜながいの?",
+        "roman": ""
+    },
+    {
+        "original": "今日中に終わらせてね",
+        "japanese": "きょうじゅうにおわらせてね",
+        "roman": ""
+    },
+    {
+        "original": "ただ今準備中です",
+        "japanese": "ただいまじゅんびちゅうです",
+        "roman": ""
+    },
+    {
+        "original": "取らぬタヌキの皮算用",
+        "japanese": "とらぬたぬきのかわざんよう",
+        "roman": ""
+    },
+    {
+        "original": "雨よ!布団とりこんで!",
+        "japanese": "あめよ!ふとんとりこんで!",
+        "roman": ""
+    },
+    {
+        "original": "ウイスキーをオンザロックで",
+        "japanese": "ういすきーをおんざろっくで",
+        "roman": ""
+    },
+    {
+        "original": "冷やし中華始めました",
+        "japanese": "ひやしちゅうかはじめました",
+        "roman": ""
+    },
+    {
+        "original": "クリスマスの定番ソング",
+        "japanese": "くりすますのていばんそんぐ",
+        "roman": ""
+    },
+    {
+        "original": "免税店はどこですか?",
+        "japanese": "めんぜいてんはどこですか?",
+        "roman": ""
+    },
+    {
+        "original": "イヌも歩けば棒にあたる",
+        "japanese": "いぬもあるけばぼうにあたる",
+        "roman": ""
+    },
+    {
+        "original": "新入生歓迎会",
+        "japanese": "しんにゅうせいかんげいかい",
+        "roman": ""
+    },
+    {
+        "original": "そんな恐い顔するなって",
+        "japanese": "そんなこわいかおするなって",
+        "roman": ""
+    },
+    {
+        "original": "火曜日は定休日です",
+        "japanese": "かようびはていきゅうびです",
+        "roman": ""
+    },
+    {
+        "original": "使い捨てコンタクトレンズ",
+        "japanese": "つかいすてこんたくとれんず",
+        "roman": ""
+    },
+    {
+        "original": "夏休みが待ち遠しい!",
+        "japanese": "なつやすみがまちどおしい!",
+        "roman": ""
+    },
+    {
+        "original": "誰も反応してくれない",
+        "japanese": "だれもはんのうしてくれない",
+        "roman": ""
+    },
+    {
+        "original": "畳にキノコが生えました",
+        "japanese": "たたみにきのこがはえました",
+        "roman": ""
+    },
+    {
+        "original": "俺のケーキ食ったの誰だ",
+        "japanese": "おれのけーきくったのだれだ",
+        "roman": ""
+    },
+    {
+        "original": "休みの日くらい寝かせてよ",
+        "japanese": "やすみのひくらいねかせてよ",
+        "roman": ""
+    },
+    {
+        "original": "泣いた分だけ強くなれる",
+        "japanese": "ないたぶんだけつよくなれる",
+        "roman": ""
+    },
+    {
+        "original": "象が踏んでも壊れません",
+        "japanese": "ぞうがふんでもこわれません",
+        "roman": ""
+    },
+    {
+        "original": "徒歩で駅まで十五分",
+        "japanese": "とほでえきまでじゅうごふん",
+        "roman": ""
+    },
+    {
+        "original": "明日は明日の風が吹く",
+        "japanese": "あしたはあしたのかぜがふく",
+        "roman": ""
+    },
+    {
+        "original": "うまい話にゃ裏がある",
+        "japanese": "うまいはなしにゃうらがある",
+        "roman": ""
+    },
+    {
+        "original": "無知は時として罪になる",
+        "japanese": "むちはときとしてつみになる",
+        "roman": ""
+    },
+    {
+        "original": "アルミ缶の上にあるミカン",
+        "japanese": "あるみかんのうえにあるみかん",
+        "roman": ""
+    },
+    {
+        "original": "最上級のおもてなし",
+        "japanese": "さいじょうきゅうのおもてなし",
+        "roman": ""
+    },
+    {
+        "original": "フットワークなら誰にも負けない!",
+        "japanese": "ふっとわーくならだれにもまけない!",
+        "roman": ""
+    },
+    {
+        "original": "俺の酒が飲めないって言うのか!",
+        "japanese": "おれのさけがのめないっていうのか!",
+        "roman": ""
+    },
+    {
+        "original": "行列のできるラーメン屋",
+        "japanese": "ぎょうれつのできるらーめんや",
+        "roman": ""
+    },
+    {
+        "original": "満月輝く秋の夜空",
+        "japanese": "まんげつかがやくあきのよぞら",
+        "roman": ""
+    },
+    {
+        "original": "君の涙、ずっと忘れない",
+        "japanese": "きみのなみだ,ずっとわすれない",
+        "roman": ""
+    },
+    {
+        "original": "反省だけならサルでも出来る",
+        "japanese": "はんせいだけならさるでもできる",
+        "roman": ""
+    },
+    {
+        "original": "給食デザート争奪戦",
+        "japanese": "きゅうしょくでざーとそうだつせん",
+        "roman": ""
+    },
+    {
+        "original": "興味のある分野にだけ強い",
+        "japanese": "きょうみのあるぶんやにだけつよい",
+        "roman": ""
+    },
+    {
+        "original": "晴れた青空、輝く星空",
+        "japanese": "はれたあおぞら,かがやくほしぞら",
+        "roman": ""
+    },
+    {
+        "original": "春の授業は睡眠学習",
+        "japanese": "はるのじゅぎょうはすいみんがくしゅう",
+        "roman": ""
+    },
+    {
+        "original": "ロイヤルストレートフラッシュ",
+        "japanese": "ろいやるすとれーとふらっしゅ",
+        "roman": ""
+    },
+    {
+        "original": "クリスマスまでに彼氏が欲しい",
+        "japanese": "くりすますまでにかれしがほしい",
+        "roman": ""
+    },
+    {
+        "original": "ノルマンディ上陸作戦",
+        "japanese": "のるまんでぃじょうりくさくせん",
+        "roman": ""
+    },
+    {
+        "original": "サイン、コサイン、タンジェント",
+        "japanese": "さいん,こさいん,たんじぇんと",
+        "roman": ""
+    },
+    {
+        "original": "一日の始まりは挨拶から",
+        "japanese": "いちにちのはじまりはあいさつから",
+        "roman": ""
+    },
+    {
+        "original": "お客さん、看板ですよ",
+        "japanese": "おきゃくさん,かんばんですよ",
+        "roman": ""
+    },
+    {
+        "original": "目玉焼きには何をかける?",
+        "japanese": "めだまやきにはなにをかける?",
+        "roman": ""
+    },
+    {
+        "original": "遠慮しないでたくさん食べてね",
+        "japanese": "えんりょしないでたくさんたべてね",
+        "roman": ""
+    },
+    {
+        "original": "君の瞳にチェックメイト",
+        "japanese": "きみのひとみにちぇっくめいと",
+        "roman": ""
+    },
+    {
+        "original": "新婚旅行は熱海です",
+        "japanese": "しんこんりょこうはあたみです",
+        "roman": ""
+    },
+    {
+        "original": "文化祭実行委員会",
+        "japanese": "ぶんかさいじっこういいんかい",
+        "roman": ""
+    },
+    {
+        "original": "もう一度チャンスをください",
+        "japanese": "もういちどちゃんすをください",
+        "roman": ""
+    },
+    {
+        "original": "バレンタインデーは乙女の味方",
+        "japanese": "ばれんたいんでーはおとめのみかた",
+        "roman": ""
+    },
+    {
+        "original": "赤ちゃんから目が離せない",
+        "japanese": "あかちゃんからめがはなせない",
+        "roman": ""
+    },
+    {
+        "original": "それでも地球は回っている",
+        "japanese": "それでもちきゅうはまわっている",
+        "roman": ""
+    },
+    {
+        "original": "超豪華賞品が当たります!",
+        "japanese": "ちょうごうかしょうひんがあたります!",
+        "roman": ""
+    },
+    {
+        "original": "絶体絶命の大ピンチ",
+        "japanese": "ぜったいぜつめいのだいぴんち",
+        "roman": ""
+    },
+    {
+        "original": "今週の日曜日、ヒマ?",
+        "japanese": "こんしゅうのにちようび,ひま?",
+        "roman": ""
+    },
+    {
+        "original": "春の新色新発売",
+        "japanese": "はるのしんしょくしんはつばい",
+        "roman": ""
+    },
+    {
+        "original": "桜前線北上中",
+        "japanese": "さくらぜんせんほくじょうちゅう",
+        "roman": ""
+    },
+    {
+        "original": "自己紹介をしてください",
+        "japanese": "じこしょうかいをしてください",
+        "roman": ""
+    },
+    {
+        "original": "スリジャヤワルダナプラコッテ",
+        "japanese": "すりじゃやわるだなぷらこって",
+        "roman": ""
+    },
+    {
+        "original": "今日どこで待ち合わせする?",
+        "japanese": "きょうどこでまちあわせする?",
+        "roman": ""
+    },
+    {
+        "original": "痛かったら右手を上げてください",
+        "japanese": "いたかったらみぎてをあげてください",
+        "roman": ""
+    },
+    {
+        "original": "嘘ついたら針千本飲ーます",
+        "japanese": "うそついたらはりせんぼんのーます",
+        "roman": ""
+    },
+    {
+        "original": "おじいさんは山へ柴刈りに",
+        "japanese": "おじいさんはやまへしばかりに",
+        "roman": ""
+    },
+    {
+        "original": "おばあさんは川へ洗濯に",
+        "japanese": "おばあさんはかわへせんたくに",
+        "roman": ""
+    },
+    {
+        "original": "雨だ!洗濯物しまって!",
+        "japanese": "あめだ!せんたくものしまって!",
+        "roman": ""
+    },
+    {
+        "original": "金の斧ですか銀の斧ですか",
+        "japanese": "きんのおのですかぎんのおのですか",
+        "roman": ""
+    },
+    {
+        "original": "口先だけじゃ信用されないよ",
+        "japanese": "くちさきだけじゃしんようされないよ",
+        "roman": ""
+    },
+    {
+        "original": "食べてすぐ寝たら牛になりました",
+        "japanese": "たべてすぐねたらうしになりました",
+        "roman": ""
+    },
+    {
+        "original": "添付ファイルが付いてないよ",
+        "japanese": "てんぷふぁいるがついてないよ",
+        "roman": ""
+    },
+    {
+        "original": "東京特許許可局",
+        "japanese": "とうきょうとっきょきょかきょく",
+        "roman": ""
+    },
+    {
+        "original": "隣の客はよく柿食う客だ",
+        "japanese": "となりのきゃくはよくかきくうきゃくだ",
+        "roman": ""
+    },
+    {
+        "original": "桃がドンブラコと流れてきました",
+        "japanese": "ももがどんぶらことながれてきました",
+        "roman": ""
+    },
+    {
+        "original": "本当に終了していいですか?",
+        "japanese": "ほんとうにしゅうりょうしていいですか?",
+        "roman": ""
+    },
+    {
+        "original": "壁に耳あり障子に目あり",
+        "japanese": "かべにみみありしょうじにめあり",
+        "roman": ""
+    },
+    {
+        "original": "おやつは戸棚に入っています",
+        "japanese": "おやつはとだなにはいっています",
+        "roman": ""
+    },
+    {
+        "original": "コーヒー?それとも紅茶?",
+        "japanese": "こーひー?それともこうちゃ?",
+        "roman": ""
+    },
+    {
+        "original": "赤巻紙青巻紙黄巻紙",
+        "japanese": "あかまきがみあおまきがみきまきがみ",
+        "roman": ""
+    },
+    {
+        "original": "バナナはおやつに入りますか?",
+        "japanese": "ばななはおやつにはいりますか?",
+        "roman": ""
+    },
+    {
+        "original": "昨日のことは覚えていません",
+        "japanese": "きのうのことはおぼえていません",
+        "roman": ""
+    },
+    {
+        "original": "タンスの角に小指をぶつけた",
+        "japanese": "たんすのかどにこゆびをぶつけた",
+        "roman": ""
+    },
+    {
+        "original": "キャビアはチョウザメの卵",
+        "japanese": "きゃびあはちょうざめのたまご",
+        "roman": ""
+    },
+    {
+        "original": "心頭滅却すれば火もまた涼し",
+        "japanese": "しんとうめっきゃくすればひもまたすずし",
+        "roman": ""
+    },
+    {
+        "original": "太陽系第三惑星地球",
+        "japanese": "たいようけいだいさんわくせいちきゅう",
+        "roman": ""
+    },
+    {
+        "original": "マサチューセッツ工科大学",
+        "japanese": "まさちゅーせっつこうかだいがく",
+        "roman": ""
+    },
+    {
+        "original": "再セットアップの必要性",
+        "japanese": "さいせっとあっぷのひつようせい",
+        "roman": ""
+    },
+    {
+        "original": "六法全書を丸暗記",
+        "japanese": "ろっぽうぜんしょをまるあんき",
+        "roman": ""
+    },
+    {
+        "original": "今まで本当にお世話になりました",
+        "japanese": "いままでほんとうにおせわになりました",
+        "roman": ""
+    },
+    {
+        "original": "財布、携帯、鍵、定期",
+        "japanese": "さいふ,けいたい,かぎ,ていき",
+        "roman": ""
+    },
+    {
+        "original": "最優秀新人賞",
+        "japanese": "さいゆうしゅうしんじんしょう",
+        "roman": ""
+    },
+    {
+        "original": "最高経営責任者",
+        "japanese": "さいこうけいえいせきにんしゃ",
+        "roman": ""
+    },
+    {
+        "original": "新東京国際空港",
+        "japanese": "しんとうきょうこくさいくうこう",
+        "roman": ""
+    },
+    {
+        "original": "水酸化ナトリウム水溶液",
+        "japanese": "すいさんかなとりうむすいようえき",
+        "roman": ""
+    },
+    {
+        "original": "赤パジャマ青パジャマ黄パジャマ",
+        "japanese": "あかぱじゃまあおぱじゃまきぱじゃま",
+        "roman": ""
+    },
+    {
+        "original": "解答欄に記入しなさい",
+        "japanese": "かいとうらんにきにゅうしなさい",
+        "roman": ""
+    },
+    {
+        "original": "働かざるもの食うべからず",
+        "japanese": "はたらかざるものくうべからず",
+        "roman": ""
+    },
+    {
+        "original": "第一志望は譲れない!",
+        "japanese": "だいいちしぼうはゆずれない!",
+        "roman": ""
+    },
+    {
+        "original": "大学入試センター試験",
+        "japanese": "だいがくにゅうしせんたーしけん",
+        "roman": ""
+    },
+    {
+        "original": "あらかじめご了承ください",
+        "japanese": "あらかじめごりょうしょうください",
+        "roman": ""
+    },
+    {
+        "original": "逆転サヨナラ満塁ホームラン",
+        "japanese": "ぎゃくてんさよならまんるいほーむらん",
+        "roman": ""
+    },
+    {
+        "original": "いつまでもあると思うな親と金",
+        "japanese": "いつまでもあるとおもうなおやとかね",
+        "roman": ""
+    },
+    {
+        "original": "死して屍ひろうものなし",
+        "japanese": "ししてしかばねひろうものなし",
+        "roman": ""
+    },
+    {
+        "original": "子供の頃からの夢でした",
+        "japanese": "こどものころからのゆめでした",
+        "roman": ""
+    },
+    {
+        "original": "ゴロゴロするのも予定のうち",
+        "japanese": "ごろごろするのもよていのうち",
+        "roman": ""
+    },
+    {
+        "original": "超高級リゾートホテル",
+        "japanese": "ちょうこうきゅうりぞーとほてる",
+        "roman": ""
+    },
+    {
+        "original": "そこをまっすぐ行ってください",
+        "japanese": "そこをまっすぐいってください",
+        "roman": ""
+    },
+    {
+        "original": "基本的人権の尊重",
+        "japanese": "きほんてきじんけんのそんちょう",
+        "roman": ""
+    },
+    {
+        "original": "ボランティアさん大募集!",
+        "japanese": "ぼらんてぃあさんだいぼしゅう!",
+        "roman": ""
+    },
+    {
+        "original": "生まれ変わった僕を見てください",
+        "japanese": "うまれかわったぼくをみてください",
+        "roman": ""
+    },
+    {
+        "original": "アメリカ連邦捜査局",
+        "japanese": "あめりかれんぽうそうさきょく",
+        "roman": ""
+    },
+    {
+        "original": "戦闘を開始してください",
+        "japanese": "せんとうをかいししてください",
+        "roman": ""
+    },
+    {
+        "original": "あすの天気予報は雨です",
+        "japanese": "あすのてんきよほうはあめです",
+        "roman": ""
+    },
+    {
+        "original": "一世一代の大勝負",
+        "japanese": "いっせいちだいのおおしょうぶ",
+        "roman": ""
+    },
+    {
+        "original": "どうしようもないほどの悲しみ",
+        "japanese": "どうしようもないほどのかなしみ",
+        "roman": ""
+    },
+    {
+        "original": "テスト期間まであと一週間",
+        "japanese": "てすときかんまであといっしゅうかん",
+        "roman": ""
+    },
+    {
+        "original": "誕生日プレゼント、何がいい?",
+        "japanese": "たんじょうびぷれぜんと,なにがいい?",
+        "roman": ""
+    },
+    {
+        "original": "ゲルマン民族の大移動",
+        "japanese": "げるまんみんぞくのだいいどう",
+        "roman": ""
+    },
+    {
+        "original": "交通ルールを守りましょう",
+        "japanese": "こうつうるーるをまもりましょう",
+        "roman": ""
+    },
+    {
+        "original": "あの夕日に向かってダッシュだ",
+        "japanese": "あのゆうひにむかってだっしゅだ",
+        "roman": ""
+    },
+    {
+        "original": "珍しく真剣な顔してるね",
+        "japanese": "めずらしくしんけんなかおしてるね",
+        "roman": ""
+    },
+    {
+        "original": "このあとすぐ!チャンネルはそのまま",
+        "japanese": "このあとすぐ!ちゃんねるはそのまま",
+        "roman": ""
+    },
+    {
+        "original": "ハイドロプレーニング現象",
+        "japanese": "はいどろぷれーにんぐげんしょう",
+        "roman": ""
+    },
+    {
+        "original": "もうかりまっか?ぼちぼちでんな",
+        "japanese": "もうかりまっか?ぼちぼちでんな",
+        "roman": ""
+    },
+    {
+        "original": "またのお越しをお待ちしております",
+        "japanese": "またのおこしをおまちしております",
+        "roman": ""
+    },
+    {
+        "original": "駆け込み乗車はおやめください",
+        "japanese": "かけこみじょうしゃはおやめください",
+        "roman": ""
+    },
+    {
+        "original": "時間が経つのは早いもので",
+        "japanese": "じかんがたつのははやいもので",
+        "roman": ""
+    },
+    {
+        "original": "新規オープン、今なら半額",
+        "japanese": "しんきおーぷん,いまならはんがく",
+        "roman": ""
+    },
+    {
+        "original": "ラーメンのスープ、全部飲む?",
+        "japanese": "らーめんのすーぷ,ぜんぶのむ?",
+        "roman": ""
+    },
+    {
+        "original": "昨日の疲れがまだとれない",
+        "japanese": "きのうのつかれがまだとれない",
+        "roman": ""
+    },
+    {
+        "original": "口先だけで、中身がない",
+        "japanese": "くちさきだけで,なかみがない",
+        "roman": ""
+    },
+    {
+        "original": "もう一度お掛け直し下さい",
+        "japanese": "もういちどおかけなおしください",
+        "roman": ""
+    },
+    {
+        "original": "携帯の電源をお切り下さい",
+        "japanese": "けいたいのでんげんをおきりください",
+        "roman": ""
+    },
+    {
+        "original": "嘘つきは泥棒の始まり",
+        "japanese": "うそつきはどろぼうのはじまり",
+        "roman": ""
+    },
+    {
+        "original": "趣味はお茶とお花とお琴です",
+        "japanese": "しゅみはおちゃとおはなとおことです",
+        "roman": ""
+    },
+    {
+        "original": "コンピュータ実習室",
+        "japanese": "こんぴゅーたじっしゅうしつ",
+        "roman": ""
+    },
+    {
+        "original": "一週間着信なし",
+        "japanese": "いっしゅうかんちゃくしんなし",
+        "roman": ""
+    },
+    {
+        "original": "この一瞬に全てをかける",
+        "japanese": "このいっしゅんにすべてをかける",
+        "roman": ""
+    },
+    {
+        "original": "夏休みの宿題は多すぎる",
+        "japanese": "なつやすみのしゅくだいはおおすぎる",
+        "roman": ""
+    },
+    {
+        "original": "ここから一歩も通さない!",
+        "japanese": "ここからいっぽもとおさない!",
+        "roman": ""
+    },
+    {
+        "original": "豆腐の角に頭をぶつける",
+        "japanese": "とうふのかどにあたまをぶつける",
+        "roman": ""
+    },
+    {
+        "original": "納豆の糸と格闘中",
+        "japanese": "なっとうのいととかくとうちゅう",
+        "roman": ""
+    },
+    {
+        "original": "期間限定特選スイーツ",
+        "japanese": "きかんげんていとくせんすいーつ",
+        "roman": ""
+    },
+    {
+        "original": "天は人の上に人を作らず",
+        "japanese": "てんはひとのうえにひとをつくらず",
+        "roman": ""
+    },
+    {
+        "original": "抹茶白玉クリームあんみつ",
+        "japanese": "まっちゃしらたまくりーむあんみつ",
+        "roman": ""
+    }
+]
