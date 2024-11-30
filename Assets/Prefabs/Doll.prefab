@@ -98,5 +98,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   ThrowingObject: {fileID: 4428475944196730864, guid: a0147c995eb5749719edb1324b938bd2, type: 3}
+  _explosionParticle: {fileID: 7208915432451444548, guid: e3b1c0764dcea4ff6b855617a092c620, type: 3}
   TargetObject: {fileID: 0}
   ThrowingAngle: 45
