@@ -9,12 +9,21 @@ namespace Managers
 {
 	public class LevelManager : NetworkSceneManagerDefault
 	{
-		//public const int LAUNCH_SCENE = 0;
-		public const int LOBBY_SCENE = 0;
+		public const int LAUNCH_SCENE = 0;
+		public const int LOBBY_SCENE = 1;
 		
 		//[SerializeField] private UIScreen _dummyScreen;
 		//[SerializeField] private UIScreen _lobbyScreen;
 		//[SerializeField] private CanvasFader fader;
+		
+		[SerializeField] private GameObject LoadingScreen;
+		
+		/// <summary>
+		/// StageSelectScreen : Host
+		/// TeamDialogScreen : Guest
+		/// </summary>
+		[SerializeField] private UIScreen StageSelectScreen;
+		[SerializeField] private UIScreen TeamDialogScreen;
 
 		public static LevelManager Instance => Singleton<LevelManager>.Instance;
 		
@@ -54,7 +63,11 @@ namespace Managers
 				}
 			}
 
-			PostLoadScene();
+			if (sceneRef.AsIndex > LOBBY_SCENE)
+			{
+				PostLoadScene();
+			}
+			
 		}
 
 		private void PreLoadScene(int scene)
@@ -64,19 +77,29 @@ namespace Managers
 				// Show an empty dummy UI screen - this will stay on during the game so that the game has a place in the navigation stack. Without this, Back() will break
 				Debug.Log("Showing Dummy");
 				//UIScreen.Focus(_dummyScreen);
-				this.gameObject.GetComponent<Canvas>().enabled = false;		// SetActive(false)でもいいけど、一応残しとく。
+				LoadingScreen.SetActive(true);
 			}
 			else if(scene==LOBBY_SCENE)
 			{
+				this.gameObject.GetComponent<Canvas>().enabled = true;
 				foreach (RoomPlayer player in RoomPlayer.Players)
 				{
 					player.IsReady = false;
 				}
 				//UIScreen.activeScreen.BackTo(_lobbyScreen);
+				if (RoomPlayer.Local.IsLeader)
+				{
+					UIScreen.activeScreen.BackTo(StageSelectScreen);
+				}
+				else
+				{
+					UIScreen.activeScreen.BackTo(TeamDialogScreen);
+				}
+				
 			}
 			else
 			{
-				//UIScreen.BackToInitial();
+				UIScreen.BackToInitial();
 			}
 			//fader.gameObject.SetActive(true);
 			//fader.FadeIn();
@@ -85,6 +108,8 @@ namespace Managers
 		private void PostLoadScene()
 		{
 			//fader.FadeOut();
+			LoadingScreen.SetActive(false);
+			this.gameObject.GetComponent<Canvas>().enabled = false;		// SetActive(false)でもいいけど、一応残しとく。
 		}
 	}
 }

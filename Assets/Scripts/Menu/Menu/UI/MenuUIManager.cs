@@ -40,9 +40,6 @@ public class MenuUIManager : MonoBehaviour
     {
         // AudioManager を参照する
         audioManager = GameObject.FindWithTag("AudioManager").GetComponent<AudioManager>();
-        
-        // タイトル画面のBGMを再生
-        audioManager.PlayBGM(0);
     }
 
     // Update is called once per frame
@@ -95,7 +92,7 @@ public class MenuUIManager : MonoBehaviour
         else if (num == 1)
         {
             // ボタンのSEを再生
-            //audioManager.PlaySE(4);
+            audioManager.PlaySE(4);
             
             CreateSettingPanel.SetActive(false);
             JoinSettingPanel.SetActive(false);

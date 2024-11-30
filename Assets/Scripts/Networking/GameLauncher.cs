@@ -41,12 +41,21 @@ public class GameLauncher : MonoBehaviour, INetworkRunnerCallbacks
 
 		DontDestroyOnLoad(gameObject);
 
-		//SceneManager.LoadScene(LevelManager.LOBBY_SCENE);
+		SceneManager.LoadScene(LevelManager.LOBBY_SCENE);
 	}
 
-	public void SetCreateLobby() => _gameMode = GameMode.Host;
-	public void SetJoinLobby() => _gameMode = GameMode.Client;
-	
+	public void SetCreateLobby()
+	{
+		_gameMode = GameMode.Host;
+		AudioManager.instance_AudioManager.PlaySE(3);
+	}
+
+	public void SetJoinLobby()
+	{
+		_gameMode = GameMode.Client;
+		AudioManager.instance_AudioManager.PlaySE(3);
+	}
+
 	public void JoinOrCreateLobby()
 	{
 		SetConnectionStatus(ConnectionStatus.Connecting);
@@ -90,7 +99,7 @@ public class GameLauncher : MonoBehaviour, INetworkRunnerCallbacks
 		if (status == ConnectionStatus.Disconnected || status == ConnectionStatus.Failed)
 		{
 			SceneManager.LoadScene(LevelManager.LOBBY_SCENE);
-			//UIScreen.BackToInitial();
+			UIScreen.BackToInitial();
 		}
 	}
 	

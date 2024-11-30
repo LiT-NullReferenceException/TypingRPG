@@ -34,12 +34,23 @@ public class HPBarManager : MonoBehaviour
         _enemyHPBar.value = _enemyManager.GetNowEnemyHealth();
     }
 
-
     private void FixedUpdate()
     {
-        if (_enemyManager.status == EnemyManager.Status.done) { return; }
+        //if (_enemyManager.status != EnemyManager.Status.done)
+        //{
+        //    UpdataEnemyHPBar();
+        //}
 
-        UpdataEnemyHPBar();
+        if (_enemyManager.status != EnemyManager.Status.done)
+        {
+            UpdataEnemyHPBar();
+        }
+        else
+        {
+            // 時間がねぇッ！ゴリ押しだぁッ！
+            _enemyHPBar.value = 0;
+            Debug.Log(string.Format("_enemyHPBar.value = {0}", _enemyHPBar.value));
+        }
     }
 
     // Update is called once per frame
