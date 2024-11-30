@@ -62,7 +62,9 @@ public class StageSelectNode : MonoBehaviour, IPointerEnterHandler, IPointerExit
         
         // いっちーへ
         // クリックされた時の処理をここに書く
-        var muim = GameObject.Find("Canvas");
-        muim.GetComponent<MenuUIManager>().SwitchUI();
+        // var muim = GameObject.Find("Canvas");
+        // muim.GetComponent<MenuUIManager>().SwitchUI();
+        var SSUI = GameObject.Find("StageSelect").GetComponent<StageSelectUI>();
+        SSUI.ActiveConfirminationDialog();
     }
 }
