@@ -63,7 +63,11 @@ namespace Managers
 				}
 			}
 
-			PostLoadScene();
+			if (sceneRef.AsIndex > LOBBY_SCENE)
+			{
+				PostLoadScene();
+			}
+			
 		}
 
 		private void PreLoadScene(int scene)
@@ -73,6 +77,7 @@ namespace Managers
 				// Show an empty dummy UI screen - this will stay on during the game so that the game has a place in the navigation stack. Without this, Back() will break
 				Debug.Log("Showing Dummy");
 				//UIScreen.Focus(_dummyScreen);
+				LoadingScreen.SetActive(true);
 			}
 			else if(scene==LOBBY_SCENE)
 			{
@@ -98,8 +103,6 @@ namespace Managers
 			}
 			//fader.gameObject.SetActive(true);
 			//fader.FadeIn();
-			
-			LoadingScreen.SetActive(true);
 		}
 	
 		private void PostLoadScene()
