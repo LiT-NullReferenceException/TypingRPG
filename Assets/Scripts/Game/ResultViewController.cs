@@ -20,7 +20,7 @@ public class ResultViewController : MonoBehaviour
     }
     private void Update()
     {
-        if (_timeManager.timer <= 0 && isFirst)
+        if ((_timeManager.timer <= 0 || Player.allPlayersDead) && isFirst)
         {
             isFirst = false;
             audioManager.StopBGM();

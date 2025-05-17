@@ -23,6 +23,9 @@ public class ResultView : NetworkBehaviour
         // _resultGroup のフェードイン
         _resultGroup.DOFade(1, 1).OnComplete(() =>
         {
+            // CanvasGroupを操作できるようにする
+            _resultGroup.interactable = true;
+            
             // _gameObject のフェードインとスケールダウン
             _gameObject.DOFade(1, 0.1f);
             rect.DOScale(1, 0.1f).OnComplete(() =>
