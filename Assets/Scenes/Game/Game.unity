@@ -568,7 +568,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &417315244
 RectTransform:
   m_ObjectHideFlags: 0
@@ -610,15 +610,15 @@ MonoBehaviour:
       m_Calls: []
   m_text: "\u30D6\u30FC\u30B9\u30C8\u30BF\u30A4\u30E0"
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: d62c694a978384e51b76396f3fcf47ca, type: 2}
-  m_sharedMaterial: {fileID: -6265398682026005840, guid: d62c694a978384e51b76396f3fcf47ca, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4294967295
-  m_fontColor: {r: 0.949985, g: 1, b: 0, a: 1}
+    rgba: 65522
+  m_fontColor: {r: 0.949985, g: 1, b: 0, a: 0}
   m_enableVertexGradient: 0
   m_colorMode: 3
   m_fontColorGradient:
@@ -2793,7 +2793,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: '00
+  m_text: '00:00
 
 '
   m_isRightToLeft: 0

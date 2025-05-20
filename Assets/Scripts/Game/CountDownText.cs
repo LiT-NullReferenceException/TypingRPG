@@ -11,7 +11,9 @@ public class CountDownText : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        _timeText.text = _timeManager.timer.ToString("00");
+        int minutes = Mathf.FloorToInt(_timeManager.timer / 60f);
+        int seconds = Mathf.FloorToInt(_timeManager.timer % 60f);
+        _timeText.text = string.Format("{0:00}:{1:00}", minutes, seconds);
     }
 
     /// <summary>

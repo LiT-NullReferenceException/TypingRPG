@@ -34,10 +34,10 @@ public class BoostView : MonoBehaviour
     /// </summary>
     public void PlayBoostTimeAnimation()
     {
+        _boostText.color = new Color(_boostText.color.r, _boostText.color.g, _boostText.color.b, 1f);
+        
         _tweener = _boostText.DOFade(0, 0.3f)
             .SetLoops(-1, LoopType.Yoyo);
-        
-        _boostText.gameObject.SetActive(true);
     }
 
     /// <summary>
@@ -46,8 +46,6 @@ public class BoostView : MonoBehaviour
     public void StopBoostTimeAnimation()
     {
         _tweener.Kill();
-        _boostText.DOFade(1, 0.1f);
-        
-        _boostText.gameObject.SetActive(false);
+        _boostText.DOFade(0, 0.1f);
     }
 }
