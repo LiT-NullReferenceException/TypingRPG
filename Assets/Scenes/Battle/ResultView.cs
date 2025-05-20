@@ -30,6 +30,7 @@ public class ResultView : NetworkBehaviour
             _gameObject.DOFade(1, 0.1f);
             rect.DOScale(1, 0.1f).OnComplete(() =>
             {
+                _selectDialog.gameObject.SetActive(true);
                 // rect のパンチアニメーション
                 rect.DOPunchPosition(Vector3.one * 10, 1, 30).OnComplete(() =>
                 {
