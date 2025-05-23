@@ -23,10 +23,14 @@ public class ResultView : NetworkBehaviour
         // _resultGroup のフェードイン
         _resultGroup.DOFade(1, 1).OnComplete(() =>
         {
+            // CanvasGroupを操作できるようにする
+            _resultGroup.interactable = true;
+            
             // _gameObject のフェードインとスケールダウン
             _gameObject.DOFade(1, 0.1f);
             rect.DOScale(1, 0.1f).OnComplete(() =>
             {
+                _selectDialog.gameObject.SetActive(true);
                 // rect のパンチアニメーション
                 rect.DOPunchPosition(Vector3.one * 10, 1, 30).OnComplete(() =>
                 {
