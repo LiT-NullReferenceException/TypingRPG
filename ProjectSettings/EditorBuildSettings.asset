@@ -15,10 +15,10 @@ EditorBuildSettings:
     path: Assets/Scenes/Game/Game_Cyber.unity
     guid: dc0252de90de14de8856b1ba22da26a9
   - enabled: 1
-    path: Assets/Scenes/Game/Game_2.unity
+    path: Assets/Scenes/Game/Game_Fire.unity
     guid: aa5ac8f9f14c54a4bb127833fa2562f3
   - enabled: 1
-    path: Assets/Scenes/Game/Game_3.unity
+    path: Assets/Scenes/Game/Game_Water.unity
     guid: 3a5d4bb2809ee4beb85b1e3d76280e28
   - enabled: 1
     path: Assets/Scenes/Game/Game_Meteo.unity
