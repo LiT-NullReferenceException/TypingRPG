@@ -16,6 +16,17 @@ public class Character : NetworkBehaviour
         dead = 2
     }
 
+    /// <summary>
+    /// 敵の情報をセットする
+    /// </summary>
+    /// <param name="enemy"></param>
+    internal void SetEnemyData(StageData.TypingEnemy enemy)
+    {
+        maxHealth = enemy.maxHealth; // 最初のHPをセット
+        attackPower = enemy.attackPower; // 攻撃力をセット
+        gameObject.GetComponent<MeshRenderer>().material.SetTexture("_MainTex", enemy.sprite.texture); // テクスチャをセット
+    }
+
     public Status status = Status.alive;
     
     // ダメージを受けるメソッド

@@ -8,11 +8,13 @@ public class StageGroup : MonoBehaviour
     public void Init(List<StageData.Stage> stages, StageSelectNode stageSelectNodePrefab, StageHelper stageHelper)
     {
         _parentTransform = GetComponent<RectTransform>();
+        int stageIndex = 0;
         
         foreach (StageData.Stage stage in stages)
         {
             StageSelectNode stageSelectNode = Instantiate(stageSelectNodePrefab.gameObject, _parentTransform).GetComponent<StageSelectNode>();
-            stageSelectNode.Init(stage, stageHelper);
+            stageSelectNode.Init(stage, stageHelper, stageIndex);
+            stageIndex++;
         }
     }
 

@@ -21,5 +21,7 @@ public class StageData : ScriptableObject
     {
         public string name;
         public Sprite sprite;
+        public int maxHealth;
+        public int attackPower;
     }
 }
