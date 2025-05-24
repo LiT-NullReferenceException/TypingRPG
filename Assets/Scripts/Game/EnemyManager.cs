@@ -12,6 +12,7 @@ public class EnemyManager : NetworkBehaviour
 {
     [SerializeField] private int _enemyIndex = 0;
     [SerializeField] private Enemy[] _enemies = null;
+    [SerializeField] private StageData _stageData;
 
     // ブースト中かを判定する変数
     [Networked] public bool isBoosting { get; set; } = false;
@@ -26,6 +27,20 @@ public class EnemyManager : NetworkBehaviour
     // }
     public IReadOnlyReactiveProperty<bool> OnIsBoostingHandler => _onIsBoostingHandler;
     private readonly ReactiveProperty<bool> _onIsBoostingHandler = new ReactiveProperty<bool>();
+
+    /// <summary>
+    /// ステージIndexをセットする
+    /// 選択されたステージによって，フィールド上に配置する敵を変化させる
+    /// </summary>
+    /// <param name="stageIndex">0から始まるステージIndex</param>
+    public void SetStage(int stageIndex)
+    {
+        for (int i = 0; i < _enemies.Length; i++)
+        {
+            StageData.Stage stageData = _stageData.Stages[stageIndex];
+            _enemies[i].SetEnemyData(stageData.typingEnemies[i]);
+        }
+    }
 
 
     [Rpc(RpcSources.All, RpcTargets.StateAuthority)]

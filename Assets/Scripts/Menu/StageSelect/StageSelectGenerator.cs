@@ -39,21 +39,22 @@ public class StageSelectGenerator : MonoBehaviour
     public void Generate()
     {
         int buttonCount = 0;
-        while (buttonCount < _stageData.Enemies.Count)
+        
+        while (buttonCount < _stageData.Stages.Count)
         {
             StageGroup stageGroup = Instantiate(_stageGroup.gameObject, _stageGroupParent).GetComponent<StageGroup>();
             _stageGroups.Add(stageGroup.gameObject);
-            List<StageData.TypingEnemy> enemies = new List<StageData.TypingEnemy>();
+            List<StageData.Stage> stages = new List<StageData.Stage>();
             
             for (int i = 0; i < _screenButtonCount; i++)
             {
-                enemies.Add(_stageData.Enemies[buttonCount]);
+                stages.Add(_stageData.Stages[buttonCount]);
                 buttonCount++;
-                if(buttonCount >= _stageData.Enemies.Count) break;
+                if(buttonCount >= _stageData.Stages.Count) break;
             }
             
-            stageGroup.Init(enemies, _stageSelectNode, _stageHelper);
-            if (buttonCount != _screenButtonCount) stageGroup.SetActive(false);
+            stageGroup.Init(stages, _stageSelectNode, _stageHelper);
+            if (buttonCount != _screenButtonCount) stageGroup.SetActive(true);
         }
     }
 
