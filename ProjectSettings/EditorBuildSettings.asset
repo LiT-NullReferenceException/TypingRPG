@@ -21,10 +21,10 @@ EditorBuildSettings:
     path: Assets/Scenes/Game/Game_3.unity
     guid: 3a5d4bb2809ee4beb85b1e3d76280e28
   - enabled: 1
-    path: Assets/Scenes/Game/Game_4.unity
+    path: Assets/Scenes/Game/Game_Meteo.unity
     guid: baeee31e09c144d18ba0a90e281b984f
   - enabled: 1
-    path: Assets/Scenes/Game/Game_5.unity
+    path: Assets/Scenes/Game/Game_Ancient.unity
     guid: d77eb037d3b6e43b68b1ba0d56bf5d11
   - enabled: 1
     path: Assets/Scenes/Game/Game_6.unity
