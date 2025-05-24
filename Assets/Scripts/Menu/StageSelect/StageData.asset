@@ -20,41 +20,38 @@ MonoBehaviour:
       sprite: {fileID: 21300000, guid: 8bb27c50ac6d7474895ada4e44014848, type: 3}
       maxHealth: 100
       attackPower: 10
-    - name: "\u30D5\u30A1\u30A4\u30E4\u30FC\u30C9\u30E9\u30B4\u30F3"
-      sprite: {fileID: 21300000, guid: 9dca70b0bf9384885b0e5c2b1b553e30, type: 3}
-      maxHealth: 150
-      attackPower: 10
-    - name: "\u30E1\u30C6\u30AA\u30C9\u30E9\u30B4\u30F3"
-      sprite: {fileID: 21300000, guid: 0fa7453cf721c48ed821a0ebb3e9ce32, type: 3}
-      maxHealth: 200
-      attackPower: 10
   - name: "\u306F\u3058\u307E\u308A\u306E\u8349\u539F2"
     level: 2
     typingEnemies:
-    - name: "\u30CD\u30AA\u30B5\u30A4\u30D0\u30FC\u30C9\u30E9\u30B4\u30F3"
-      sprite: {fileID: 21300000, guid: 85d529c9c91544a239ccafa5e05b5881, type: 3}
-      maxHealth: 200
-      attackPower: 15
-    - name: "\u30A6\u30A9\u30FC\u30BF\u30FC\u30C9\u30E9\u30B4\u30F3"
-      sprite: {fileID: 21300000, guid: 385dd5923e4804db6a7eb594869fdcfc, type: 3}
-      maxHealth: 250
-      attackPower: 15
-    - name: "\u30A8\u30A4\u30B7\u30A7\u30F3\u30C8\u30B5\u30A4\u30D0\u30FC\u30C9\u30E9\u30B4\u30F3"
-      sprite: {fileID: 21300000, guid: 9a207f8f90d5a42fa9b1ad3fd81f068d, type: 3}
-      maxHealth: 300
+    - name: "\u30D5\u30A1\u30A4\u30A2\u30FC\u30C9\u30E9\u30B4\u30F3"
+      sprite: {fileID: 21300000, guid: f0cc1fc6673bc468ab4b7ecd77acc412, type: 3}
+      maxHealth: 150
       attackPower: 15
   - name: "\u306F\u3058\u307E\u308A\u306E\u8349\u539F3"
     level: 3
     typingEnemies:
-    - name: "\u30D5\u30A1\u30A4\u30E4\u30FC\u30C9\u30E9\u30B4\u30F3"
-      sprite: {fileID: 21300000, guid: f0cc1fc6673bc468ab4b7ecd77acc412, type: 3}
-      maxHealth: 300
-      attackPower: 20
     - name: "\u30E1\u30C6\u30AA\u30C9\u30E9\u30B4\u30F3"
       sprite: {fileID: 21300000, guid: 0fa7453cf721c48ed821a0ebb3e9ce32, type: 3}
-      maxHealth: 350
+      maxHealth: 200
       attackPower: 20
+  - name: "\u306F\u3058\u307E\u308A\u306E\u8349\u539F4"
+    level: 4
+    typingEnemies:
     - name: "\u30A6\u30A9\u30FC\u30BF\u30FC\u30C9\u30E9\u30B4\u30F3"
       sprite: {fileID: 21300000, guid: 385dd5923e4804db6a7eb594869fdcfc, type: 3}
-      maxHealth: 400
-      attackPower: 20
+      maxHealth: 250
+      attackPower: 25
+  - name: "\u306F\u3058\u307E\u308A\u306E\u8349\u539F5"
+    level: 5
+    typingEnemies:
+    - name: "\u30CD\u30AA\u30B5\u30A4\u30D0\u30FC\u30C9\u30E9\u30B4\u30F3"
+      sprite: {fileID: 21300000, guid: 85d529c9c91544a239ccafa5e05b5881, type: 3}
+      maxHealth: 300
+      attackPower: 30
+  - name: "\u306F\u3058\u307E\u308A\u306E\u8349\u539F6"
+    level: 6
+    typingEnemies:
+    - name: "\u30A8\u30A4\u30B7\u30A7\u30F3\u30C8\u30C9\u30E9\u30B4\u30F3"
+      sprite: {fileID: 21300000, guid: 9a207f8f90d5a42fa9b1ad3fd81f068d, type: 3}
+      maxHealth: 350
+      attackPower: 35
