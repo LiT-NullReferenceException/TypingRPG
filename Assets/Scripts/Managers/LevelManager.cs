@@ -11,6 +11,8 @@ namespace Managers
 	{
 		public const int LAUNCH_SCENE = 0;
 		public const int LOBBY_SCENE = 1;
+
+		public static int selectedStageSceneIndex;
 		
 		//[SerializeField] private UIScreen _dummyScreen;
 		//[SerializeField] private UIScreen _lobbyScreen;
@@ -34,9 +36,9 @@ namespace Managers
 		
 
 		// ステージ選択すると呼ばれる
-		public static void LoadTrack(int sceneIndex)
+		public static void LoadTrack()
 		{
-			Instance.Runner.LoadScene(SceneRef.FromIndex(sceneIndex));
+			Instance.Runner.LoadScene(SceneRef.FromIndex(selectedStageSceneIndex));
 		}
 
 		protected override IEnumerator LoadSceneCoroutine(SceneRef sceneRef, NetworkLoadSceneParameters sceneParams)
@@ -87,6 +89,7 @@ namespace Managers
 					player.IsReady = false;
 				}
 				//UIScreen.activeScreen.BackTo(_lobbyScreen);
+				
 				if (RoomPlayer.Local.IsLeader)
 				{
 					UIScreen.activeScreen.BackTo(StageSelectScreen);
@@ -95,7 +98,6 @@ namespace Managers
 				{
 					UIScreen.activeScreen.BackTo(TeamDialogScreen);
 				}
-				
 			}
 			else
 			{
