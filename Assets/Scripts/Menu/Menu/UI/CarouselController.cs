@@ -5,15 +5,10 @@ using UnityEngine.UI;
 
 public class CarouselController : MonoBehaviour
 {
-    [Header("References")]
-    [Tooltip("RectTransform of the Content panel that holds your slides.")]
     [SerializeField] private RectTransform contentTransform;
-    [Tooltip("Next and Back buttons")]
     [SerializeField] private Button nextButton;
     [SerializeField] private Button backButton;
-
-    [Header("Animation Settings")]
-    [Tooltip("Time in seconds for one slide animation.")]
+    [SerializeField] private Button closeButton;
     [SerializeField] private float slideDuration = 0.4f;
 
     private RectTransform[] slides;
@@ -37,6 +32,7 @@ public class CarouselController : MonoBehaviour
         // 3) ボタンコールバック登録
         nextButton.onClick.AddListener(SlideNext);
         backButton.onClick.AddListener(SlideBack);
+        closeButton.onClick.AddListener(CloseInstruction);
 
         // 4) 初期表示を最初のスライドに合わせる
         MoveToCurrentSlideInstant();
@@ -61,10 +57,10 @@ public class CarouselController : MonoBehaviour
     {
         isAnimating = true;
 
-        // 子スライドのローカル位置を使ったターゲット X
+        // ① ターゲットの X 座標（既存のロジック）
         float targetX = -slides[currentIndex].localPosition.x;
 
-        // DOTween で滑らかにスライド
+        // ② カルーセルの移動アニメーション
         contentTransform
             .DOAnchorPosX(targetX, slideDuration)
             .SetEase(Ease.OutCubic)
@@ -73,7 +69,18 @@ public class CarouselController : MonoBehaviour
                 isAnimating = false;
                 UpdateButtonInteractable();
             });
+
+        // ③ 各スライドのスケールアニメーション
+        for (int i = 0; i < slides.Length; i++)
+        {
+            // 中央に来るスライドだけ 1.0、それ以外は 0.8
+            float targetScale = (i == currentIndex) ? 1f : 0.8f;
+            slides[i]
+                .DOScale(targetScale, slideDuration)
+                .SetEase(Ease.OutCubic);
+        }
     }
+
 
     private void MoveToCurrentSlideInstant()
     {
@@ -86,5 +93,10 @@ public class CarouselController : MonoBehaviour
     {
         backButton.interactable = currentIndex > 0;
         nextButton.interactable = currentIndex < slides.Length - 1;
+    }
+
+    private void CloseInstruction()
+    {
+        gameObject.SetActive(false);
     }
 }
