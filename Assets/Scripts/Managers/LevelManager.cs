@@ -87,6 +87,7 @@ namespace Managers
 					player.IsReady = false;
 				}
 				//UIScreen.activeScreen.BackTo(_lobbyScreen);
+				
 				if (RoomPlayer.Local.IsLeader)
 				{
 					UIScreen.activeScreen.BackTo(StageSelectScreen);
@@ -95,7 +96,6 @@ namespace Managers
 				{
 					UIScreen.activeScreen.BackTo(TeamDialogScreen);
 				}
-				
 			}
 			else
 			{

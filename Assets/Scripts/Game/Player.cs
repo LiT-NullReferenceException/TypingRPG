@@ -8,7 +8,7 @@ using UnityEngine;
 public class Player : Character
 {
     [Networked] public RoomPlayer RoomUser { get; set; }
-    public static readonly List<Player> PlayerList = new List<Player>();
+    [Networked] public int AlivePlayers { get; private set; }
     public String name;
     
     public static bool allPlayersDead = false; 
@@ -19,8 +19,11 @@ public class Player : Character
         //characterName = "Player";
         health = maxHealth;
         //attackPower = 20;
-        
-        PlayerList.Add(this);
+
+        if (HasStateAuthority)
+        {
+            AlivePlayers = RoomPlayer.Players.Count;
+        }
     }
 
     // プレイヤーの特殊な攻撃などをここに追加可能
@@ -33,11 +36,19 @@ public class Player : Character
     public override void Die()
     {
         status = Status.dead;
+        Rpc_DecreaseAlivePlayers();
 
         Debug.Log("[Player - Die()] : Game Over !");
+    }
 
-        if (!allPlayersDead && PlayerList.All(x => x.health <= 0))
+    [Rpc(RpcSources.All, RpcTargets.StateAuthority)]
+    public void Rpc_DecreaseAlivePlayers()
+    {
+        AlivePlayers--;
+        
+        if (!allPlayersDead && AlivePlayers <= 0)
         {
+            Debug.Log("AllPlayersDead!!");
             allPlayersDead = true;
         }
     }
