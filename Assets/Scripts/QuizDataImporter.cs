@@ -1,43 +1,32 @@
-using System.Collections.Generic;
-using System.IO;
+// Assets/Editor/QuizDataImporter.cs
+#if UNITY_EDITOR
 using UnityEditor;
 using UnityEngine;
+using System.Collections.Generic;
+using System.IO;
 
-public class QuizDataImporter : MonoBehaviour
+public static class QuizDataImporter
 {
-    [System.Serializable]
-    public class QuizList
-    {
-        public List<Quiz> quizzes;
-    }
-
     [MenuItem("Tools/Import Quiz JSON to ScriptableObject")]
     public static void ImportQuizData()
     {
-        // JSONファイルのパス
-        string jsonFilePath = Application.dataPath + "/Resources/kana_kanji_data.json";
-
-        if (!File.Exists(jsonFilePath))
+        var jsonPath = Path.Combine(Application.dataPath, "Resources/kana_kanji_data.json");
+        if (!File.Exists(jsonPath))
         {
-            Debug.LogError("JSON file not found: " + jsonFilePath);
+            Debug.LogError("JSON file not found: " + jsonPath);
             return;
         }
 
-        // JSONファイルの読み込み
-        string jsonData = File.ReadAllText(jsonFilePath);
+        string jsonData = File.ReadAllText(jsonPath);
+        var wrapper = JsonUtility.FromJson<QuizListWrapper>("{\"quizzes\":" + jsonData + "}");
+        
+        var db = ScriptableObject.CreateInstance<QuizDataBase>();
+        db.quizzes = wrapper.quizzes;
 
-        // JSONをデシリアライズ
-        List<Quiz> quizzes = JsonUtility.FromJson<QuizListWrapper>("{\"quizzes\":" + jsonData + "}").quizzes;
-
-        // スクリプタブルオブジェクトの生成
-        QuizDataBase quizDatabase = ScriptableObject.CreateInstance<QuizDataBase>();
-        quizDatabase.quizzes = quizzes;
-
-        // アセットとして保存
-        string assetPath = "Assets/Resources/QuizDataBase.asset";
-        AssetDatabase.CreateAsset(quizDatabase, assetPath);
+        const string assetPath = "Assets/Resources/QuizDataBase.asset";
+        AssetDatabase.CreateAsset(db, assetPath);
         AssetDatabase.SaveAssets();
-
+        
         Debug.Log("QuizDataBase asset created at: " + assetPath);
     }
 
@@ -46,10 +35,5 @@ public class QuizDataImporter : MonoBehaviour
     {
         public List<Quiz> quizzes;
     }
-
-    private void Start()
-    {
-        ImportQuizData();
-    }
 }
-
+#endif
