@@ -12,22 +12,31 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2cddc2a1f98ee4c83812a664bb88582f, type: 3}
   m_Name: StageData
   m_EditorClassIdentifier: 
-  Enemies:
-  - name: "\u30B5\u30A4\u30D0\u30FC\u30C9\u30E9\u30B4\u30F3"
-    sprite: {fileID: 21300000, guid: 8bb27c50ac6d7474895ada4e44014848, type: 3}
-    level: 7
-  - name: "\u30D5\u30A1\u30A4\u30E4\u30FC\u30C9\u30E9\u30B4\u30F3"
-    sprite: {fileID: 21300000, guid: f0cc1fc6673bc468ab4b7ecd77acc412, type: 3}
-    level: 6
-  - name: "\u30A6\u30A9\u30FC\u30BF\u30FC\u30C9\u30E9\u30B4\u30F3"
-    sprite: {fileID: 21300000, guid: 385dd5923e4804db6a7eb594869fdcfc, type: 3}
-    level: 5
-  - name: "\u30CD\u30AA\u30B5\u30A4\u30D0\u30FC"
-    sprite: {fileID: 21300000, guid: 85d529c9c91544a239ccafa5e05b5881, type: 3}
-    level: 5
-  - name: "\u30E1\u30C6\u30AA\u30C9\u30E9\u30B4\u30F3"
-    sprite: {fileID: 21300000, guid: 0fa7453cf721c48ed821a0ebb3e9ce32, type: 3}
-    level: 4
-  - name: "\u30B5\u30A4\u30D0\u30FC"
-    sprite: {fileID: 21300000, guid: 9a207f8f90d5a42fa9b1ad3fd81f068d, type: 3}
+  Stages:
+  - name: "\u306F\u3058\u307E\u308A\u306E\u8349\u539F1"
+    level: 1
+    typingEnemies:
+    - name: "\u30B5\u30A4\u30D0\u30FC\u30C9\u30E9\u30B4\u30F3"
+      sprite: {fileID: 21300000, guid: 8bb27c50ac6d7474895ada4e44014848, type: 3}
+    - name: "\u30D5\u30A1\u30A4\u30E4\u30FC\u30C9\u30E9\u30B4\u30F3"
+      sprite: {fileID: 21300000, guid: 9dca70b0bf9384885b0e5c2b1b553e30, type: 3}
+    - name: "\u30E1\u30C6\u30AA\u30C9\u30E9\u30B4\u30F3"
+      sprite: {fileID: 21300000, guid: 0fa7453cf721c48ed821a0ebb3e9ce32, type: 3}
+  - name: "\u306F\u3058\u307E\u308A\u306E\u8349\u539F2"
+    level: 2
+    typingEnemies:
+    - name: "\u30CD\u30AA\u30B5\u30A4\u30D0\u30FC\u30C9\u30E9\u30B4\u30F3"
+      sprite: {fileID: 21300000, guid: 85d529c9c91544a239ccafa5e05b5881, type: 3}
+    - name: "\u30A6\u30A9\u30FC\u30BF\u30FC\u30C9\u30E9\u30B4\u30F3"
+      sprite: {fileID: 21300000, guid: 385dd5923e4804db6a7eb594869fdcfc, type: 3}
+    - name: "\u30A8\u30A4\u30B7\u30A7\u30F3\u30C8\u30B5\u30A4\u30D0\u30FC\u30C9\u30E9\u30B4\u30F3"
+      sprite: {fileID: 21300000, guid: 9a207f8f90d5a42fa9b1ad3fd81f068d, type: 3}
+  - name: "\u306F\u3058\u307E\u308A\u306E\u8349\u539F3"
     level: 3
+    typingEnemies:
+    - name: "\u30D5\u30A1\u30A4\u30E4\u30FC\u30C9\u30E9\u30B4\u30F3"
+      sprite: {fileID: 21300000, guid: f0cc1fc6673bc468ab4b7ecd77acc412, type: 3}
+    - name: "\u30E1\u30C6\u30AA\u30C9\u30E9\u30B4\u30F3"
+      sprite: {fileID: 21300000, guid: 0fa7453cf721c48ed821a0ebb3e9ce32, type: 3}
+    - name: "\u30A6\u30A9\u30FC\u30BF\u30FC\u30C9\u30E9\u30B4\u30F3"
+      sprite: {fileID: 21300000, guid: 385dd5923e4804db6a7eb594869fdcfc, type: 3}

@@ -12,10 +12,10 @@ public class StageHelper : MonoBehaviour
     /// 現在ホバーによって選択されているステージの情報を表示する
     /// </summary>
     /// <param name="typingEnemy"></param>
-    public void UpdateView(StageData.TypingEnemy typingEnemy)
+    public void UpdateView(StageData.Stage stage)
     {
-        _enemyNameText.text = typingEnemy.name;
-        _enemySprite.sprite = typingEnemy.sprite;
-        _starController.Init(typingEnemy.level);
+        _enemyNameText.text = stage.name;
+        _enemySprite.sprite = stage.mainEnemy.sprite;
+        _starController.Init(stage.level);
     }
 }

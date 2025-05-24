@@ -19,6 +19,7 @@ public class StageSelectNode : MonoBehaviour, IPointerEnterHandler, IPointerExit
     private RectTransform _nodeButtonRectTransform;
     private StageData.TypingEnemy _enemy;
     private StageHelper _stageHelper;
+    private StageData.Stage _stage;
 
     void Start()
     {
@@ -31,12 +32,13 @@ public class StageSelectNode : MonoBehaviour, IPointerEnterHandler, IPointerExit
     /// </summary>
     /// <param name="enemyName">敵の名前</param>
     /// <param name="level">難易度</param>
-    public void Init(StageData.TypingEnemy enemy, StageHelper stageHelper)
+    public void Init(StageData.Stage stage, StageHelper stageHelper)
     {
-        _enemyNameText.text = enemy.name;
-        _levelText.text = enemy.level.ToString();
-        _enemy = enemy;
+        _enemyNameText.text = stage.name;
+        _levelText.text = stage.level.ToString();
+        _enemy = stage.mainEnemy;
         _stageHelper = stageHelper;
+        _stage = stage;
 
         _nodeButtonRectTransform = _nodeButton.gameObject.GetComponent<RectTransform>();
     }
@@ -46,7 +48,7 @@ public class StageSelectNode : MonoBehaviour, IPointerEnterHandler, IPointerExit
         audioManager.PlaySE(5);
         _nodeButtonRectTransform.DOAnchorPosX(_hoverMoveDistance, _hoverMoveDuration);
         _nodeButton.sprite = _hoveredButtonSprite;
-        _stageHelper.UpdateView(_enemy);
+        _stageHelper.UpdateView(_stage);
     }
     
     public void OnPointerExit(PointerEventData pointerEventData)
