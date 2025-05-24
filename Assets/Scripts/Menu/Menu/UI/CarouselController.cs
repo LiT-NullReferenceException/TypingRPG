@@ -8,7 +8,6 @@ public class CarouselController : MonoBehaviour
     [SerializeField] private RectTransform contentTransform;
     [SerializeField] private Button nextButton;
     [SerializeField] private Button backButton;
-    [SerializeField] private Button closeButton;
     [SerializeField] private float slideDuration = 0.4f;
 
     private RectTransform[] slides;
@@ -32,7 +31,6 @@ public class CarouselController : MonoBehaviour
         // 3) ボタンコールバック登録
         nextButton.onClick.AddListener(SlideNext);
         backButton.onClick.AddListener(SlideBack);
-        closeButton.onClick.AddListener(CloseInstruction);
 
         // 4) 初期表示を最初のスライドに合わせる
         MoveToCurrentSlideInstant();
@@ -93,10 +91,5 @@ public class CarouselController : MonoBehaviour
     {
         backButton.interactable = currentIndex > 0;
         nextButton.interactable = currentIndex < slides.Length - 1;
-    }
-
-    private void CloseInstruction()
-    {
-        gameObject.SetActive(false);
     }
 }
