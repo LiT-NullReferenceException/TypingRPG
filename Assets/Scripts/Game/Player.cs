@@ -20,10 +20,7 @@ public class Player : Character
         health = maxHealth;
         //attackPower = 20;
 
-        if (HasStateAuthority)
-        {
-            AlivePlayers = RoomPlayer.Players.Count;
-        }
+        AlivePlayers = RoomPlayer.Players.Count;
     }
 
     // プレイヤーの特殊な攻撃などをここに追加可能
