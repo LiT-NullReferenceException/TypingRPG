@@ -1,5 +1,6 @@
 using System;
 using DG.Tweening;
+using Managers;
 using TMPro;
 using UnityEngine;
 using UnityEngine.EventSystems;
@@ -72,8 +73,8 @@ public class StageSelectNode : MonoBehaviour, IPointerEnterHandler, IPointerExit
         SSUI.ActiveConfirminationDialog();
         
         // TODO: 選択された _stageIndex を，戦闘シーンの EnemyManager の SetStage() に渡したい
-        
-        
-        
+
+        // 0:LaunchScene, 1:MenuSceneで，2以降が戦闘シーンになる．なので，2を足している．
+        LevelManager.selectedStageSceneIndex = _stageIndex + 2;
     }
 }
