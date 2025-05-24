@@ -113,10 +113,11 @@ public class GameController : MonoBehaviour
             GameObject go = Instantiate(playerPrefab, playersPosition[i], Quaternion.identity);
             go.GetComponent<PlayerAttackAnimator>().TargetObject = enemy;
             dollPrefabs[i] = go;
-            if (i == 0)
-            {
-                go.GetComponent<SpriteRenderer>().enabled = false;
-            }
+            
+            var playerSprite = go.GetComponent<SpriteRenderer>();
+            if (i == 0) playerSprite.enabled = false;
+            else if (i <= playersPosition.Count / 2) playerSprite.flipX = true;
+            else playerSprite.flipX = false;
         }
 
         // ↓新インプットシステム
