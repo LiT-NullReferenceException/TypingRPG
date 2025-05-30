@@ -4,7 +4,7 @@ using TMPro;
 using UnityEngine;
 using UnityEngine.Audio;
 
-public class JoinOrCreateRoomUI : MonoBehaviour
+public class JoinRoomUI : MonoBehaviour
 {
     //[SerializeField] private AudioManager audioManager;
     [SerializeField] private TMP_InputField nicknameInput;
@@ -16,7 +16,7 @@ public class JoinOrCreateRoomUI : MonoBehaviour
         //AudioManager.instance_AudioManager.PlaySE(3);
 
         nicknameInput.onValueChanged.AddListener(x => ClientInfo.Username = x);
-        lobbyInput.onValueChanged.AddListener(x => ServerInfo.LobbyName = x);
+        lobbyInput.onValueChanged.AddListener(x => ClientInfo.LobbyName = x);
     }
 
     public void TryRoom()
