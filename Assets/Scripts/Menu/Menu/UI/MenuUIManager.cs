@@ -59,7 +59,7 @@ public class MenuUIManager : MonoBehaviour
         nicknameInput = hostNameInput;
         nicknameInput.onValueChanged.AddListener(x => ClientInfo.Username = x);
         lobbyInput = hostLobbyInput;
-        lobbyInput.onValueChanged.AddListener(x => ServerInfo.LobbyName = x);
+        lobbyInput.onValueChanged.AddListener(x => ClientInfo.LobbyName = x);
         SwitchUI();
     }
     
@@ -115,7 +115,7 @@ public class MenuUIManager : MonoBehaviour
             else
             {
                 GuestReadyPanel.SetActive(true);
-                GuestReadyPanel.GetComponent<MatchFoundDialogView>().SetTeamName(ServerInfo.LobbyName);
+                GuestReadyPanel.GetComponent<MatchFoundDialogView>().SetTeamName(ClientInfo.LobbyName);
             }
         }
         else if (num == 2)

@@ -1388,6 +1388,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 575076017}
     m_Modifications:
+    - target: {fileID: 2731067340505981429, guid: 25d5c4245ca7243e2ac8a530621f76d4, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 5461390497387725155, guid: 25d5c4245ca7243e2ac8a530621f76d4, type: 3}
       propertyPath: m_Name
       value: CreateRoomDialog Variant
@@ -4751,7 +4755,7 @@ PrefabInstance:
     - target: {fileID: 6931025058240622307, guid: c187d5d7f5a77456bb4bf591359b776f, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[2].m_Target
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 1616450006}
     - target: {fileID: 6931025058240622307, guid: c187d5d7f5a77456bb4bf591359b776f, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
       value: 2
@@ -4786,7 +4790,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6931025058240622307, guid: c187d5d7f5a77456bb4bf591359b776f, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[2].m_TargetAssemblyTypeName
-      value: JoinOrCreateRoomUI, Assembly-CSharp
+      value: JoinRoomUI, Assembly-CSharp
       objectReference: {fileID: 0}
     - target: {fileID: 6931025058240622307, guid: c187d5d7f5a77456bb4bf591359b776f, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgument
