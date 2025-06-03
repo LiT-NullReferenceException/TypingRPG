@@ -16,7 +16,7 @@ public class TextButton : MonoBehaviour, IPointerEnterHandler, IPointerExitHandl
     public void OnPointerEnter(PointerEventData pointerEventData)
     {
         _text.fontStyle = FontStyles.Underline;
-        _text.text = $"※ {_text.text} ※";
+        _text.text = $"※ {_content} ※";
     }
     
     public void OnPointerExit(PointerEventData pointerEventData)
