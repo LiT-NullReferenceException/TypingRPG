@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using WebSocketSharp;
 
 public class TeamDialogUI : MonoBehaviour
 {
@@ -9,7 +10,15 @@ public class TeamDialogUI : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        GetComponent<MatchFoundDialogView>().SetTeamName(ServerInfo.LobbyName);
+        if (!ServerInfo.LobbyName.IsNullOrEmpty())
+        {
+            GetComponent<MatchFoundDialogView>().SetTeamName(ServerInfo.LobbyName);
+        }
+        else
+        {
+            GetComponent<MatchFoundDialogView>().SetTeamName(ClientInfo.LobbyName);
+        }
+        
     }
 
     public void GetReady()
