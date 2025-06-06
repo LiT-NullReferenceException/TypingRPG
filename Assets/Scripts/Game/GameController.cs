@@ -16,7 +16,8 @@ public class GameController : MonoBehaviour
 
     [SerializeField] private EnemyManager _enemyManager = null;
 
-    [SerializeField] private Player _player = null;
+    //[SerializeField] private Player _player = null;
+    private Player _player = null;
 
     [SerializeField] private HPBarManager _hpBarManager = null;
 
@@ -64,9 +65,6 @@ public class GameController : MonoBehaviour
 
         // 敵キャラを管理するスクリプトを取得（これは全プレイヤーで１つを共有するため、直接参照するのは危ない）
         _enemyManager = GameObject.FindGameObjectWithTag("EnemyManager").GetComponent<EnemyManager>();
-
-        // HPバーを更新する
-        _hpBarManager.InitHPBar(_player.maxHealth);
 
         // タイマーを初期化する
         timeManager.timer = timeManager.time;
@@ -138,6 +136,19 @@ public class GameController : MonoBehaviour
         // ↑新インプットシステム
     }
 
+    public void Init()
+    {
+        // Playerに自分自身を入れる
+        _player = Player.CurrentPlayers.FirstOrDefault(x => x.RoomUser == RoomPlayer.Local);
+        if (_player == null)
+        {
+            Debug.LogWarning("No player found");
+        }
+
+        // HPバーを更新する
+        _hpBarManager.InitHPBar(_player.maxHealth);
+    }
+
     //// キー入力をチェックして正しいかどうか判定するメソッド
     //bool CheckKeyInput(char inputedChar)
     //{
@@ -169,7 +180,9 @@ public class GameController : MonoBehaviour
     {
         if (timeManager.status != TimeManager.Status.Playing) { return; }
         
-        if (_player.status != Character.Status.alive) { return; }
+        if(_player == null) { return; }
+        
+        if (_player?.status != Character.Status.alive) { return; }
 
         if (_enemyManager.status == EnemyManager.Status.done) { return; }
 

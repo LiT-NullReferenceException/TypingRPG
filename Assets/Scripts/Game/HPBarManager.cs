@@ -21,15 +21,16 @@ public class HPBarManager : MonoBehaviour
         _playerHPBar.maxValue = maxHealth;
         _playerHPBar.value = maxHealth;
         _enemyHPBar.maxValue = _enemyManager.GetNowEnemyMaxHealth();
+        _enemyHPBar.value = _enemyHPBar.maxValue;
     }
     
     public void UpdatePlayerHPBar(int maxHealth, int health)
     {
-        _playerHPBar.maxValue = maxHealth;
+        //_playerHPBar.maxValue = maxHealth;
         _playerHPBar.value = health;
     }
 
-    public void UpdataEnemyHPBar()
+    public void UpdateEnemyHPBar()
     {
         _enemyHPBar.value = _enemyManager.GetNowEnemyHealth();
     }
@@ -41,11 +42,7 @@ public class HPBarManager : MonoBehaviour
         //    UpdataEnemyHPBar();
         //}
 
-        if (_enemyManager.status != EnemyManager.Status.done)
-        {
-            UpdataEnemyHPBar();
-        }
-        else
+        if (_enemyManager.status == EnemyManager.Status.done)
         {
             // 時間がねぇッ！ゴリ押しだぁッ！
             _enemyHPBar.value = 0;
