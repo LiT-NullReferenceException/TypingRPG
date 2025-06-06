@@ -1387,6 +1387,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 575076017}
     m_Modifications:
+    - target: {fileID: 2190341412115871388, guid: 25d5c4245ca7243e2ac8a530621f76d4, type: 3}
+      propertyPath: m_text
+      value: "\u30A2\u30EB\u30D5\u30A1\u30D9\u30C3\u30C8\u53C9\u306F\u6570\u5B57\u306E\u307F"
+      objectReference: {fileID: 0}
     - target: {fileID: 2731067340505981429, guid: 25d5c4245ca7243e2ac8a530621f76d4, type: 3}
       propertyPath: m_IsActive
       value: 1
@@ -4549,6 +4553,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 575076017}
     m_Modifications:
+    - target: {fileID: 250695045159722344, guid: c187d5d7f5a77456bb4bf591359b776f, type: 3}
+      propertyPath: m_text
+      value: "\u30A2\u30EB\u30D5\u30A1\u30D9\u30C3\u30C8\u53C9\u306F\u6570\u5B57\u306E\u307F"
+      objectReference: {fileID: 0}
     - target: {fileID: 5482802973009633424, guid: c187d5d7f5a77456bb4bf591359b776f, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
       value: 1
