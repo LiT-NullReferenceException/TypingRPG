@@ -13,6 +13,8 @@ public class EnemyManager : NetworkBehaviour
     [SerializeField] private int _enemyIndex = 0;
     [SerializeField] private Enemy[] _enemies = null;
     [SerializeField] private StageData _stageData;
+    
+    [SerializeField] private HPBarManager _hpBarManager = null;
 
     // ブースト中かを判定する変数
     [Networked] public bool isBoosting { get; set; } = false;
@@ -75,6 +77,13 @@ public class EnemyManager : NetworkBehaviour
         }
 
         _enemies[_enemyIndex].Rpc_TakeDamage(damage);
+        Rpc_UpdateUI();
+    }
+
+    [Rpc(RpcSources.All, RpcTargets.All)]
+    public void Rpc_UpdateUI()
+    {
+        _hpBarManager.UpdateEnemyHPBar();
     }
 
     public int GetAttackPower()

@@ -8,6 +8,7 @@ public class Character : NetworkBehaviour
     public string characterName;
     public int maxHealth = 100;
     [Networked]public int health { get; set; }
+    [Networked]public Status status { get; set; } = Status.alive;
     public int attackPower;
 
     public enum Status
@@ -26,8 +27,6 @@ public class Character : NetworkBehaviour
         attackPower = enemy.attackPower; // 攻撃力をセット
         gameObject.GetComponent<MeshRenderer>().material.SetTexture("_MainTex", enemy.sprite.texture); // テクスチャをセット
     }
-
-    public Status status = Status.alive;
     
     // ダメージを受けるメソッド
     [Rpc(RpcSources.All, RpcTargets.StateAuthority)]
@@ -37,6 +36,7 @@ public class Character : NetworkBehaviour
         Debug.Log(characterName + " took " + damage + " damage. Remaining Health: " + health);
         if (health <= 0)
         {
+            health = 0;
             Die();
         }
     }

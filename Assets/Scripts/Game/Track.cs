@@ -25,6 +25,7 @@ public class Track : NetworkBehaviour
 
 
 	[SerializeField] private Player playerPrefab;
+	private int _playerCount = 0;
 
 	private void Awake()
 	{
@@ -78,13 +79,26 @@ public class Track : NetworkBehaviour
 		// 	player.Object.InputAuthority
 		// );
 		var entity = runner.Spawn(playerPrefab, Vector3.one * index, Quaternion.identity);
+		entity.RoomUser = player;
 		
-		entity.GetComponent<Player>().RoomUser = player;
 		player.GameState = RoomPlayer.EGameState.GameCutscene;
 		//player.Kart = entity.Controller;
 		
 		Debug.Log($"Spawning kart for {player.Username} as {entity.name}");
 		entity.transform.name = $" ({player.Username})";
+
+		_playerCount++;
+		if (_playerCount == RoomPlayer.Players.Count)
+		{
+			Rpc_ControllerInit();
+		}
+	}
+
+	[Rpc(sources: RpcSources.StateAuthority, targets: RpcTargets.All)]
+	public void Rpc_ControllerInit()
+	{
+		var controller = GameObject.Find("GameController").GetComponent<GameController>();
+		controller.Init();
 	}
 
 	// private void InitCheckpoints()
